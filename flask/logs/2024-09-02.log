@@ -1,0 +1,87 @@
+2024/09/02 12:35:55 flask_api __init__.py[50] create_app() INFO: Flask Rest Api startup
+2024/09/02 12:35:55 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/09/02 12:35:55 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/09/02 12:37:44 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 12:37:44] "OPTIONS /api/users/login HTTP/1.1" 200 -
+2024/09/02 12:37:44 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 12:37:44] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/09/02 12:37:44 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 12:37:44] "OPTIONS /api/users/4/patients HTTP/1.1" 200 -
+2024/09/02 12:37:44 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 12:37:44] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/02 12:37:51 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 12:37:51] "OPTIONS /api/users/search?doctor_id=4&name=d HTTP/1.1" 200 -
+2024/09/02 12:37:51 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 12:37:51] "GET /api/users/search?doctor_id=4&name=d HTTP/1.1" 200 -
+2024/09/02 12:37:53 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 12:37:53] "OPTIONS /api/users/4/patients HTTP/1.1" 200 -
+2024/09/02 12:37:53 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 12:37:53] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/02 12:37:54 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 12:37:54] "OPTIONS /api/users/search?doctor_id=4&name=f HTTP/1.1" 200 -
+2024/09/02 12:37:54 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 12:37:54] "GET /api/users/search?doctor_id=4&name=f HTTP/1.1" 200 -
+2024/09/02 12:37:54 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 12:37:54] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/02 12:37:55 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 12:37:55] "OPTIONS /api/users/search?doctor_id=4&name=g HTTP/1.1" 200 -
+2024/09/02 12:37:55 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 12:37:55] "GET /api/users/search?doctor_id=4&name=g HTTP/1.1" 200 -
+2024/09/02 12:37:56 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 12:37:56] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/02 12:37:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 12:37:57] "OPTIONS /api/users/search?doctor_id=4&name=k HTTP/1.1" 200 -
+2024/09/02 12:37:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 12:37:57] "GET /api/users/search?doctor_id=4&name=k HTTP/1.1" 200 -
+2024/09/02 12:37:58 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 12:37:58] "OPTIONS /api/users/4/patients HTTP/1.1" 200 -
+2024/09/02 12:37:58 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 12:37:58] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/02 12:37:59 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 12:37:59] "OPTIONS /api/users/search?doctor_id=4&name=j HTTP/1.1" 200 -
+2024/09/02 12:37:59 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 12:37:59] "GET /api/users/search?doctor_id=4&name=j HTTP/1.1" 200 -
+2024/09/02 12:38:00 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 12:38:00] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/02 12:38:01 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 12:38:01] "OPTIONS /api/patient/:id HTTP/1.1" 200 -
+2024/09/02 12:38:01 root __init__.py[111] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/09/02 12:38:01 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 12:38:01] "[33mGET /api/patient/:id HTTP/1.1[0m" 404 -
+2024/09/02 12:38:04 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 12:38:04] "OPTIONS /api/users/4/patients HTTP/1.1" 200 -
+2024/09/02 12:38:04 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 12:38:04] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/02 12:38:06 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 12:38:06] "OPTIONS /api/patient/20 HTTP/1.1" 200 -
+2024/09/02 12:38:06 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 12:38:06] "GET /api/patient/20 HTTP/1.1" 200 -
+2024/09/02 12:38:10 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 12:38:10] "OPTIONS /api/users/4/patients HTTP/1.1" 200 -
+2024/09/02 12:38:10 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 12:38:10] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/02 12:38:30 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 12:38:30] "OPTIONS /api/patient/ HTTP/1.1" 200 -
+2024/09/02 12:38:30 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 12:38:30] "[35m[1mPOST /api/patient/ HTTP/1.1[0m" 201 -
+2024/09/02 12:38:30 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 12:38:30] "OPTIONS /api/users/4/patients HTTP/1.1" 200 -
+2024/09/02 12:38:30 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 12:38:30] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/02 12:38:35 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 12:38:35] "OPTIONS /api/patient/20 HTTP/1.1" 200 -
+2024/09/02 12:38:35 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 12:38:35] "GET /api/patient/20 HTTP/1.1" 200 -
+2024/09/02 12:38:37 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 12:38:37] "OPTIONS /api/patient/20 HTTP/1.1" 200 -
+2024/09/02 12:38:37 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 12:38:37] "PATCH /api/patient/20 HTTP/1.1" 200 -
+2024/09/02 12:38:37 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 12:38:37] "GET /api/patient/20 HTTP/1.1" 200 -
+2024/09/02 12:38:40 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 12:38:40] "OPTIONS /api/users/4/patients HTTP/1.1" 200 -
+2024/09/02 12:38:40 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 12:38:40] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/02 18:43:13 flask_api __init__.py[50] create_app() INFO: Flask Rest Api startup
+2024/09/02 18:43:13 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/09/02 18:43:13 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/09/02 18:43:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 18:43:19] "[36mGET / HTTP/1.1[0m" 304 -
+2024/09/02 18:43:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 18:43:19] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/09/02 18:43:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 18:43:19] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/09/02 18:43:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 18:43:19] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/09/02 18:43:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 18:43:19] "[36mGET /static/js/app.5d585ae5.js HTTP/1.1[0m" 304 -
+2024/09/02 18:43:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 18:43:19] "[36mGET /static/js/chunk-libs.654bdb34.js HTTP/1.1[0m" 304 -
+2024/09/02 18:43:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 18:43:19] "[36mGET /static/js/chunk-elementUI.67930132.js HTTP/1.1[0m" 304 -
+2024/09/02 18:43:20 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 18:43:20] "[36mGET /static/css/chunk-1efcd122.e0a89d15.css HTTP/1.1[0m" 304 -
+2024/09/02 18:43:20 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 18:43:20] "[36mGET /static/js/chunk-1efcd122.6c926982.js HTTP/1.1[0m" 304 -
+2024/09/02 18:43:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 18:43:27] "[36mGET /static/fonts/element-icons.535877f5.woff HTTP/1.1[0m" 304 -
+2024/09/02 18:43:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 18:43:27] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/09/02 18:43:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 18:43:27] "[36mGET /static/css/chunk-6ab42ecb.83570300.css HTTP/1.1[0m" 304 -
+2024/09/02 18:43:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 18:43:27] "[36mGET /static/js/chunk-6ab42ecb.d4335004.js HTTP/1.1[0m" 304 -
+2024/09/02 18:43:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 18:43:27] "GET /api/patient/ HTTP/1.1" 200 -
+2024/09/02 18:45:12 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 18:45:12] "OPTIONS /api/users/login HTTP/1.1" 200 -
+2024/09/02 18:45:12 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 18:45:12] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/09/02 18:45:12 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 18:45:12] "OPTIONS /api/users/4/patients HTTP/1.1" 200 -
+2024/09/02 18:45:12 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 18:45:12] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/02 18:45:16 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 18:45:16] "OPTIONS /api/users/search?doctor_id=4&name=r HTTP/1.1" 200 -
+2024/09/02 18:45:16 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 18:45:16] "GET /api/users/search?doctor_id=4&name=r HTTP/1.1" 200 -
+2024/09/02 18:45:17 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 18:45:17] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/02 18:45:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 18:45:18] "OPTIONS /api/users/search?doctor_id=4&name=g HTTP/1.1" 200 -
+2024/09/02 18:45:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 18:45:18] "GET /api/users/search?doctor_id=4&name=g HTTP/1.1" 200 -
+2024/09/02 18:45:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 18:45:19] "OPTIONS /api/users/4/patients HTTP/1.1" 200 -
+2024/09/02 18:45:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 18:45:19] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/02 18:45:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 18:45:19] "OPTIONS /api/users/search?doctor_id=4&name=k HTTP/1.1" 200 -
+2024/09/02 18:45:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 18:45:19] "GET /api/users/search?doctor_id=4&name=k HTTP/1.1" 200 -
+2024/09/02 18:45:20 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 18:45:20] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/02 18:45:20 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 18:45:20] "OPTIONS /api/users/search?doctor_id=4&name=j HTTP/1.1" 200 -
+2024/09/02 18:45:20 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 18:45:20] "GET /api/users/search?doctor_id=4&name=j HTTP/1.1" 200 -
+2024/09/02 18:45:21 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 18:45:21] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/02 18:45:23 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 18:45:23] "OPTIONS /api/patient/15 HTTP/1.1" 200 -
+2024/09/02 18:45:23 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 18:45:23] "GET /api/patient/15 HTTP/1.1" 200 -
+2024/09/02 18:45:25 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 18:45:25] "OPTIONS /api/users/4/patients HTTP/1.1" 200 -
+2024/09/02 18:45:25 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 18:45:25] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/02 18:45:28 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 18:45:28] "OPTIONS /api/patient/19 HTTP/1.1" 200 -
+2024/09/02 18:45:28 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 18:45:28] "GET /api/patient/19 HTTP/1.1" 200 -
+2024/09/02 18:45:29 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [02/Sep/2024 18:45:29] "GET /api/users/4/patients HTTP/1.1" 200 -

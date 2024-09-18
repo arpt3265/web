@@ -1,0 +1,180 @@
+2024/08/27 16:29:01 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 16:29:01 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/27 16:29:01 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/27 16:29:04 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 16:29:04] "[36mGET / HTTP/1.1[0m" 304 -
+2024/08/27 16:29:04 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 16:29:04] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/27 16:29:04 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 16:29:04] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/27 16:29:04 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 16:29:04] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/27 16:29:04 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 16:29:04] "[36mGET /static/js/app.5d585ae5.js HTTP/1.1[0m" 304 -
+2024/08/27 16:29:04 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 16:29:04] "[36mGET /static/js/chunk-libs.654bdb34.js HTTP/1.1[0m" 304 -
+2024/08/27 16:29:05 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 16:29:05] "[36mGET /static/js/chunk-elementUI.67930132.js HTTP/1.1[0m" 304 -
+2024/08/27 16:29:05 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 16:29:05] "GET /static/css/chunk-1efcd122.e0a89d15.css HTTP/1.1" 200 -
+2024/08/27 16:29:05 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 16:29:05] "GET /static/js/chunk-1efcd122.6c926982.js HTTP/1.1" 200 -
+2024/08/27 16:29:14 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 16:29:14] "[36mGET /static/fonts/element-icons.535877f5.woff HTTP/1.1[0m" 304 -
+2024/08/27 16:29:14 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 16:29:14] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/27 16:29:14 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 16:29:14] "[36mGET /static/css/chunk-6ab42ecb.83570300.css HTTP/1.1[0m" 304 -
+2024/08/27 16:29:14 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 16:29:14] "[36mGET /static/js/chunk-6ab42ecb.d4335004.js HTTP/1.1[0m" 304 -
+2024/08/27 16:29:14 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 16:29:14] "GET /api/patient/ HTTP/1.1" 200 -
+2024/08/27 16:29:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 16:29:18] "GET /static/js/chunk-6c5da9a9.76a12437.js HTTP/1.1" 200 -
+2024/08/27 16:29:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 16:29:18] "GET /static/css/chunk-6c5da9a9.0b280d97.css HTTP/1.1" 200 -
+2024/08/27 16:29:18 root __init__.py[107] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/27 16:29:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 16:29:18] "[33mGET /your-video-url.mp4 HTTP/1.1[0m" 404 -
+2024/08/27 16:31:04 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 16:31:04] "OPTIONS /api/users/login HTTP/1.1" 200 -
+2024/08/27 16:31:04 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 16:31:04] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/27 16:31:04 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 16:31:04] "GET /api/patient/ HTTP/1.1" 200 -
+2024/08/27 16:31:14 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 16:31:14] "OPTIONS /api/patient/1 HTTP/1.1" 200 -
+2024/08/27 16:31:14 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 16:31:14] "PUT /api/patient/1 HTTP/1.1" 200 -
+2024/08/27 16:31:14 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 16:31:14] "GET /api/patient/ HTTP/1.1" 200 -
+2024/08/27 16:31:46 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 16:31:46] "OPTIONS /api/patient/ HTTP/1.1" 200 -
+2024/08/27 16:31:46 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 16:31:46] "[35m[1mPOST /api/patient/ HTTP/1.1[0m" 201 -
+2024/08/27 16:31:46 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 16:31:46] "GET /api/patient/ HTTP/1.1" 200 -
+2024/08/27 16:33:33 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 16:33:33] "GET /api/patient/ HTTP/1.1" 200 -
+2024/08/27 16:45:10 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 16:45:10 flask_migrate __init__.py[113] wrapped() ERROR: Error: Directory migrations already exists and is not empty
+2024/08/27 16:46:06 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 16:46:58 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 16:50:29 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 16:54:09 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 17:05:13 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 17:08:05 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 17:08:55 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 17:10:54 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 17:10:59 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 17:12:05 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 17:14:29 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 17:14:39 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 17:14:41 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 17:18:11 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 17:19:28 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 17:21:30 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 17:22:07 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 17:22:24 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 17:22:33 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 17:24:32 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 17:24:51 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 17:25:02 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 17:26:17 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 17:28:30 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 17:29:29 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 17:30:34 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 17:34:19 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 17:35:12 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 17:38:39 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 17:39:42 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 17:40:32 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 17:41:38 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 17:42:33 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 17:45:37 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 17:53:09 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 17:54:20 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 17:55:21 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 17:55:48 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 17:55:57 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 17:55:57 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/27 17:55:57 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/27 17:56:05 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 17:56:05] "[36mGET / HTTP/1.1[0m" 304 -
+2024/08/27 17:56:05 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 17:56:05] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/27 17:56:05 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 17:56:05] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/27 17:56:05 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 17:56:05] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/27 17:56:05 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 17:56:05] "[36mGET /static/js/app.5d585ae5.js HTTP/1.1[0m" 304 -
+2024/08/27 17:56:05 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 17:56:05] "[36mGET /static/js/chunk-libs.654bdb34.js HTTP/1.1[0m" 304 -
+2024/08/27 17:56:05 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 17:56:05] "[36mGET /static/js/chunk-elementUI.67930132.js HTTP/1.1[0m" 304 -
+2024/08/27 17:56:06 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 17:56:06] "[36mGET /static/css/chunk-1efcd122.e0a89d15.css HTTP/1.1[0m" 304 -
+2024/08/27 17:56:06 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 17:56:06] "[36mGET /static/js/chunk-1efcd122.6c926982.js HTTP/1.1[0m" 304 -
+2024/08/27 17:56:14 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 17:56:14] "[36mGET /static/fonts/element-icons.535877f5.woff HTTP/1.1[0m" 304 -
+2024/08/27 17:56:14 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 17:56:14] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/27 17:56:14 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 17:56:14] "[36mGET /static/css/chunk-6ab42ecb.83570300.css HTTP/1.1[0m" 304 -
+2024/08/27 17:56:14 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 17:56:14] "[36mGET /static/js/chunk-6ab42ecb.d4335004.js HTTP/1.1[0m" 304 -
+2024/08/27 17:56:14 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 17:56:14] "GET /api/patient/ HTTP/1.1" 200 -
+2024/08/27 17:56:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 17:56:19] "[36mGET /static/css/chunk-6c5da9a9.0b280d97.css HTTP/1.1[0m" 304 -
+2024/08/27 17:56:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 17:56:19] "[36mGET /static/js/chunk-6c5da9a9.76a12437.js HTTP/1.1[0m" 304 -
+2024/08/27 17:56:20 root __init__.py[107] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/27 17:56:20 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 17:56:20] "[33mGET /your-video-url.mp4 HTTP/1.1[0m" 404 -
+2024/08/27 17:56:22 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 17:56:22] "GET /api/patient/ HTTP/1.1" 200 -
+2024/08/27 17:56:36 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 17:56:36] "OPTIONS /api/users/login HTTP/1.1" 200 -
+2024/08/27 17:56:36 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 17:56:36] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/27 17:56:36 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 17:56:36] "GET /api/patient/ HTTP/1.1" 200 -
+2024/08/27 17:56:56 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 17:56:56] "OPTIONS /api/patient/ HTTP/1.1" 200 -
+2024/08/27 17:56:56 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 17:56:56] "[31m[1mPOST /api/patient/ HTTP/1.1[0m" 422 -
+2024/08/27 17:58:48 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 17:58:48] "GET /api/docs/ HTTP/1.1" 200 -
+2024/08/27 17:58:48 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 17:58:48] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2024/08/27 17:58:48 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 17:58:48] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2024/08/27 17:58:48 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 17:58:48] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024/08/27 17:58:48 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 17:58:48] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024/08/27 17:58:49 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 17:58:49] "GET /api/spec HTTP/1.1" 200 -
+2024/08/27 17:59:59 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 17:59:59] "[33mPOST /api/users/login HTTP/1.1[0m" 404 -
+2024/08/27 18:00:15 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:00:15] "[33mPOST /api/users/login HTTP/1.1[0m" 404 -
+2024/08/27 18:01:48 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:01:48] "[33mPOST /api/users/login HTTP/1.1[0m" 404 -
+2024/08/27 18:02:15 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:02:15] "OPTIONS /api/users/login HTTP/1.1" 200 -
+2024/08/27 18:02:15 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:02:15] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/27 18:02:15 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:02:15] "GET /api/patient/ HTTP/1.1" 200 -
+2024/08/27 18:02:29 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:02:29] "OPTIONS /api/users/login HTTP/1.1" 200 -
+2024/08/27 18:02:29 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:02:29] "[31m[1mPOST /api/users/login HTTP/1.1[0m" 401 -
+2024/08/27 18:02:37 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:02:37] "OPTIONS /api/users/login HTTP/1.1" 200 -
+2024/08/27 18:02:37 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:02:37] "[31m[1mPOST /api/users/login HTTP/1.1[0m" 401 -
+2024/08/27 18:02:50 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:02:50] "OPTIONS /api/users/login HTTP/1.1" 200 -
+2024/08/27 18:02:50 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:02:50] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/27 18:02:50 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:02:50] "GET /api/patient/ HTTP/1.1" 200 -
+2024/08/27 18:03:09 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:03:09] "[33mPOST /api/users/login HTTP/1.1[0m" 404 -
+2024/08/27 18:03:34 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:03:34] "[35m[1mPOST /api/users/register HTTP/1.1[0m" 201 -
+2024/08/27 18:04:01 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:04:01] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/27 18:04:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:04:19] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/27 18:04:31 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:04:31] "[33mPOST /api/users/login HTTP/1.1[0m" 404 -
+2024/08/27 18:04:46 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:04:46] "[35m[1mPOST /api/users/register HTTP/1.1[0m" 201 -
+2024/08/27 18:04:59 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:04:59] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/27 18:07:58 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:07:58] "[31m[1mPOST /api/patient/ HTTP/1.1[0m" 422 -
+2024/08/27 18:11:17 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/27 18:11:17 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/27 18:11:17 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/27 18:11:28 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:11:28] "[35m[1mPOST /api/patient/ HTTP/1.1[0m" 201 -
+2024/08/27 18:13:09 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:13:09] "GET /api/patient/ HTTP/1.1" 200 -
+2024/08/27 18:13:38 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:13:38] "GET /api/patient/ HTTP/1.1" 200 -
+2024/08/27 18:15:59 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:15:59] "GET /api/patient/1 HTTP/1.1" 200 -
+2024/08/27 18:16:06 root __init__.py[107] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/27 18:16:06 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:16:06] "[33mGET /api/patient/2 HTTP/1.1[0m" 404 -
+2024/08/27 18:17:21 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:17:21] "GET /api/patient/1 HTTP/1.1" 200 -
+2024/08/27 18:17:25 root __init__.py[117] bad_request() ERROR: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2024/08/27 18:17:25 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:17:25] "[31m[1mPUT /api/patient/1 HTTP/1.1[0m" 400 -
+2024/08/27 18:17:34 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:17:34] "GET /api/patient/1 HTTP/1.1" 200 -
+2024/08/27 18:17:47 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:17:47] "GET /api/patient/1 HTTP/1.1" 200 -
+2024/08/27 18:17:56 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:17:56] "PUT /api/patient/1 HTTP/1.1" 200 -
+2024/08/27 18:23:07 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:23:07] "PATCH /api/patient/1 HTTP/1.1" 200 -
+2024/08/27 18:24:17 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:24:17] "[31m[1mPOST /api/patient/ HTTP/1.1[0m" 422 -
+2024/08/27 18:25:12 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:25:12] "[35m[1mPOST /api/users/register HTTP/1.1[0m" 201 -
+2024/08/27 18:25:52 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:25:52] "GET /api/patient/ HTTP/1.1" 200 -
+2024/08/27 18:26:20 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:26:20] "[31m[1mPATCH /api/patient/ HTTP/1.1[0m" 405 -
+2024/08/27 18:26:34 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:26:34] "[31m[1mPATCH /api/patient/ HTTP/1.1[0m" 405 -
+2024/08/27 18:26:38 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:26:38] "PATCH /api/patient/1 HTTP/1.1" 200 -
+2024/08/27 18:26:55 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:26:55] "PUT /api/patient/1 HTTP/1.1" 200 -
+2024/08/27 18:27:05 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:27:05] "PUT /api/patient/1 HTTP/1.1" 200 -
+2024/08/27 18:27:23 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:27:23] "[31m[1mPOST /api/patient/1 HTTP/1.1[0m" 405 -
+2024/08/27 18:27:38 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:27:38] "[31m[1mPOST /api/patient/ HTTP/1.1[0m" 422 -
+2024/08/27 18:27:48 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:27:48] "[31m[1mPOST /api/patient/ HTTP/1.1[0m" 422 -
+2024/08/27 18:28:48 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:28:48] "GET /api/docs/ HTTP/1.1" 200 -
+2024/08/27 18:28:48 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:28:48] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024/08/27 18:28:48 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:28:48] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2024/08/27 18:28:48 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:28:48] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2024/08/27 18:28:48 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:28:48] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024/08/27 18:28:48 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:28:48] "GET /api/spec HTTP/1.1" 200 -
+2024/08/27 18:28:48 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:28:48] "[36mGET /api/docs/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024/08/27 18:28:59 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:28:59] "GET /api/patient/ HTTP/1.1" 200 -
+2024/08/27 18:29:15 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:29:15] "[31m[1mPOST /api/patient/ HTTP/1.1[0m" 422 -
+2024/08/27 18:29:16 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:29:16] "[31m[1mPOST /api/patient/ HTTP/1.1[0m" 422 -
+2024/08/27 18:29:36 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:29:36] "[35m[1mPOST /api/patient/ HTTP/1.1[0m" 201 -
+2024/08/27 18:30:24 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:30:24] "[35m[1mDELETE /api/patient/2 HTTP/1.1[0m" 204 -
+2024/08/27 18:43:27 root __init__.py[107] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/27 18:43:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:43:27] "[33mGET /api/users/2.0/patients HTTP/1.1[0m" 404 -
+2024/08/27 18:43:35 root __init__.py[107] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/27 18:43:35 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:43:35] "[33mGET /api/users/1.0/patients HTTP/1.1[0m" 404 -
+2024/08/27 18:43:48 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:43:48] "GET /api/patient/ HTTP/1.1" 200 -
+2024/08/27 18:44:02 root __init__.py[107] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/27 18:44:02 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:44:02] "[33mGET /api/users/2/patients HTTP/1.1[0m" 404 -
+2024/08/27 18:48:31 root __init__.py[107] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/27 18:48:31 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:48:31] "[33mGET /api/users/2/patients HTTP/1.1[0m" 404 -
+2024/08/27 18:48:41 root __init__.py[107] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/27 18:48:41 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:48:41] "[33mGET /api/users/2/patients HTTP/1.1[0m" 404 -
+2024/08/27 18:48:48 root __init__.py[107] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/27 18:48:48 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [27/Aug/2024 18:48:48] "[33mGET /api/users/1/patients HTTP/1.1[0m" 404 -

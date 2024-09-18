@@ -1,0 +1,497 @@
+2024/09/11 13:58:49 flask_api __init__.py[50] create_app() INFO: Flask Rest Api startup
+2024/09/11 13:58:49 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/09/11 13:58:49 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/09/11 13:58:53 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 13:58:53] "[36mGET / HTTP/1.1[0m" 304 -
+2024/09/11 13:58:53 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 13:58:53] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/09/11 13:58:53 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 13:58:53] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/09/11 13:58:53 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 13:58:53] "[36mGET /static/js/app.5d585ae5.js HTTP/1.1[0m" 304 -
+2024/09/11 13:58:53 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 13:58:53] "[36mGET /static/js/chunk-libs.654bdb34.js HTTP/1.1[0m" 304 -
+2024/09/11 13:58:53 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 13:58:53] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/09/11 13:58:53 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 13:58:53] "[36mGET /static/js/chunk-elementUI.67930132.js HTTP/1.1[0m" 304 -
+2024/09/11 13:58:54 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 13:58:54] "[36mGET /static/css/chunk-1efcd122.e0a89d15.css HTTP/1.1[0m" 304 -
+2024/09/11 13:58:54 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 13:58:54] "[36mGET /static/js/chunk-1efcd122.6c926982.js HTTP/1.1[0m" 304 -
+2024/09/11 13:58:55 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 13:58:55] "GET /api/docs/ HTTP/1.1" 200 -
+2024/09/11 13:58:55 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 13:58:55] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2024/09/11 13:58:55 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 13:58:55] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2024/09/11 13:58:55 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 13:58:55] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024/09/11 13:58:55 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 13:58:55] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024/09/11 13:58:55 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 13:58:55] "GET /api/spec HTTP/1.1" 200 -
+2024/09/11 16:33:40 flask_api __init__.py[50] create_app() INFO: Flask Rest Api startup
+2024/09/11 16:33:40 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/09/11 16:33:40 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/09/11 16:43:04 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:43:04] "OPTIONS /api/users/login HTTP/1.1" 200 -
+2024/09/11 16:43:04 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:43:04] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/09/11 16:43:04 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:43:04] "OPTIONS /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 16:43:04 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:43:04] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 16:43:10 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:43:10] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 16:43:16 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:43:16] "OPTIONS /api/users/login HTTP/1.1" 200 -
+2024/09/11 16:43:16 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:43:16] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/09/11 16:43:16 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:43:16] "OPTIONS /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 16:43:16 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:43:16] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 16:43:25 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:43:25] "OPTIONS /api/patient/15 HTTP/1.1" 200 -
+2024/09/11 16:43:25 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:43:25] "GET /api/patient/15 HTTP/1.1" 200 -
+2024/09/11 16:43:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:43:27] "OPTIONS /api/patient/15 HTTP/1.1" 200 -
+2024/09/11 16:43:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:43:27] "PATCH /api/patient/15 HTTP/1.1" 200 -
+2024/09/11 16:43:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:43:27] "GET /api/patient/15 HTTP/1.1" 200 -
+2024/09/11 16:43:29 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:43:29] "OPTIONS /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 16:43:29 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:43:29] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 16:43:35 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:43:35] "OPTIONS /api/patient/14 HTTP/1.1" 200 -
+2024/09/11 16:43:35 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:43:35] "[35m[1mDELETE /api/patient/14 HTTP/1.1[0m" 204 -
+2024/09/11 16:43:35 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:43:35] "OPTIONS /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 16:43:35 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:43:35] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 16:43:40 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:43:40] "OPTIONS /api/users/search?doctor_id=4&name=y HTTP/1.1" 200 -
+2024/09/11 16:43:40 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:43:40] "GET /api/users/search?doctor_id=4&name=y HTTP/1.1" 200 -
+2024/09/11 16:43:41 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:43:41] "OPTIONS /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 16:43:41 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:43:41] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 16:43:41 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:43:41] "OPTIONS /api/users/search?doctor_id=4&name=i HTTP/1.1" 200 -
+2024/09/11 16:43:41 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:43:41] "GET /api/users/search?doctor_id=4&name=i HTTP/1.1" 200 -
+2024/09/11 16:43:42 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:43:42] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 16:43:43 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:43:43] "OPTIONS /api/users/search?doctor_id=4&name=r HTTP/1.1" 200 -
+2024/09/11 16:43:43 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:43:43] "GET /api/users/search?doctor_id=4&name=r HTTP/1.1" 200 -
+2024/09/11 16:43:44 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:43:44] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 16:43:48 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:43:48] "OPTIONS /api/users/search?doctor_id=4&name=w HTTP/1.1" 200 -
+2024/09/11 16:43:48 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:43:48] "GET /api/users/search?doctor_id=4&name=w HTTP/1.1" 200 -
+2024/09/11 16:43:49 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:43:49] "OPTIONS /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 16:43:49 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:43:49] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 16:43:52 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:43:52] "OPTIONS /api/users/search?doctor_id=4&name=王 HTTP/1.1" 200 -
+2024/09/11 16:43:52 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:43:52] "GET /api/users/search?doctor_id=4&name=王 HTTP/1.1" 200 -
+2024/09/11 16:43:53 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:43:53] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 16:44:07 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:44:07] "GET /api/docs/ HTTP/1.1" 200 -
+2024/09/11 16:44:08 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:44:08] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024/09/11 16:44:08 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:44:08] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2024/09/11 16:44:08 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:44:08] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2024/09/11 16:44:08 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:44:08] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024/09/11 16:44:08 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:44:08] "GET /api/spec HTTP/1.1" 200 -
+2024/09/11 16:47:21 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:47:21] "[31m[1mPOST /api/diagnosis/ HTTP/1.1[0m" 405 -
+2024/09/11 16:47:57 root __init__.py[113] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/09/11 16:47:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 16:47:57] "[33mGET /diagnosis/patient/13 HTTP/1.1[0m" 404 -
+2024/09/11 16:54:07 flask_api __init__.py[50] create_app() INFO: Flask Rest Api startup
+2024/09/11 16:55:32 flask_api __init__.py[50] create_app() INFO: Flask Rest Api startup
+2024/09/11 17:07:13 flask_api __init__.py[50] create_app() INFO: Flask Rest Api startup
+2024/09/11 17:07:13 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/09/11 17:07:13 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/09/11 17:07:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:07:18] "GET /api/docs/ HTTP/1.1" 200 -
+2024/09/11 17:07:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:07:18] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2024/09/11 17:07:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:07:18] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2024/09/11 17:07:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:07:18] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024/09/11 17:07:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:07:18] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024/09/11 17:07:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:07:18] "GET /api/spec HTTP/1.1" 200 -
+2024/09/11 17:07:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:07:19] "[36mGET /api/docs/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024/09/11 17:07:25 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:07:25] "GET /api/patient/ HTTP/1.1" 200 -
+2024/09/11 17:07:43 root __init__.py[113] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/09/11 17:07:43 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:07:43] "[33mGET /diagnosis/patient/5 HTTP/1.1[0m" 404 -
+2024/09/11 17:08:00 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:08:00] "[31m[1mPOST /api/diagnosis/ HTTP/1.1[0m" 405 -
+2024/09/11 17:08:38 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:08:38] "GET /api/patient/ HTTP/1.1" 200 -
+2024/09/11 17:11:21 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:11:21] "[31m[1mPOST /api/diagnosis/ HTTP/1.1[0m" 405 -
+2024/09/11 17:18:10 flask_api __init__.py[50] create_app() INFO: Flask Rest Api startup
+2024/09/11 17:18:10 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/09/11 17:18:10 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/09/11 17:18:17 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:18:17] "GET /api/docs/ HTTP/1.1" 200 -
+2024/09/11 17:18:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:18:18] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2024/09/11 17:18:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:18:19] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2024/09/11 17:18:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:18:19] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024/09/11 17:18:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:18:19] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024/09/11 17:18:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:18:19] "[36mGET /api/docs/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024/09/11 17:18:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:18:19] "GET /api/spec HTTP/1.1" 200 -
+2024/09/11 17:18:38 flask_api app.py[838] log_exception() ERROR: Exception on /api/diagnosis/patient/5 [GET]
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\diagnosis\routes.py", line 159, in get_diagnoses_by_patient
+    return response_with(resp.NOT_FOUND_404, value={"error": "No diagnoses found for the given patient_id"})
+                         ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'app.utils.responses' has no attribute 'NOT_FOUND_404'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\diagnosis\routes.py", line 165, in get_diagnoses_by_patient
+    return response_with(resp.INTERNAL_SERVER_ERROR_500, value={"error": str(e)})
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'app.utils.responses' has no attribute 'INTERNAL_SERVER_ERROR_500'
+2024/09/11 17:18:38 root __init__.py[118] server_error() ERROR: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2024/09/11 17:18:38 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:18:38] "[35m[1mGET /api/diagnosis/patient/5 HTTP/1.1[0m" 500 -
+2024/09/11 17:18:56 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:18:56] "GET /api/patient/ HTTP/1.1" 200 -
+2024/09/11 17:19:26 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:19:26] "[31m[1mPOST /api/diagnosis/ HTTP/1.1[0m" 405 -
+2024/09/11 17:19:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:19:27] "[31m[1mPOST /api/diagnosis/ HTTP/1.1[0m" 405 -
+2024/09/11 17:21:27 flask_api app.py[838] log_exception() ERROR: Exception on /api/diagnosis/patient/5 [GET]
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\diagnosis\routes.py", line 159, in get_diagnoses_by_patient
+    return response_with(resp.NOT_FOUND_404, value={"error": "No diagnoses found for the given patient_id"})
+                         ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'app.utils.responses' has no attribute 'NOT_FOUND_404'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\diagnosis\routes.py", line 165, in get_diagnoses_by_patient
+    return response_with(resp.INTERNAL_SERVER_ERROR_500, value={"error": str(e)})
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'app.utils.responses' has no attribute 'INTERNAL_SERVER_ERROR_500'
+2024/09/11 17:21:27 root __init__.py[118] server_error() ERROR: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2024/09/11 17:21:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:21:27] "[35m[1mGET /api/diagnosis/patient/5 HTTP/1.1[0m" 500 -
+2024/09/11 17:23:45 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:23:45] "GET /api/patient/ HTTP/1.1" 200 -
+2024/09/11 17:28:50 flask_api __init__.py[50] create_app() INFO: Flask Rest Api startup
+2024/09/11 17:28:50 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/09/11 17:28:50 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/09/11 17:29:04 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:29:04] "GET /api/docs/ HTTP/1.1" 200 -
+2024/09/11 17:29:05 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:29:05] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2024/09/11 17:29:05 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:29:05] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2024/09/11 17:29:05 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:29:05] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024/09/11 17:29:05 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:29:05] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024/09/11 17:29:05 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:29:05] "GET /api/spec HTTP/1.1" 200 -
+2024/09/11 17:29:05 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:29:05] "[36mGET /api/docs/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024/09/11 17:29:13 flask_api app.py[838] log_exception() ERROR: Exception on /api/diagnosis/ [POST]
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 608, in get_json
+    rv = self.json_module.loads(data)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\json\provider.py", line 187, in loads
+    return json.loads(s, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\wrappers.py", line 131, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 642, in on_json_loading_failed
+    raise BadRequest(f"Failed to decode JSON object: {e}")
+werkzeug.exceptions.BadRequest: 400 Bad Request: Failed to decode JSON object: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\diagnosis\routes.py", line 71, in create_diagnosis
+    data = request.json
+           ^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 557, in json
+    return self.get_json()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 617, in get_json
+    rv = self.on_json_loading_failed(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\wrappers.py", line 136, in on_json_loading_failed
+    raise BadRequest() from e
+werkzeug.exceptions.BadRequest: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\diagnosis\routes.py", line 93, in create_diagnosis
+    return response_with(SERVER_ERROR_500, value={"error": str(e)})
+                         ^^^^^^^^^^^^^^^^
+NameError: name 'SERVER_ERROR_500' is not defined
+2024/09/11 17:29:14 root __init__.py[118] server_error() ERROR: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2024/09/11 17:29:14 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:29:14] "[35m[1mPOST /api/diagnosis/ HTTP/1.1[0m" 500 -
+2024/09/11 17:29:19 flask_api app.py[838] log_exception() ERROR: Exception on /api/diagnosis/ [POST]
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 608, in get_json
+    rv = self.json_module.loads(data)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\json\provider.py", line 187, in loads
+    return json.loads(s, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\wrappers.py", line 131, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 642, in on_json_loading_failed
+    raise BadRequest(f"Failed to decode JSON object: {e}")
+werkzeug.exceptions.BadRequest: 400 Bad Request: Failed to decode JSON object: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\diagnosis\routes.py", line 71, in create_diagnosis
+    data = request.json
+           ^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 557, in json
+    return self.get_json()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 617, in get_json
+    rv = self.on_json_loading_failed(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\wrappers.py", line 136, in on_json_loading_failed
+    raise BadRequest() from e
+werkzeug.exceptions.BadRequest: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\diagnosis\routes.py", line 93, in create_diagnosis
+    return response_with(SERVER_ERROR_500, value={"error": str(e)})
+                         ^^^^^^^^^^^^^^^^
+NameError: name 'SERVER_ERROR_500' is not defined
+2024/09/11 17:29:19 root __init__.py[118] server_error() ERROR: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2024/09/11 17:29:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:29:19] "[35m[1mPOST /api/diagnosis/ HTTP/1.1[0m" 500 -
+2024/09/11 17:33:25 flask_api __init__.py[50] create_app() INFO: Flask Rest Api startup
+2024/09/11 17:33:25 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/09/11 17:33:25 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/09/11 17:33:30 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:33:30] "GET /api/docs/ HTTP/1.1" 200 -
+2024/09/11 17:33:30 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:33:30] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024/09/11 17:33:30 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:33:30] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024/09/11 17:33:30 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:33:30] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2024/09/11 17:33:30 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:33:30] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2024/09/11 17:33:30 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:33:30] "GET /api/spec HTTP/1.1" 200 -
+2024/09/11 17:33:30 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:33:30] "[36mGET /api/docs/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024/09/11 17:33:43 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:33:43] "[35m[1mPOST /api/diagnosis/ HTTP/1.1[0m" 500 -
+2024/09/11 17:34:10 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:34:10] "[35m[1mPOST /api/diagnosis/ HTTP/1.1[0m" 201 -
+2024/09/11 17:35:30 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:35:30] "GET /api/diagnosis/patient/5 HTTP/1.1" 200 -
+2024/09/11 17:37:46 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:37:46] "GET /api/docs/ HTTP/1.1" 200 -
+2024/09/11 17:37:46 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:37:46] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2024/09/11 17:37:46 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:37:46] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2024/09/11 17:37:46 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:37:46] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024/09/11 17:37:46 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:37:46] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024/09/11 17:37:46 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:37:46] "GET /api/spec HTTP/1.1" 200 -
+2024/09/11 17:37:46 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:37:46] "[36mGET /api/docs/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024/09/11 17:37:58 flask_api __init__.py[50] create_app() INFO: Flask Rest Api startup
+2024/09/11 17:37:58 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/09/11 17:37:58 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/09/11 17:38:01 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:38:01] "GET /api/docs/ HTTP/1.1" 200 -
+2024/09/11 17:38:01 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:38:01] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2024/09/11 17:38:01 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:38:01] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2024/09/11 17:38:01 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:38:01] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024/09/11 17:38:01 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:38:01] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024/09/11 17:38:02 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:38:02] "GET /api/spec HTTP/1.1" 200 -
+2024/09/11 17:38:02 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:38:02] "[36mGET /api/docs/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024/09/11 17:38:07 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:38:07] "[35m[1mPOST /api/diagnosis/ HTTP/1.1[0m" 500 -
+2024/09/11 17:38:08 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:38:08] "[35m[1mPOST /api/diagnosis/ HTTP/1.1[0m" 500 -
+2024/09/11 17:40:17 flask_api __init__.py[50] create_app() INFO: Flask Rest Api startup
+2024/09/11 17:40:17 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/09/11 17:40:18 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/09/11 17:40:22 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:40:22] "GET /api/docs/ HTTP/1.1" 200 -
+2024/09/11 17:40:22 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:40:22] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2024/09/11 17:40:22 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:40:22] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024/09/11 17:40:22 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:40:22] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024/09/11 17:40:22 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:40:22] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2024/09/11 17:40:23 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:40:23] "GET /api/spec HTTP/1.1" 200 -
+2024/09/11 17:40:23 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:40:23] "[36mGET /api/docs/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024/09/11 17:40:28 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:40:28] "[35m[1mPOST /api/diagnosis/ HTTP/1.1[0m" 201 -
+2024/09/11 17:40:40 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:40:40] "GET /api/diagnosis/patient/5 HTTP/1.1" 200 -
+2024/09/11 17:40:41 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 17:40:41] "GET /api/diagnosis/patient/5 HTTP/1.1" 200 -
+2024/09/11 22:04:21 flask_api __init__.py[50] create_app() INFO: Flask Rest Api startup
+2024/09/11 22:04:21 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/09/11 22:04:21 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/09/11 22:06:07 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:06:07] "OPTIONS /api/users/login HTTP/1.1" 200 -
+2024/09/11 22:06:07 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:06:07] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/09/11 22:06:08 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:06:08] "OPTIONS /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 22:06:08 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:06:08] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 22:06:26 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:06:26] "OPTIONS /api/patient/24 HTTP/1.1" 200 -
+2024/09/11 22:06:26 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:06:26] "GET /api/patient/24 HTTP/1.1" 200 -
+2024/09/11 22:06:33 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:06:33] "OPTIONS /api/patient/24 HTTP/1.1" 200 -
+2024/09/11 22:06:33 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:06:33] "PATCH /api/patient/24 HTTP/1.1" 200 -
+2024/09/11 22:06:33 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:06:33] "GET /api/patient/24 HTTP/1.1" 200 -
+2024/09/11 22:06:35 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:06:35] "PATCH /api/patient/24 HTTP/1.1" 200 -
+2024/09/11 22:06:35 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:06:35] "GET /api/patient/24 HTTP/1.1" 200 -
+2024/09/11 22:06:37 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:06:37] "OPTIONS /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 22:06:37 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:06:37] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 22:06:43 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:06:43] "OPTIONS /api/patient/21 HTTP/1.1" 200 -
+2024/09/11 22:06:43 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:06:43] "GET /api/patient/21 HTTP/1.1" 200 -
+2024/09/11 22:06:45 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:06:45] "OPTIONS /api/patient/21 HTTP/1.1" 200 -
+2024/09/11 22:06:45 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:06:45] "PATCH /api/patient/21 HTTP/1.1" 200 -
+2024/09/11 22:06:45 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:06:45] "GET /api/patient/21 HTTP/1.1" 200 -
+2024/09/11 22:06:46 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:06:46] "OPTIONS /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 22:06:46 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:06:46] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 22:07:12 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:07:12] "OPTIONS /api/users/search?doctor_id=4&name=r HTTP/1.1" 200 -
+2024/09/11 22:07:13 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:07:13] "GET /api/users/search?doctor_id=4&name=r HTTP/1.1" 200 -
+2024/09/11 22:07:14 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:07:14] "OPTIONS /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 22:07:14 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:07:14] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 22:07:16 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:07:16] "OPTIONS /api/users/search?doctor_id=4&name=d HTTP/1.1" 200 -
+2024/09/11 22:07:16 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:07:16] "GET /api/users/search?doctor_id=4&name=d HTTP/1.1" 200 -
+2024/09/11 22:07:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:07:18] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 22:07:47 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:07:47] "OPTIONS /api/patient/ HTTP/1.1" 200 -
+2024/09/11 22:07:47 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:07:47] "[35m[1mPOST /api/patient/ HTTP/1.1[0m" 201 -
+2024/09/11 22:07:47 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:07:47] "OPTIONS /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 22:07:47 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:07:47] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 22:07:52 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:07:52] "OPTIONS /api/patient/27 HTTP/1.1" 200 -
+2024/09/11 22:07:52 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:07:52] "GET /api/patient/27 HTTP/1.1" 200 -
+2024/09/11 22:08:47 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:08:47] "GET /api/docs/ HTTP/1.1" 200 -
+2024/09/11 22:08:47 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:08:47] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2024/09/11 22:08:47 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:08:47] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024/09/11 22:08:47 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:08:47] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2024/09/11 22:08:47 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:08:47] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024/09/11 22:08:48 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:08:48] "GET /api/spec HTTP/1.1" 200 -
+2024/09/11 22:09:21 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:09:21] "[35m[1mPOST /api/diagnosis/ HTTP/1.1[0m" 201 -
+2024/09/11 22:11:02 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:11:02] "GET /api/patient/ HTTP/1.1" 200 -
+2024/09/11 22:11:42 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:11:42] "OPTIONS /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 22:11:42 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:11:42] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 22:11:45 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:11:45] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 22:12:02 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:12:02] "OPTIONS /api/users/register HTTP/1.1" 200 -
+2024/09/11 22:12:02 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:12:02] "[35m[1mPOST /api/users/register HTTP/1.1[0m" 201 -
+2024/09/11 22:12:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:12:19] "OPTIONS /api/users/login HTTP/1.1" 200 -
+2024/09/11 22:12:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:12:19] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/09/11 22:12:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:12:19] "OPTIONS /api/users/19/patients HTTP/1.1" 200 -
+2024/09/11 22:12:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:12:19] "GET /api/users/19/patients HTTP/1.1" 200 -
+2024/09/11 22:12:38 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:12:38] "OPTIONS /api/patient/:id HTTP/1.1" 200 -
+2024/09/11 22:12:38 root __init__.py[113] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/09/11 22:12:38 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:12:38] "[33mGET /api/patient/:id HTTP/1.1[0m" 404 -
+2024/09/11 22:12:40 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:12:40] "OPTIONS /api/users/19/patients HTTP/1.1" 200 -
+2024/09/11 22:12:40 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:12:40] "GET /api/users/19/patients HTTP/1.1" 200 -
+2024/09/11 22:12:42 root __init__.py[113] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/09/11 22:12:42 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:12:42] "[33mGET /api/patient/:id HTTP/1.1[0m" 404 -
+2024/09/11 22:12:43 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:12:43] "GET /api/users/19/patients HTTP/1.1" 200 -
+2024/09/11 22:12:48 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:12:48] "GET /api/users/19/patients HTTP/1.1" 200 -
+2024/09/11 22:12:55 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:12:55] "OPTIONS /api/users/login HTTP/1.1" 200 -
+2024/09/11 22:12:55 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:12:55] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/09/11 22:12:55 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:12:55] "OPTIONS /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 22:12:55 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:12:55] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 22:13:04 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:13:04] "OPTIONS /api/patient/19 HTTP/1.1" 200 -
+2024/09/11 22:13:04 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:13:04] "GET /api/patient/19 HTTP/1.1" 200 -
+2024/09/11 22:19:03 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:19:03] "OPTIONS /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 22:19:03 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:19:03] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 22:19:14 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:19:14] "OPTIONS /api/vue-admin-template/table/list HTTP/1.1" 200 -
+2024/09/11 22:19:14 root __init__.py[113] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/09/11 22:19:14 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:19:14] "[33mGET /api/vue-admin-template/table/list HTTP/1.1[0m" 404 -
+2024/09/11 22:24:13 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:24:13] "OPTIONS /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 22:24:13 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:24:13] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 22:26:03 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:26:03] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 22:27:30 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:27:30] "OPTIONS /api/patient/15 HTTP/1.1" 200 -
+2024/09/11 22:27:30 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:27:30] "GET /api/patient/15 HTTP/1.1" 200 -
+2024/09/11 22:28:11 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:28:11] "OPTIONS /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 22:28:11 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:28:11] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 22:28:15 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:28:15] "OPTIONS /api/patient/:id HTTP/1.1" 200 -
+2024/09/11 22:28:15 root __init__.py[113] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/09/11 22:28:15 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:28:15] "[33mGET /api/patient/:id HTTP/1.1[0m" 404 -
+2024/09/11 22:31:24 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:31:24] "OPTIONS /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 22:31:24 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:31:24] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 22:31:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:31:27] "OPTIONS /api/patient/:id HTTP/1.1" 200 -
+2024/09/11 22:31:27 root __init__.py[113] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/09/11 22:31:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:31:27] "[33mGET /api/patient/:id HTTP/1.1[0m" 404 -
+2024/09/11 22:31:41 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:31:41] "OPTIONS /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 22:31:41 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:31:41] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 22:31:41 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:31:41] "OPTIONS /api/patient/15 HTTP/1.1" 200 -
+2024/09/11 22:31:41 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:31:41] "GET /api/patient/15 HTTP/1.1" 200 -
+2024/09/11 22:36:13 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:36:13] "OPTIONS /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 22:36:13 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:36:13] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 22:36:14 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:36:14] "OPTIONS /api/patient/:id HTTP/1.1" 200 -
+2024/09/11 22:36:14 root __init__.py[113] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/09/11 22:36:14 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:36:14] "[33mGET /api/patient/:id HTTP/1.1[0m" 404 -
+2024/09/11 22:48:10 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:48:10] "OPTIONS /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 22:48:10 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:48:10] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 22:48:22 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:48:22] "OPTIONS /api/vue-admin-template/table/list HTTP/1.1" 200 -
+2024/09/11 22:48:22 root __init__.py[113] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/09/11 22:48:22 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:48:22] "[33mGET /api/vue-admin-template/table/list HTTP/1.1[0m" 404 -
+2024/09/11 22:48:35 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:48:35] "OPTIONS /api/patient/:id HTTP/1.1" 200 -
+2024/09/11 22:48:35 root __init__.py[113] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/09/11 22:48:35 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:48:35] "[33mGET /api/patient/:id HTTP/1.1[0m" 404 -
+2024/09/11 22:48:42 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:48:42] "OPTIONS /api/vue-admin-template/table/list HTTP/1.1" 200 -
+2024/09/11 22:48:42 root __init__.py[113] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/09/11 22:48:42 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:48:42] "[33mGET /api/vue-admin-template/table/list HTTP/1.1[0m" 404 -
+2024/09/11 22:51:14 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:51:14] "OPTIONS /api/patient/:id HTTP/1.1" 200 -
+2024/09/11 22:51:14 root __init__.py[113] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/09/11 22:51:14 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:51:14] "[33mGET /api/patient/:id HTTP/1.1[0m" 404 -
+2024/09/11 22:51:22 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:51:22] "OPTIONS /api/vue-admin-template/table/list HTTP/1.1" 200 -
+2024/09/11 22:51:22 root __init__.py[113] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/09/11 22:51:22 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:51:22] "[33mGET /api/vue-admin-template/table/list HTTP/1.1[0m" 404 -
+2024/09/11 22:51:23 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:51:23] "OPTIONS /api/patient/:id HTTP/1.1" 200 -
+2024/09/11 22:51:23 root __init__.py[113] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/09/11 22:51:23 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:51:23] "[33mGET /api/patient/:id HTTP/1.1[0m" 404 -
+2024/09/11 22:51:54 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:51:54] "OPTIONS /api/vue-admin-template/table/list HTTP/1.1" 200 -
+2024/09/11 22:51:54 root __init__.py[113] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/09/11 22:51:54 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:51:54] "[33mGET /api/vue-admin-template/table/list HTTP/1.1[0m" 404 -
+2024/09/11 22:51:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:51:57] "OPTIONS /api/users/4/patients HTTP/1.1" 200 -
+2024/09/11 22:51:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [11/Sep/2024 22:51:57] "GET /api/users/4/patients HTTP/1.1" 200 -

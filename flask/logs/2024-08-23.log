@@ -1,0 +1,483 @@
+2024/08/23 17:46:45 flask_api __init__.py[37] create_app() INFO: Flask Rest Api startup
+2024/08/23 17:46:45 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/23 17:46:45 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/23 17:47:36 root __init__.py[97] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/23 17:47:36 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 17:47:36] "[33mGET / HTTP/1.1[0m" 404 -
+2024/08/23 17:47:36 root __init__.py[97] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/23 17:47:36 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 17:47:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024/08/23 17:48:11 flask_api __init__.py[37] create_app() INFO: Flask Rest Api startup
+2024/08/23 17:48:11 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/23 17:48:11 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/23 17:48:11 werkzeug _internal.py[97] _log() INFO:  * Restarting with stat
+2024/08/23 17:48:12 flask_api __init__.py[37] create_app() INFO: Flask Rest Api startup
+2024/08/23 17:48:12 werkzeug _internal.py[97] _log() WARNING:  * Debugger is active!
+2024/08/23 17:48:12 werkzeug _internal.py[97] _log() INFO:  * Debugger PIN: 981-873-153
+2024/08/23 18:21:45 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 18:21:45 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/23 18:21:45 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/23 18:21:45 werkzeug _internal.py[97] _log() INFO:  * Restarting with stat
+2024/08/23 18:21:46 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 18:21:46 werkzeug _internal.py[97] _log() WARNING:  * Debugger is active!
+2024/08/23 18:21:46 werkzeug _internal.py[97] _log() INFO:  * Debugger PIN: 981-873-153
+2024/08/23 18:23:09 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 18:23:09] "[31m[1mPOST /api/users/register HTTP/1.1[0m" 422 -
+2024/08/23 18:25:11 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 18:25:11] "[31m[1mPOST /api/users/register HTTP/1.1[0m" 422 -
+2024/08/23 18:28:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 18:28:57] "[31m[1mPOST /api/users/register HTTP/1.1[0m" 422 -
+2024/08/23 18:29:12 root __init__.py[103] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/23 18:29:12 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 18:29:12] "[33mGET / HTTP/1.1[0m" 404 -
+2024/08/23 18:29:12 root __init__.py[103] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/23 18:29:12 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 18:29:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024/08/23 18:29:20 root __init__.py[103] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/23 18:29:20 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 18:29:20] "[33mGET /authors HTTP/1.1[0m" 404 -
+2024/08/23 18:32:08 werkzeug _internal.py[97] _log() INFO:  * Detected change in 'C:\\Users\\20818\\Desktop\\vue-admin-template-master\\flask\\app\\users\\routes.py', reloading
+2024/08/23 18:32:08 werkzeug _internal.py[97] _log() INFO:  * Restarting with stat
+2024/08/23 18:32:09 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 18:32:09 werkzeug _internal.py[97] _log() WARNING:  * Debugger is active!
+2024/08/23 18:32:09 werkzeug _internal.py[97] _log() INFO:  * Debugger PIN: 981-873-153
+2024/08/23 18:33:04 werkzeug _internal.py[97] _log() INFO:  * Detected change in 'C:\\Users\\20818\\Desktop\\vue-admin-template-master\\flask\\app\\users\\routes.py', reloading
+2024/08/23 18:33:04 werkzeug _internal.py[97] _log() INFO:  * Restarting with stat
+2024/08/23 18:33:05 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 18:33:05 werkzeug _internal.py[97] _log() WARNING:  * Debugger is active!
+2024/08/23 18:33:05 werkzeug _internal.py[97] _log() INFO:  * Debugger PIN: 981-873-153
+2024/08/23 18:33:18 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 18:33:18 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/23 18:33:18 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/23 18:33:18 werkzeug _internal.py[97] _log() INFO:  * Restarting with stat
+2024/08/23 18:33:19 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 18:33:19 werkzeug _internal.py[97] _log() WARNING:  * Debugger is active!
+2024/08/23 18:33:19 werkzeug _internal.py[97] _log() INFO:  * Debugger PIN: 981-873-153
+2024/08/23 18:33:28 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 18:33:28] "[35m[1mPOST /api/users/register HTTP/1.1[0m" 500 -
+2024/08/23 18:35:27 werkzeug _internal.py[97] _log() INFO:  * Detected change in 'C:\\Users\\20818\\Desktop\\vue-admin-template-master\\flask\\app\\users\\routes.py', reloading
+2024/08/23 18:35:27 werkzeug _internal.py[97] _log() INFO:  * Restarting with stat
+2024/08/23 18:35:28 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 18:35:28 werkzeug _internal.py[97] _log() WARNING:  * Debugger is active!
+2024/08/23 18:35:28 werkzeug _internal.py[97] _log() INFO:  * Debugger PIN: 981-873-153
+2024/08/23 18:35:46 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 18:35:46 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/23 18:35:46 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/23 18:35:46 werkzeug _internal.py[97] _log() INFO:  * Restarting with stat
+2024/08/23 18:35:47 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 18:35:47 werkzeug _internal.py[97] _log() WARNING:  * Debugger is active!
+2024/08/23 18:35:47 werkzeug _internal.py[97] _log() INFO:  * Debugger PIN: 981-873-153
+2024/08/23 18:35:53 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 18:35:53] "[31m[1mPOST /api/users/register HTTP/1.1[0m" 422 -
+2024/08/23 18:37:34 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 18:37:34 flask_migrate __init__.py[113] wrapped() ERROR: Error: Directory migrations already exists and is not empty
+2024/08/23 18:37:48 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 18:37:54 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 18:37:54 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/23 18:37:54 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/23 18:37:54 werkzeug _internal.py[97] _log() INFO:  * Restarting with stat
+2024/08/23 18:37:54 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 18:37:54 werkzeug _internal.py[97] _log() WARNING:  * Debugger is active!
+2024/08/23 18:37:54 werkzeug _internal.py[97] _log() INFO:  * Debugger PIN: 981-873-153
+2024/08/23 18:38:00 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 18:38:00] "[31m[1mPOST /api/users/register HTTP/1.1[0m" 422 -
+2024/08/23 18:40:16 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 18:40:22 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 18:40:22 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/23 18:40:22 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/23 18:40:22 werkzeug _internal.py[97] _log() INFO:  * Restarting with stat
+2024/08/23 18:40:23 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 18:40:23 werkzeug _internal.py[97] _log() WARNING:  * Debugger is active!
+2024/08/23 18:40:23 werkzeug _internal.py[97] _log() INFO:  * Debugger PIN: 981-873-153
+2024/08/23 18:40:30 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 18:40:30] "[35m[1mPOST /api/users/register HTTP/1.1[0m" 201 -
+2024/08/23 18:41:07 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 18:41:07] "[31m[1mPOST /api/users/login HTTP/1.1[0m" 422 -
+2024/08/23 18:44:18 werkzeug _internal.py[97] _log() INFO:  * Detected change in 'C:\\Users\\20818\\Desktop\\vue-admin-template-master\\flask\\app\\users\\routes.py', reloading
+2024/08/23 18:44:18 werkzeug _internal.py[97] _log() INFO:  * Restarting with stat
+2024/08/23 18:44:19 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 18:44:19 werkzeug _internal.py[97] _log() WARNING:  * Debugger is active!
+2024/08/23 18:44:19 werkzeug _internal.py[97] _log() INFO:  * Debugger PIN: 981-873-153
+2024/08/23 18:44:25 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 18:44:25] "[31m[1mPOST /api/users/login HTTP/1.1[0m" 422 -
+2024/08/23 18:45:05 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 18:45:05] "[35m[1mPOST /api/users/register HTTP/1.1[0m" 201 -
+2024/08/23 18:45:36 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 18:45:36] "[31m[1mPOST /api/users/login HTTP/1.1[0m" 422 -
+2024/08/23 18:47:03 werkzeug _internal.py[97] _log() INFO:  * Detected change in 'C:\\Users\\20818\\Desktop\\vue-admin-template-master\\flask\\app\\users\\routes.py', reloading
+2024/08/23 18:47:03 werkzeug _internal.py[97] _log() INFO:  * Restarting with stat
+2024/08/23 18:47:04 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 18:47:04 werkzeug _internal.py[97] _log() WARNING:  * Debugger is active!
+2024/08/23 18:47:04 werkzeug _internal.py[97] _log() INFO:  * Debugger PIN: 981-873-153
+2024/08/23 18:48:05 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 18:48:06 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 18:48:10 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 18:48:10 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/23 18:48:10 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/23 18:48:10 werkzeug _internal.py[97] _log() INFO:  * Restarting with stat
+2024/08/23 18:48:11 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 18:48:11 werkzeug _internal.py[97] _log() WARNING:  * Debugger is active!
+2024/08/23 18:48:11 werkzeug _internal.py[97] _log() INFO:  * Debugger PIN: 981-873-153
+2024/08/23 18:48:16 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 18:48:16] "[31m[1mPOST /api/users/login HTTP/1.1[0m" 422 -
+2024/08/23 18:49:02 werkzeug _internal.py[97] _log() INFO:  * Detected change in 'C:\\Users\\20818\\Desktop\\vue-admin-template-master\\flask\\app\\users\\models.py', reloading
+2024/08/23 18:49:02 werkzeug _internal.py[97] _log() INFO:  * Restarting with stat
+2024/08/23 18:49:15 werkzeug _internal.py[97] _log() INFO:  * Restarting with stat
+2024/08/23 18:49:16 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 18:49:16 werkzeug _internal.py[97] _log() WARNING:  * Debugger is active!
+2024/08/23 18:49:16 werkzeug _internal.py[97] _log() INFO:  * Debugger PIN: 981-873-153
+2024/08/23 18:55:14 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 18:55:15 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 18:55:18 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 18:55:18 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/23 18:55:18 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/23 18:55:18 werkzeug _internal.py[97] _log() INFO:  * Restarting with stat
+2024/08/23 18:55:19 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 18:55:19 werkzeug _internal.py[97] _log() WARNING:  * Debugger is active!
+2024/08/23 18:55:19 werkzeug _internal.py[97] _log() INFO:  * Debugger PIN: 981-873-153
+2024/08/23 18:55:24 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 18:55:24] "[31m[1mPOST /api/users/login HTTP/1.1[0m" 422 -
+2024/08/23 18:56:49 werkzeug _internal.py[97] _log() INFO:  * Detected change in 'C:\\Users\\20818\\Desktop\\vue-admin-template-master\\flask\\app\\users\\routes.py', reloading
+2024/08/23 18:56:49 werkzeug _internal.py[97] _log() INFO:  * Restarting with stat
+2024/08/23 18:56:50 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 18:56:50 werkzeug _internal.py[97] _log() WARNING:  * Debugger is active!
+2024/08/23 18:56:50 werkzeug _internal.py[97] _log() INFO:  * Debugger PIN: 981-873-153
+2024/08/23 18:57:01 werkzeug _internal.py[97] _log() INFO:  * Detected change in 'C:\\Users\\20818\\Desktop\\vue-admin-template-master\\flask\\app\\users\\routes.py', reloading
+2024/08/23 18:57:01 werkzeug _internal.py[97] _log() INFO:  * Restarting with stat
+2024/08/23 18:57:02 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 18:57:02 werkzeug _internal.py[97] _log() WARNING:  * Debugger is active!
+2024/08/23 18:57:02 werkzeug _internal.py[97] _log() INFO:  * Debugger PIN: 981-873-153
+2024/08/23 18:57:13 werkzeug _internal.py[97] _log() INFO:  * Detected change in 'C:\\Users\\20818\\Desktop\\vue-admin-template-master\\flask\\app\\users\\routes.py', reloading
+2024/08/23 18:57:13 werkzeug _internal.py[97] _log() INFO:  * Restarting with stat
+2024/08/23 18:57:14 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 18:57:14 werkzeug _internal.py[97] _log() WARNING:  * Debugger is active!
+2024/08/23 18:57:14 werkzeug _internal.py[97] _log() INFO:  * Debugger PIN: 981-873-153
+2024/08/23 18:57:17 werkzeug _internal.py[97] _log() INFO:  * Detected change in 'C:\\Users\\20818\\Desktop\\vue-admin-template-master\\flask\\app\\users\\routes.py', reloading
+2024/08/23 18:57:17 werkzeug _internal.py[97] _log() INFO:  * Restarting with stat
+2024/08/23 18:57:18 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 18:57:18 werkzeug _internal.py[97] _log() WARNING:  * Debugger is active!
+2024/08/23 18:57:18 werkzeug _internal.py[97] _log() INFO:  * Debugger PIN: 981-873-153
+2024/08/23 18:57:40 werkzeug _internal.py[97] _log() INFO:  * Detected change in 'C:\\Users\\20818\\Desktop\\vue-admin-template-master\\flask\\app\\users\\routes.py', reloading
+2024/08/23 18:57:40 werkzeug _internal.py[97] _log() INFO:  * Restarting with stat
+2024/08/23 18:57:41 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 18:57:41 werkzeug _internal.py[97] _log() WARNING:  * Debugger is active!
+2024/08/23 18:57:41 werkzeug _internal.py[97] _log() INFO:  * Debugger PIN: 981-873-153
+2024/08/23 18:57:58 werkzeug _internal.py[97] _log() INFO:  * Detected change in 'C:\\Users\\20818\\Desktop\\vue-admin-template-master\\flask\\app\\users\\routes.py', reloading
+2024/08/23 18:57:59 werkzeug _internal.py[97] _log() INFO:  * Restarting with stat
+2024/08/23 18:57:59 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 18:57:59 werkzeug _internal.py[97] _log() WARNING:  * Debugger is active!
+2024/08/23 18:57:59 werkzeug _internal.py[97] _log() INFO:  * Debugger PIN: 981-873-153
+2024/08/23 18:58:09 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 18:58:09] "[31m[1mPOST /api/users/login HTTP/1.1[0m" 422 -
+2024/08/23 19:03:07 werkzeug _internal.py[97] _log() INFO:  * Detected change in 'C:\\Users\\20818\\Desktop\\vue-admin-template-master\\flask\\config.py', reloading
+2024/08/23 19:03:07 werkzeug _internal.py[97] _log() INFO:  * Restarting with stat
+2024/08/23 19:03:08 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 19:03:08 werkzeug _internal.py[97] _log() WARNING:  * Debugger is active!
+2024/08/23 19:03:08 werkzeug _internal.py[97] _log() INFO:  * Debugger PIN: 981-873-153
+2024/08/23 19:03:09 werkzeug _internal.py[97] _log() INFO:  * Detected change in 'C:\\Users\\20818\\Desktop\\vue-admin-template-master\\flask\\config.py', reloading
+2024/08/23 19:03:09 werkzeug _internal.py[97] _log() INFO:  * Restarting with stat
+2024/08/23 19:03:10 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 19:03:10 werkzeug _internal.py[97] _log() WARNING:  * Debugger is active!
+2024/08/23 19:03:10 werkzeug _internal.py[97] _log() INFO:  * Debugger PIN: 981-873-153
+2024/08/23 19:03:23 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:03:23] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/23 19:03:36 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:03:36] "[31m[1mPOST /api/users/login HTTP/1.1[0m" 401 -
+2024/08/23 19:03:42 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:03:42] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/23 19:05:05 werkzeug _internal.py[97] _log() INFO:  * Detected change in 'C:\\Users\\20818\\Desktop\\vue-admin-template-master\\flask\\app\\books\\routes.py', reloading
+2024/08/23 19:05:05 werkzeug _internal.py[97] _log() INFO:  * Restarting with stat
+2024/08/23 19:05:06 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 19:05:06 werkzeug _internal.py[97] _log() WARNING:  * Debugger is active!
+2024/08/23 19:05:06 werkzeug _internal.py[97] _log() INFO:  * Debugger PIN: 981-873-153
+2024/08/23 19:05:07 werkzeug _internal.py[97] _log() INFO:  * Detected change in 'C:\\Users\\20818\\Desktop\\vue-admin-template-master\\flask\\app\\books\\routes.py', reloading
+2024/08/23 19:05:07 werkzeug _internal.py[97] _log() INFO:  * Restarting with stat
+2024/08/23 19:05:08 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 19:05:08 werkzeug _internal.py[97] _log() WARNING:  * Debugger is active!
+2024/08/23 19:05:08 werkzeug _internal.py[97] _log() INFO:  * Debugger PIN: 981-873-153
+2024/08/23 19:06:26 werkzeug _internal.py[97] _log() INFO:  * Detected change in 'C:\\Users\\20818\\Desktop\\vue-admin-template-master\\flask\\app\\books\\routes.py', reloading
+2024/08/23 19:06:27 werkzeug _internal.py[97] _log() INFO:  * Restarting with stat
+2024/08/23 19:06:28 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 19:06:28 werkzeug _internal.py[97] _log() WARNING:  * Debugger is active!
+2024/08/23 19:06:28 werkzeug _internal.py[97] _log() INFO:  * Debugger PIN: 981-873-153
+2024/08/23 19:07:05 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:07:05] "[32mPOST /api/books HTTP/1.1[0m" 308 -
+2024/08/23 19:07:05 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:07:05] "[35m[1mPOST /api/books/ HTTP/1.1[0m" 500 -
+2024/08/23 19:07:26 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:07:26] "[32mGET /api/books HTTP/1.1[0m" 308 -
+2024/08/23 19:07:26 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:07:26] "GET /api/books/ HTTP/1.1" 200 -
+2024/08/23 19:08:06 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:08:06] "[32mGET /api/books HTTP/1.1[0m" 308 -
+2024/08/23 19:08:06 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:08:06] "GET /api/books/ HTTP/1.1" 200 -
+2024/08/23 19:08:22 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:08:22] "[32mGET /api/books HTTP/1.1[0m" 308 -
+2024/08/23 19:08:22 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:08:22] "GET /api/books/ HTTP/1.1" 200 -
+2024/08/23 19:08:45 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:08:45] "[31m[1mGET /api/users/login HTTP/1.1[0m" 405 -
+2024/08/23 19:09:01 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:09:01] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/23 19:09:29 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:09:29] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/23 19:09:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:09:57] "[32mGET /api/books HTTP/1.1[0m" 308 -
+2024/08/23 19:09:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:09:57] "GET /api/books/ HTTP/1.1" 200 -
+2024/08/23 19:10:13 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:10:13] "[32mGET /api/books HTTP/1.1[0m" 308 -
+2024/08/23 19:10:13 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:10:13] "GET /api/books/ HTTP/1.1" 200 -
+2024/08/23 19:12:07 werkzeug _internal.py[97] _log() INFO:  * Detected change in 'C:\\Users\\20818\\Desktop\\vue-admin-template-master\\flask\\app\\books\\routes.py', reloading
+2024/08/23 19:12:07 werkzeug _internal.py[97] _log() INFO:  * Restarting with stat
+2024/08/23 19:12:08 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 19:12:08 werkzeug _internal.py[97] _log() WARNING:  * Debugger is active!
+2024/08/23 19:12:08 werkzeug _internal.py[97] _log() INFO:  * Debugger PIN: 981-873-153
+2024/08/23 19:12:09 werkzeug _internal.py[97] _log() INFO:  * Detected change in 'C:\\Users\\20818\\Desktop\\vue-admin-template-master\\flask\\app\\books\\routes.py', reloading
+2024/08/23 19:12:10 werkzeug _internal.py[97] _log() INFO:  * Restarting with stat
+2024/08/23 19:12:12 werkzeug _internal.py[97] _log() INFO:  * Restarting with stat
+2024/08/23 19:12:13 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 19:12:14 werkzeug _internal.py[97] _log() WARNING:  * Debugger is active!
+2024/08/23 19:12:14 werkzeug _internal.py[97] _log() INFO:  * Debugger PIN: 981-873-153
+2024/08/23 19:12:16 werkzeug _internal.py[97] _log() INFO:  * Detected change in 'C:\\Users\\20818\\Desktop\\vue-admin-template-master\\flask\\app\\books\\routes.py', reloading
+2024/08/23 19:12:16 werkzeug _internal.py[97] _log() INFO:  * Restarting with stat
+2024/08/23 19:12:17 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 19:12:17 werkzeug _internal.py[97] _log() WARNING:  * Debugger is active!
+2024/08/23 19:12:17 werkzeug _internal.py[97] _log() INFO:  * Debugger PIN: 981-873-153
+2024/08/23 19:12:26 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:12:26] "[32mGET /api/books HTTP/1.1[0m" 308 -
+2024/08/23 19:12:26 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:12:26] "[35m[1mGET /api/books/ HTTP/1.1[0m" 500 -
+2024/08/23 19:13:00 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:13:00] "[31m[1mGET /api/users/login HTTP/1.1[0m" 405 -
+2024/08/23 19:13:09 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:13:09] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/23 19:13:46 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:13:46] "[32mGET /api/books HTTP/1.1[0m" 308 -
+2024/08/23 19:13:46 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:13:46] "[35m[1mGET /api/books/ HTTP/1.1[0m" 500 -
+2024/08/23 19:18:42 werkzeug _internal.py[97] _log() INFO:  * Detected change in 'C:\\Users\\20818\\Desktop\\vue-admin-template-master\\flask\\app\\__init__.py', reloading
+2024/08/23 19:18:42 werkzeug _internal.py[97] _log() INFO:  * Restarting with stat
+2024/08/23 19:18:43 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 19:18:43 werkzeug _internal.py[97] _log() WARNING:  * Debugger is active!
+2024/08/23 19:18:43 werkzeug _internal.py[97] _log() INFO:  * Debugger PIN: 981-873-153
+2024/08/23 19:19:25 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:19:25] "[32mGET /api/books HTTP/1.1[0m" 308 -
+2024/08/23 19:19:25 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:19:25] "[35m[1mGET /api/books/ HTTP/1.1[0m" 500 -
+2024/08/23 19:23:18 werkzeug _internal.py[97] _log() INFO:  * Detected change in 'C:\\Users\\20818\\Desktop\\vue-admin-template-master\\flask\\app\\books\\routes.py', reloading
+2024/08/23 19:23:18 werkzeug _internal.py[97] _log() INFO:  * Restarting with stat
+2024/08/23 19:23:19 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 19:23:19 werkzeug _internal.py[97] _log() WARNING:  * Debugger is active!
+2024/08/23 19:23:19 werkzeug _internal.py[97] _log() INFO:  * Debugger PIN: 981-873-153
+2024/08/23 19:23:28 werkzeug _internal.py[97] _log() INFO:  * Detected change in 'C:\\Users\\20818\\Desktop\\vue-admin-template-master\\flask\\app\\books\\routes.py', reloading
+2024/08/23 19:23:28 werkzeug _internal.py[97] _log() INFO:  * Restarting with stat
+2024/08/23 19:23:30 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 19:23:30 werkzeug _internal.py[97] _log() WARNING:  * Debugger is active!
+2024/08/23 19:23:30 werkzeug _internal.py[97] _log() INFO:  * Debugger PIN: 981-873-153
+2024/08/23 19:23:39 werkzeug _internal.py[97] _log() INFO:  * Detected change in 'C:\\Users\\20818\\Desktop\\vue-admin-template-master\\flask\\app\\books\\routes.py', reloading
+2024/08/23 19:23:39 werkzeug _internal.py[97] _log() INFO:  * Restarting with stat
+2024/08/23 19:23:40 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 19:23:40 werkzeug _internal.py[97] _log() WARNING:  * Debugger is active!
+2024/08/23 19:23:40 werkzeug _internal.py[97] _log() INFO:  * Debugger PIN: 981-873-153
+2024/08/23 19:23:41 werkzeug _internal.py[97] _log() INFO:  * Detected change in 'C:\\Users\\20818\\Desktop\\vue-admin-template-master\\flask\\app\\books\\routes.py', reloading
+2024/08/23 19:23:41 werkzeug _internal.py[97] _log() INFO:  * Restarting with stat
+2024/08/23 19:23:42 flask_api __init__.py[42] create_app() INFO: Flask Rest Api startup
+2024/08/23 19:23:42 werkzeug _internal.py[97] _log() WARNING:  * Debugger is active!
+2024/08/23 19:23:42 werkzeug _internal.py[97] _log() INFO:  * Debugger PIN: 981-873-153
+2024/08/23 19:24:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:24:27] "[32mGET /api/books HTTP/1.1[0m" 308 -
+2024/08/23 19:24:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:24:27] "GET /api/books/ HTTP/1.1" 200 -
+2024/08/23 19:28:14 flask_api __init__.py[45] create_app() INFO: Flask Rest Api startup
+2024/08/23 19:28:14 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/23 19:28:14 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/23 19:28:17 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/23 19:28:17 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:28:17] "[33mGET / HTTP/1.1[0m" 404 -
+2024/08/23 19:28:17 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/23 19:28:17 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:28:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024/08/23 19:28:29 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/23 19:28:29 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:28:29] "[33mGET / HTTP/1.1[0m" 404 -
+2024/08/23 19:28:29 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/23 19:28:29 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:28:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024/08/23 19:28:39 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:28:39] "[32mGET /api/docs HTTP/1.1[0m" 308 -
+2024/08/23 19:28:39 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:28:39] "GET /api/docs/ HTTP/1.1" 200 -
+2024/08/23 19:28:39 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:28:39] "GET /api/docs/swagger-ui.css HTTP/1.1" 200 -
+2024/08/23 19:28:39 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:28:39] "GET /api/docs/index.css HTTP/1.1" 200 -
+2024/08/23 19:28:39 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:28:39] "GET /api/docs/swagger-ui-bundle.js HTTP/1.1" 200 -
+2024/08/23 19:28:40 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:28:40] "GET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+2024/08/23 19:28:40 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:28:40] "GET /api/spec HTTP/1.1" 200 -
+2024/08/23 19:28:40 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:28:40] "GET /api/docs/favicon-32x32.png HTTP/1.1" 200 -
+2024/08/23 19:30:29 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:30:29] "GET /api/docs/ HTTP/1.1" 200 -
+2024/08/23 19:30:29 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:30:29] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2024/08/23 19:30:29 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:30:29] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2024/08/23 19:30:29 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:30:29] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024/08/23 19:30:29 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:30:29] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024/08/23 19:30:29 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:30:29] "GET /api/spec HTTP/1.1" 200 -
+2024/08/23 19:30:29 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:30:29] "[36mGET /api/docs/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024/08/23 19:30:30 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:30:30] "GET /api/docs/ HTTP/1.1" 200 -
+2024/08/23 19:30:30 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:30:30] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2024/08/23 19:30:30 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:30:30] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2024/08/23 19:30:30 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:30:30] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024/08/23 19:30:30 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:30:30] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024/08/23 19:30:30 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:30:30] "GET /api/spec HTTP/1.1" 200 -
+2024/08/23 19:30:30 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:30:30] "[36mGET /api/docs/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024/08/23 19:30:48 flask_api __init__.py[45] create_app() INFO: Flask Rest Api startup
+2024/08/23 19:30:48 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/23 19:30:48 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/23 19:30:51 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/23 19:30:51 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:30:51] "[33mGET / HTTP/1.1[0m" 404 -
+2024/08/23 19:30:56 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:30:56] "GET /api/docs/ HTTP/1.1" 200 -
+2024/08/23 19:30:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:30:57] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2024/08/23 19:30:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:30:57] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024/08/23 19:30:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:30:57] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024/08/23 19:30:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:30:57] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2024/08/23 19:30:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:30:57] "GET /api/spec HTTP/1.1" 200 -
+2024/08/23 19:30:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:30:57] "[36mGET /api/docs/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024/08/23 19:31:10 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:31:10] "[35m[1mPOST /api/users/register HTTP/1.1[0m" 201 -
+2024/08/23 19:37:55 flask_api __init__.py[45] create_app() INFO: Flask Rest Api startup
+2024/08/23 19:37:55 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/23 19:37:55 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/23 19:37:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:37:57] "GET / HTTP/1.1" 200 -
+2024/08/23 19:37:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:37:57] "GET /static/css/app.b7cb370e.css HTTP/1.1" 200 -
+2024/08/23 19:37:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:37:57] "GET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1" 200 -
+2024/08/23 19:37:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:37:57] "GET /static/css/chunk-libs.3dfb7769.css HTTP/1.1" 200 -
+2024/08/23 19:37:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:37:57] "GET /static/js/app.cfabf8f4.js HTTP/1.1" 200 -
+2024/08/23 19:37:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:37:57] "GET /static/js/chunk-elementUI.67930132.js HTTP/1.1" 200 -
+2024/08/23 19:37:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:37:57] "GET /static/js/chunk-libs.654bdb34.js HTTP/1.1" 200 -
+2024/08/23 19:37:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:37:57] "GET /static/css/chunk-a8539586.94702ff7.css HTTP/1.1" 200 -
+2024/08/23 19:37:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:37:57] "GET /static/js/chunk-a8539586.105ceec9.js HTTP/1.1" 200 -
+2024/08/23 19:37:58 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:37:58] "[31m[1mPOST /api/login HTTP/1.1[0m" 405 -
+2024/08/23 19:37:58 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:37:58] "GET /static/fonts/element-icons.535877f5.woff HTTP/1.1" 200 -
+2024/08/23 19:40:10 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:40:10] "[31m[1mPOST /api/login HTTP/1.1[0m" 405 -
+2024/08/23 19:40:12 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:40:12] "[36mGET / HTTP/1.1[0m" 304 -
+2024/08/23 19:40:12 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:40:12] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/23 19:40:12 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:40:12] "[36mGET /static/js/app.cfabf8f4.js HTTP/1.1[0m" 304 -
+2024/08/23 19:40:12 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:40:12] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/23 19:40:12 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:40:12] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/23 19:40:12 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:40:12] "[36mGET /static/js/chunk-libs.654bdb34.js HTTP/1.1[0m" 304 -
+2024/08/23 19:40:12 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:40:12] "[36mGET /static/js/chunk-elementUI.67930132.js HTTP/1.1[0m" 304 -
+2024/08/23 19:40:12 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:40:12] "[36mGET /static/css/chunk-a8539586.94702ff7.css HTTP/1.1[0m" 304 -
+2024/08/23 19:40:12 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:40:12] "[36mGET /static/js/chunk-a8539586.105ceec9.js HTTP/1.1[0m" 304 -
+2024/08/23 19:40:14 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:40:14] "[36mGET / HTTP/1.1[0m" 304 -
+2024/08/23 19:40:14 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:40:14] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/23 19:40:14 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:40:14] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/23 19:40:14 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:40:14] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/23 19:40:14 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:40:14] "[36mGET /static/js/app.cfabf8f4.js HTTP/1.1[0m" 304 -
+2024/08/23 19:40:14 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:40:14] "[36mGET /static/js/chunk-elementUI.67930132.js HTTP/1.1[0m" 304 -
+2024/08/23 19:40:14 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:40:14] "[36mGET /static/js/chunk-libs.654bdb34.js HTTP/1.1[0m" 304 -
+2024/08/23 19:40:14 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:40:14] "[36mGET /static/css/chunk-a8539586.94702ff7.css HTTP/1.1[0m" 304 -
+2024/08/23 19:40:14 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:40:14] "[36mGET /static/js/chunk-a8539586.105ceec9.js HTTP/1.1[0m" 304 -
+2024/08/23 19:40:22 flask_api __init__.py[45] create_app() INFO: Flask Rest Api startup
+2024/08/23 19:40:22 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/23 19:40:22 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/23 19:40:24 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:40:24] "[36mGET / HTTP/1.1[0m" 304 -
+2024/08/23 19:40:24 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:40:24] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/23 19:40:24 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:40:24] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/23 19:40:24 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:40:24] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/23 19:40:24 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:40:24] "[36mGET /static/js/app.cfabf8f4.js HTTP/1.1[0m" 304 -
+2024/08/23 19:40:24 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:40:24] "[36mGET /static/js/chunk-elementUI.67930132.js HTTP/1.1[0m" 304 -
+2024/08/23 19:40:24 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:40:24] "[36mGET /static/js/chunk-libs.654bdb34.js HTTP/1.1[0m" 304 -
+2024/08/23 19:40:24 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:40:24] "[36mGET /static/css/chunk-a8539586.94702ff7.css HTTP/1.1[0m" 304 -
+2024/08/23 19:40:24 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:40:24] "[36mGET /static/js/chunk-a8539586.105ceec9.js HTTP/1.1[0m" 304 -
+2024/08/23 19:40:25 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:40:25] "[31m[1mPOST /api/login HTTP/1.1[0m" 405 -
+2024/08/23 19:40:25 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:40:25] "[36mGET /static/fonts/element-icons.535877f5.woff HTTP/1.1[0m" 304 -
+2024/08/23 19:41:26 flask_api __init__.py[45] create_app() INFO: Flask Rest Api startup
+2024/08/23 19:41:26 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/23 19:41:26 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/23 19:41:28 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:41:28] "[31m[1mPOST /api/login HTTP/1.1[0m" 405 -
+2024/08/23 19:41:31 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:41:31] "[36mGET / HTTP/1.1[0m" 304 -
+2024/08/23 19:41:31 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:41:31] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/23 19:41:31 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:41:31] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/23 19:41:31 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:41:31] "[36mGET /static/js/app.cfabf8f4.js HTTP/1.1[0m" 304 -
+2024/08/23 19:41:31 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:41:31] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/23 19:41:31 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:41:31] "[36mGET /static/js/chunk-elementUI.67930132.js HTTP/1.1[0m" 304 -
+2024/08/23 19:41:31 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:41:31] "[36mGET /static/js/chunk-libs.654bdb34.js HTTP/1.1[0m" 304 -
+2024/08/23 19:41:31 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:41:31] "[36mGET /static/js/chunk-a8539586.105ceec9.js HTTP/1.1[0m" 304 -
+2024/08/23 19:41:31 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:41:31] "[36mGET /static/css/chunk-a8539586.94702ff7.css HTTP/1.1[0m" 304 -
+2024/08/23 19:41:35 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:41:35] "[36mGET / HTTP/1.1[0m" 304 -
+2024/08/23 19:41:35 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:41:35] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/23 19:41:35 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:41:35] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/23 19:41:35 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:41:35] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/23 19:41:35 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:41:35] "[36mGET /static/js/app.cfabf8f4.js HTTP/1.1[0m" 304 -
+2024/08/23 19:41:35 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:41:35] "[36mGET /static/js/chunk-elementUI.67930132.js HTTP/1.1[0m" 304 -
+2024/08/23 19:41:35 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:41:35] "[36mGET /static/js/chunk-libs.654bdb34.js HTTP/1.1[0m" 304 -
+2024/08/23 19:41:35 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:41:35] "[36mGET /static/css/chunk-a8539586.94702ff7.css HTTP/1.1[0m" 304 -
+2024/08/23 19:41:35 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:41:35] "[36mGET /static/js/chunk-a8539586.105ceec9.js HTTP/1.1[0m" 304 -
+2024/08/23 19:41:36 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:41:36] "[31m[1mPOST /api/login HTTP/1.1[0m" 405 -
+2024/08/23 19:41:36 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:41:36] "[36mGET /static/fonts/element-icons.535877f5.woff HTTP/1.1[0m" 304 -
+2024/08/23 19:51:00 flask_api __init__.py[45] create_app() INFO: Flask Rest Api startup
+2024/08/23 19:51:00 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/23 19:51:00 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/23 19:51:08 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:51:08] "GET / HTTP/1.1" 200 -
+2024/08/23 19:51:08 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:51:08] "GET /static/js/app.dddfedfa.js HTTP/1.1" 200 -
+2024/08/23 19:51:08 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:51:08] "GET /static/css/app.b7cb370e.css HTTP/1.1" 200 -
+2024/08/23 19:51:08 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:51:08] "GET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1" 200 -
+2024/08/23 19:51:08 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:51:08] "GET /static/css/chunk-libs.3dfb7769.css HTTP/1.1" 200 -
+2024/08/23 19:51:08 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:51:08] "GET /static/js/chunk-elementUI.67930132.js HTTP/1.1" 200 -
+2024/08/23 19:51:08 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:51:08] "GET /static/js/chunk-libs.654bdb34.js HTTP/1.1" 200 -
+2024/08/23 19:51:08 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:51:08] "GET /static/css/chunk-6463e7ad.f8fa500a.css HTTP/1.1" 200 -
+2024/08/23 19:51:08 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:51:08] "GET /static/js/chunk-6463e7ad.53a893e9.js HTTP/1.1" 200 -
+2024/08/23 19:51:09 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:51:09] "GET /static/fonts/element-icons.535877f5.woff HTTP/1.1" 200 -
+2024/08/23 19:51:09 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:51:09] "[33mPOST /api/users/login HTTP/1.1[0m" 404 -
+2024/08/23 19:51:17 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:51:17] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/23 19:51:17 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:51:17] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/23 19:51:17 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:51:17] "[36mGET /static/css/chunk-6463e7ad.f8fa500a.css HTTP/1.1[0m" 304 -
+2024/08/23 19:51:17 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:51:17] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/23 19:51:25 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:51:25] "[33mPOST /api/users/login HTTP/1.1[0m" 404 -
+2024/08/23 19:53:16 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:53:16] "[31m[1mPOST /api/user/login HTTP/1.1[0m" 405 -
+2024/08/23 19:53:35 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:53:35] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/23 19:54:00 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:54:00] "[36mGET / HTTP/1.1[0m" 304 -
+2024/08/23 19:54:00 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:54:00] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/23 19:54:00 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:54:00] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/23 19:54:00 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:54:00] "[36mGET /static/js/chunk-elementUI.67930132.js HTTP/1.1[0m" 304 -
+2024/08/23 19:54:00 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:54:00] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/23 19:54:00 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:54:00] "[36mGET /static/js/app.dddfedfa.js HTTP/1.1[0m" 304 -
+2024/08/23 19:54:00 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:54:00] "[36mGET /static/js/chunk-libs.654bdb34.js HTTP/1.1[0m" 304 -
+2024/08/23 19:54:00 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:54:00] "[36mGET /static/css/chunk-6463e7ad.f8fa500a.css HTTP/1.1[0m" 304 -
+2024/08/23 19:54:00 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:54:00] "[36mGET /static/js/chunk-6463e7ad.53a893e9.js HTTP/1.1[0m" 304 -
+2024/08/23 19:54:02 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:54:02] "[33mPOST /api/users/login HTTP/1.1[0m" 404 -
+2024/08/23 19:54:31 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 19:54:31] "[33mPOST /api/users/login HTTP/1.1[0m" 404 -
+2024/08/23 20:00:17 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:00:17] "[36mGET / HTTP/1.1[0m" 304 -
+2024/08/23 20:00:17 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:00:17] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/23 20:00:17 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:00:17] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/23 20:00:17 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:00:17] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/23 20:00:17 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:00:17] "[36mGET /static/js/app.dddfedfa.js HTTP/1.1[0m" 304 -
+2024/08/23 20:00:17 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:00:17] "[36mGET /static/js/chunk-elementUI.67930132.js HTTP/1.1[0m" 304 -
+2024/08/23 20:00:17 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:00:17] "[36mGET /static/js/chunk-libs.654bdb34.js HTTP/1.1[0m" 304 -
+2024/08/23 20:00:17 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:00:17] "[36mGET /static/css/chunk-6463e7ad.f8fa500a.css HTTP/1.1[0m" 304 -
+2024/08/23 20:00:17 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:00:17] "[36mGET /static/js/chunk-6463e7ad.53a893e9.js HTTP/1.1[0m" 304 -
+2024/08/23 20:00:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:00:19] "[36mGET / HTTP/1.1[0m" 304 -
+2024/08/23 20:00:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:00:19] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/23 20:00:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:00:19] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/23 20:00:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:00:19] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/23 20:00:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:00:19] "[36mGET /static/js/app.dddfedfa.js HTTP/1.1[0m" 304 -
+2024/08/23 20:00:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:00:19] "[36mGET /static/js/chunk-elementUI.67930132.js HTTP/1.1[0m" 304 -
+2024/08/23 20:00:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:00:19] "[36mGET /static/js/chunk-libs.654bdb34.js HTTP/1.1[0m" 304 -
+2024/08/23 20:00:20 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:00:20] "[36mGET /static/css/chunk-6463e7ad.f8fa500a.css HTTP/1.1[0m" 304 -
+2024/08/23 20:00:20 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:00:20] "[36mGET /static/js/chunk-6463e7ad.53a893e9.js HTTP/1.1[0m" 304 -
+2024/08/23 20:00:20 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:00:20] "[36mGET / HTTP/1.1[0m" 304 -
+2024/08/23 20:00:20 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:00:20] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/23 20:00:20 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:00:20] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/23 20:00:20 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:00:20] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/23 20:00:20 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:00:20] "[36mGET /static/js/app.dddfedfa.js HTTP/1.1[0m" 304 -
+2024/08/23 20:00:20 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:00:20] "[36mGET /static/js/chunk-elementUI.67930132.js HTTP/1.1[0m" 304 -
+2024/08/23 20:00:20 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:00:20] "[36mGET /static/js/chunk-libs.654bdb34.js HTTP/1.1[0m" 304 -
+2024/08/23 20:00:21 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:00:21] "[36mGET /static/css/chunk-6463e7ad.f8fa500a.css HTTP/1.1[0m" 304 -
+2024/08/23 20:00:21 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:00:21] "[36mGET /static/js/chunk-6463e7ad.53a893e9.js HTTP/1.1[0m" 304 -
+2024/08/23 20:04:37 flask_api __init__.py[45] create_app() INFO: Flask Rest Api startup
+2024/08/23 20:04:37 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/23 20:04:37 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/23 20:04:40 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:04:40] "[36mGET / HTTP/1.1[0m" 304 -
+2024/08/23 20:04:40 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:04:40] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/23 20:04:40 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:04:40] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/23 20:04:40 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:04:40] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/23 20:04:40 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:04:40] "[36mGET /static/js/chunk-elementUI.67930132.js HTTP/1.1[0m" 304 -
+2024/08/23 20:04:40 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:04:40] "[36mGET /static/js/app.dddfedfa.js HTTP/1.1[0m" 304 -
+2024/08/23 20:04:40 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:04:40] "[36mGET /static/js/chunk-libs.654bdb34.js HTTP/1.1[0m" 304 -
+2024/08/23 20:04:40 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:04:40] "[36mGET /static/css/chunk-6463e7ad.f8fa500a.css HTTP/1.1[0m" 304 -
+2024/08/23 20:04:40 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:04:40] "[36mGET /static/js/chunk-6463e7ad.53a893e9.js HTTP/1.1[0m" 304 -
+2024/08/23 20:04:43 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:04:43] "[33mPOST /api/users/login HTTP/1.1[0m" 404 -
+2024/08/23 20:04:43 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:04:43] "[36mGET /static/fonts/element-icons.535877f5.woff HTTP/1.1[0m" 304 -
+2024/08/23 20:04:48 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:04:48] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/23 20:04:48 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:04:48] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/23 20:04:48 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:04:48] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/23 20:04:48 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:04:48] "[36mGET /static/css/chunk-6463e7ad.f8fa500a.css HTTP/1.1[0m" 304 -
+2024/08/23 20:05:05 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:05:05] "[36mGET / HTTP/1.1[0m" 304 -
+2024/08/23 20:05:05 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:05:05] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/23 20:05:05 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:05:05] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/23 20:05:05 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:05:05] "[36mGET /static/js/app.dddfedfa.js HTTP/1.1[0m" 304 -
+2024/08/23 20:05:05 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:05:05] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/23 20:05:05 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:05:05] "[36mGET /static/js/chunk-elementUI.67930132.js HTTP/1.1[0m" 304 -
+2024/08/23 20:05:05 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:05:05] "[36mGET /static/js/chunk-libs.654bdb34.js HTTP/1.1[0m" 304 -
+2024/08/23 20:05:05 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:05:05] "[36mGET /static/css/chunk-6463e7ad.f8fa500a.css HTTP/1.1[0m" 304 -
+2024/08/23 20:05:05 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:05:05] "[36mGET /static/js/chunk-6463e7ad.53a893e9.js HTTP/1.1[0m" 304 -
+2024/08/23 20:05:07 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:05:07] "[33mPOST /api/users/login HTTP/1.1[0m" 404 -
+2024/08/23 20:07:24 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:07:24] "[35m[1mPOST /api/users/register HTTP/1.1[0m" 201 -
+2024/08/23 20:07:38 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:07:38] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/23 20:07:43 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:07:43] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/23 20:07:43 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:07:43] "GET /static/css/chunk-69338b82.d0e964c9.css HTTP/1.1" 200 -
+2024/08/23 20:07:43 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:07:43] "GET /static/js/chunk-69338b82.abb27611.js HTTP/1.1" 200 -
+2024/08/23 20:07:43 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/23 20:07:43 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:07:43] "[33mGET /undefined?imageView2/1/w/80/h/80 HTTP/1.1[0m" 404 -
+2024/08/23 20:07:52 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:07:52] "GET /static/css/chunk-6c5da9a9.0b280d97.css HTTP/1.1" 200 -
+2024/08/23 20:07:52 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:07:52] "GET /static/js/chunk-6c5da9a9.363e4a9e.js HTTP/1.1" 200 -
+2024/08/23 20:07:52 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/23 20:07:52 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:07:52] "[33mGET /your-video-url.mp4 HTTP/1.1[0m" 404 -
+2024/08/23 20:08:06 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/23 20:08:06 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:08:06] "[33mGET /your-video-url.mp4 HTTP/1.1[0m" 404 -
+2024/08/23 20:08:32 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:08:32] "GET /?imageView2/1/w/80/h/80 HTTP/1.1" 200 -
+2024/08/23 20:08:33 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:08:33] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/23 20:08:33 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/23 20:08:33 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [23/Aug/2024 20:08:33] "[33mGET /undefined?imageView2/1/w/80/h/80 HTTP/1.1[0m" 404 -

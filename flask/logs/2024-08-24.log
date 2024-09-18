@@ -1,0 +1,961 @@
+2024/08/24 10:46:12 flask_api __init__.py[45] create_app() INFO: Flask Rest Api startup
+2024/08/24 10:46:12 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/24 10:46:12 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/24 10:46:17 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 10:46:17] "[36mGET / HTTP/1.1[0m" 304 -
+2024/08/24 10:46:17 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 10:46:17] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/24 10:46:17 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 10:46:17] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/24 10:46:17 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 10:46:17] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/24 10:46:17 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 10:46:17] "[36mGET /static/js/app.dddfedfa.js HTTP/1.1[0m" 304 -
+2024/08/24 10:46:17 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 10:46:17] "[36mGET /static/js/chunk-libs.654bdb34.js HTTP/1.1[0m" 304 -
+2024/08/24 10:46:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 10:46:18] "[36mGET /static/js/chunk-elementUI.67930132.js HTTP/1.1[0m" 304 -
+2024/08/24 10:46:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 10:46:18] "[36mGET /static/css/chunk-6463e7ad.f8fa500a.css HTTP/1.1[0m" 304 -
+2024/08/24 10:46:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 10:46:18] "[36mGET /static/js/chunk-6463e7ad.53a893e9.js HTTP/1.1[0m" 304 -
+2024/08/24 10:46:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 10:46:18] "GET /favicon.ico HTTP/1.1" 200 -
+2024/08/24 10:46:21 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 10:46:21] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/24 10:46:21 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 10:46:21] "[36mGET /static/fonts/element-icons.535877f5.woff HTTP/1.1[0m" 304 -
+2024/08/24 10:46:22 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 10:46:22] "[36mGET /static/css/chunk-69338b82.d0e964c9.css HTTP/1.1[0m" 304 -
+2024/08/24 10:46:22 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 10:46:22] "[36mGET /static/js/chunk-69338b82.abb27611.js HTTP/1.1[0m" 304 -
+2024/08/24 10:46:22 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 10:46:22 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 10:46:22] "[33mGET /undefined?imageView2/1/w/80/h/80 HTTP/1.1[0m" 404 -
+2024/08/24 10:46:23 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 10:46:23] "[36mGET /static/css/chunk-6c5da9a9.0b280d97.css HTTP/1.1[0m" 304 -
+2024/08/24 10:46:23 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 10:46:23] "[36mGET /static/js/chunk-6c5da9a9.363e4a9e.js HTTP/1.1[0m" 304 -
+2024/08/24 10:46:24 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 10:46:24 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 10:46:24] "[33mGET /your-video-url.mp4 HTTP/1.1[0m" 404 -
+2024/08/24 10:46:26 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 10:46:26] "GET /static/js/chunk-2d0e4b0c.6915fc27.js HTTP/1.1" 200 -
+2024/08/24 10:46:29 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 10:46:29] "GET /static/js/chunk-2d0d0f79.fe29d0a1.js HTTP/1.1" 200 -
+2024/08/24 10:46:31 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 10:46:31] "GET /static/css/chunk-31dba1a5.5cd9884a.css HTTP/1.1" 200 -
+2024/08/24 10:46:31 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 10:46:31] "GET /static/js/chunk-31dba1a5.8784156e.js HTTP/1.1" 200 -
+2024/08/24 10:46:34 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 10:46:34] "GET /static/js/chunk-2d0e4e1f.a68bb6b7.js HTTP/1.1" 200 -
+2024/08/24 10:46:34 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 10:46:34] "GET /static/js/chunk-2d226cab.86eddd7a.js HTTP/1.1" 200 -
+2024/08/24 10:46:43 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 10:46:43 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 10:46:43] "[33mGET /your-video-url.mp4 HTTP/1.1[0m" 404 -
+2024/08/24 10:47:05 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 10:47:05] "GET /api/docs/ HTTP/1.1" 200 -
+2024/08/24 10:47:05 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 10:47:05] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2024/08/24 10:47:05 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 10:47:05] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2024/08/24 10:47:05 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 10:47:05] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024/08/24 10:47:05 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 10:47:05] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024/08/24 10:47:06 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 10:47:06] "GET /api/spec HTTP/1.1" 200 -
+2024/08/24 10:50:06 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 10:50:06] "[36mGET /?imageView2/1/w/80/h/80 HTTP/1.1[0m" 304 -
+2024/08/24 11:01:47 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 11:01:47] "[36mGET / HTTP/1.1[0m" 304 -
+2024/08/24 11:01:47 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 11:01:47] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/24 11:01:47 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 11:01:47] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/24 11:01:47 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 11:01:47] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/24 11:01:47 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 11:01:47] "[36mGET /static/js/app.dddfedfa.js HTTP/1.1[0m" 304 -
+2024/08/24 11:01:47 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 11:01:47] "[36mGET /static/js/chunk-elementUI.67930132.js HTTP/1.1[0m" 304 -
+2024/08/24 11:01:47 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 11:01:47] "[36mGET /static/js/chunk-libs.654bdb34.js HTTP/1.1[0m" 304 -
+2024/08/24 11:01:47 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 11:01:47] "[36mGET /static/css/chunk-6463e7ad.f8fa500a.css HTTP/1.1[0m" 304 -
+2024/08/24 11:01:47 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 11:01:47] "[36mGET /static/js/chunk-6463e7ad.53a893e9.js HTTP/1.1[0m" 304 -
+2024/08/24 11:01:47 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 11:01:47] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2024/08/24 11:01:49 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 11:01:49] "[36mGET / HTTP/1.1[0m" 304 -
+2024/08/24 11:01:49 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 11:01:49] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/24 11:01:49 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 11:01:49] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/24 11:01:49 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 11:01:49] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/24 11:01:49 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 11:01:49] "[36mGET /static/js/app.dddfedfa.js HTTP/1.1[0m" 304 -
+2024/08/24 11:01:49 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 11:01:49] "[36mGET /static/js/chunk-elementUI.67930132.js HTTP/1.1[0m" 304 -
+2024/08/24 11:01:49 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 11:01:49] "[36mGET /static/js/chunk-libs.654bdb34.js HTTP/1.1[0m" 304 -
+2024/08/24 11:01:49 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 11:01:49] "[36mGET /static/css/chunk-6463e7ad.f8fa500a.css HTTP/1.1[0m" 304 -
+2024/08/24 11:01:49 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 11:01:49] "[36mGET /static/js/chunk-6463e7ad.53a893e9.js HTTP/1.1[0m" 304 -
+2024/08/24 11:01:49 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 11:01:49] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2024/08/24 14:28:16 flask_api __init__.py[45] create_app() INFO: Flask Rest Api startup
+2024/08/24 14:28:16 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/24 14:28:16 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/24 14:28:23 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:23] "GET / HTTP/1.1" 200 -
+2024/08/24 14:28:24 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:24] "GET /static/js/app.90f5e07b.js HTTP/1.1" 200 -
+2024/08/24 14:28:24 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:24] "GET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1" 200 -
+2024/08/24 14:28:24 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:24] "GET /static/css/chunk-libs.3dfb7769.css HTTP/1.1" 200 -
+2024/08/24 14:28:24 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:24] "GET /static/css/app.b7cb370e.css HTTP/1.1" 200 -
+2024/08/24 14:28:24 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:24] "GET /static/js/chunk-elementUI.67930132.js HTTP/1.1" 200 -
+2024/08/24 14:28:24 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:24] "GET /static/js/chunk-libs.654bdb34.js HTTP/1.1" 200 -
+2024/08/24 14:28:24 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:24] "GET /static/css/chunk-6463e7ad.f8fa500a.css HTTP/1.1" 200 -
+2024/08/24 14:28:24 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:24] "GET /static/js/chunk-6463e7ad.c8d1c369.js HTTP/1.1" 200 -
+2024/08/24 14:28:24 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:24] "GET /favicon.ico HTTP/1.1" 200 -
+2024/08/24 14:28:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:27] "[36mGET / HTTP/1.1[0m" 304 -
+2024/08/24 14:28:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:27] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/24 14:28:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:27] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/24 14:28:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:27] "[36mGET /static/js/app.90f5e07b.js HTTP/1.1[0m" 304 -
+2024/08/24 14:28:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:27] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/24 14:28:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:27] "[36mGET /static/js/chunk-elementUI.67930132.js HTTP/1.1[0m" 304 -
+2024/08/24 14:28:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:27] "[36mGET /static/js/chunk-libs.654bdb34.js HTTP/1.1[0m" 304 -
+2024/08/24 14:28:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:27] "[36mGET /static/css/chunk-6463e7ad.f8fa500a.css HTTP/1.1[0m" 304 -
+2024/08/24 14:28:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:27] "[36mGET /static/js/chunk-6463e7ad.c8d1c369.js HTTP/1.1[0m" 304 -
+2024/08/24 14:28:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:27] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2024/08/24 14:28:29 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:29] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2024/08/24 14:28:29 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:29] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2024/08/24 14:28:29 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:29] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024/08/24 14:28:29 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:29] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024/08/24 14:28:29 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:29] "GET /api/spec HTTP/1.1" 200 -
+2024/08/24 14:28:38 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:38] "[36mGET / HTTP/1.1[0m" 304 -
+2024/08/24 14:28:38 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:38] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/24 14:28:38 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:38] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/24 14:28:38 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:38] "[36mGET /static/js/app.90f5e07b.js HTTP/1.1[0m" 304 -
+2024/08/24 14:28:38 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:38] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/24 14:28:38 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:38] "[36mGET /static/js/chunk-elementUI.67930132.js HTTP/1.1[0m" 304 -
+2024/08/24 14:28:38 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:38] "[36mGET /static/js/chunk-libs.654bdb34.js HTTP/1.1[0m" 304 -
+2024/08/24 14:28:38 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:38] "[36mGET /static/css/chunk-6463e7ad.f8fa500a.css HTTP/1.1[0m" 304 -
+2024/08/24 14:28:38 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:38] "[36mGET /static/js/chunk-6463e7ad.c8d1c369.js HTTP/1.1[0m" 304 -
+2024/08/24 14:28:44 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:44] "GET /static/fonts/element-icons.535877f5.woff HTTP/1.1" 200 -
+2024/08/24 14:28:44 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:44] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/24 14:28:44 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:44] "GET /static/css/chunk-69338b82.d0e964c9.css HTTP/1.1" 200 -
+2024/08/24 14:28:44 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:44] "GET /static/js/chunk-69338b82.2144b8bf.js HTTP/1.1" 200 -
+2024/08/24 14:28:44 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 14:28:44 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:44] "[33mGET /undefined?imageView2/1/w/80/h/80 HTTP/1.1[0m" 404 -
+2024/08/24 14:28:48 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:48] "GET /static/css/chunk-6c5da9a9.0b280d97.css HTTP/1.1" 200 -
+2024/08/24 14:28:48 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:48] "GET /static/js/chunk-6c5da9a9.76a12437.js HTTP/1.1" 200 -
+2024/08/24 14:28:49 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 14:28:49 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:49] "[33mGET /your-video-url.mp4 HTTP/1.1[0m" 404 -
+2024/08/24 14:28:54 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:28:54] "GET /?imageView2/1/w/80/h/80 HTTP/1.1" 200 -
+2024/08/24 14:34:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:34:27] "[36mGET / HTTP/1.1[0m" 304 -
+2024/08/24 14:34:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:34:27] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/24 14:34:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:34:27] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/24 14:34:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:34:27] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/24 14:34:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:34:27] "[36mGET /static/js/app.90f5e07b.js HTTP/1.1[0m" 304 -
+2024/08/24 14:34:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:34:27] "[36mGET /static/js/chunk-elementUI.67930132.js HTTP/1.1[0m" 304 -
+2024/08/24 14:34:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:34:27] "[36mGET /static/js/chunk-libs.654bdb34.js HTTP/1.1[0m" 304 -
+2024/08/24 14:34:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:34:27] "[36mGET /static/css/chunk-6463e7ad.f8fa500a.css HTTP/1.1[0m" 304 -
+2024/08/24 14:34:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:34:27] "[36mGET /static/js/chunk-6463e7ad.c8d1c369.js HTTP/1.1[0m" 304 -
+2024/08/24 14:34:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:34:27] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2024/08/24 14:35:26 flask_api __init__.py[45] create_app() INFO: Flask Rest Api startup
+2024/08/24 14:35:26 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/24 14:35:26 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/24 14:35:43 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:35:43] "GET / HTTP/1.1" 200 -
+2024/08/24 14:35:43 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:35:43] "GET /static/css/app.b7cb370e.css HTTP/1.1" 200 -
+2024/08/24 14:35:43 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:35:43] "GET /static/js/app.eddd796f.js HTTP/1.1" 200 -
+2024/08/24 14:35:43 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:35:43] "GET /static/css/chunk-libs.3dfb7769.css HTTP/1.1" 200 -
+2024/08/24 14:35:43 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:35:43] "GET /static/js/chunk-elementUI.67930132.js HTTP/1.1" 200 -
+2024/08/24 14:35:43 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:35:43] "GET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1" 200 -
+2024/08/24 14:35:43 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:35:43] "GET /static/js/chunk-libs.654bdb34.js HTTP/1.1" 200 -
+2024/08/24 14:35:43 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:35:43] "GET /static/css/chunk-07f19003.bf15a9d0.css HTTP/1.1" 200 -
+2024/08/24 14:35:43 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:35:43] "GET /static/js/chunk-07f19003.bc4a8ea5.js HTTP/1.1" 200 -
+2024/08/24 14:35:43 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:35:43] "GET /favicon.ico HTTP/1.1" 200 -
+2024/08/24 14:35:53 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:35:53] "GET /static/fonts/element-icons.535877f5.woff HTTP/1.1" 200 -
+2024/08/24 14:36:44 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 14:36:44 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:36:44] "[33mGET /register HTTP/1.1[0m" 404 -
+2024/08/24 14:36:54 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 14:36:54 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:36:54] "[33mGET /register HTTP/1.1[0m" 404 -
+2024/08/24 14:37:01 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:37:01] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/24 14:37:01 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:37:01] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/24 14:37:01 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:37:01] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/24 14:37:01 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:37:01] "[36mGET /static/css/chunk-07f19003.bf15a9d0.css HTTP/1.1[0m" 304 -
+2024/08/24 14:37:09 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:37:09] "[36mGET / HTTP/1.1[0m" 304 -
+2024/08/24 14:37:09 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:37:09] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/24 14:37:09 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:37:09] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/24 14:37:09 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:37:09] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/24 14:37:09 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:37:09] "[36mGET /static/js/app.eddd796f.js HTTP/1.1[0m" 304 -
+2024/08/24 14:37:09 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:37:09] "[36mGET /static/js/chunk-elementUI.67930132.js HTTP/1.1[0m" 304 -
+2024/08/24 14:37:09 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:37:09] "[36mGET /static/js/chunk-libs.654bdb34.js HTTP/1.1[0m" 304 -
+2024/08/24 14:37:09 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:37:09] "[36mGET /static/css/chunk-07f19003.bf15a9d0.css HTTP/1.1[0m" 304 -
+2024/08/24 14:37:09 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:37:09] "[36mGET /static/js/chunk-07f19003.bc4a8ea5.js HTTP/1.1[0m" 304 -
+2024/08/24 14:37:09 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:37:09] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2024/08/24 14:37:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:37:19] "[36mGET /static/fonts/element-icons.535877f5.woff HTTP/1.1[0m" 304 -
+2024/08/24 14:39:00 flask_api __init__.py[45] create_app() INFO: Flask Rest Api startup
+2024/08/24 14:39:00 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/24 14:39:00 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/24 14:39:10 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:39:10] "[36mGET / HTTP/1.1[0m" 304 -
+2024/08/24 14:39:10 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:39:10] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/24 14:39:10 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:39:10] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/24 14:39:10 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:39:10] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/24 14:39:10 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:39:10] "[36mGET /static/js/app.eddd796f.js HTTP/1.1[0m" 304 -
+2024/08/24 14:39:10 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:39:10] "[36mGET /static/js/chunk-elementUI.67930132.js HTTP/1.1[0m" 304 -
+2024/08/24 14:39:10 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:39:10] "[36mGET /static/js/chunk-libs.654bdb34.js HTTP/1.1[0m" 304 -
+2024/08/24 14:39:10 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:39:10] "[36mGET /static/css/chunk-07f19003.bf15a9d0.css HTTP/1.1[0m" 304 -
+2024/08/24 14:39:10 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:39:10] "[36mGET /static/js/chunk-07f19003.bc4a8ea5.js HTTP/1.1[0m" 304 -
+2024/08/24 14:39:12 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 14:39:12 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:39:12] "[33mGET /register HTTP/1.1[0m" 404 -
+2024/08/24 14:39:27 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 14:39:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:39:27] "[33mGET /register HTTP/1.1[0m" 404 -
+2024/08/24 14:39:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:39:27] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2024/08/24 14:40:07 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:40:07] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/24 14:40:07 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:40:07] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/24 14:40:07 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:40:07] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/24 14:40:07 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:40:07] "[36mGET /static/css/chunk-07f19003.bf15a9d0.css HTTP/1.1[0m" 304 -
+2024/08/24 14:40:20 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:40:20] "[36mGET /static/fonts/element-icons.535877f5.woff HTTP/1.1[0m" 304 -
+2024/08/24 14:40:26 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:40:26] "[36mGET / HTTP/1.1[0m" 304 -
+2024/08/24 14:40:26 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:40:26] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/24 14:40:26 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:40:26] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/24 14:40:26 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:40:26] "[36mGET /static/js/app.eddd796f.js HTTP/1.1[0m" 304 -
+2024/08/24 14:40:26 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:40:26] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/24 14:40:26 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:40:26] "[36mGET /static/js/chunk-elementUI.67930132.js HTTP/1.1[0m" 304 -
+2024/08/24 14:40:26 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:40:26] "[36mGET /static/js/chunk-libs.654bdb34.js HTTP/1.1[0m" 304 -
+2024/08/24 14:40:26 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:40:26] "[36mGET /static/css/chunk-07f19003.bf15a9d0.css HTTP/1.1[0m" 304 -
+2024/08/24 14:40:26 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:40:26] "[36mGET /static/js/chunk-07f19003.bc4a8ea5.js HTTP/1.1[0m" 304 -
+2024/08/24 14:40:26 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:40:26] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2024/08/24 14:40:36 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:40:36] "[36mGET /static/fonts/element-icons.535877f5.woff HTTP/1.1[0m" 304 -
+2024/08/24 14:41:01 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 14:41:01 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:41:01] "[33mGET /register HTTP/1.1[0m" 404 -
+2024/08/24 14:41:25 flask_api __init__.py[45] create_app() INFO: Flask Rest Api startup
+2024/08/24 14:41:25 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/24 14:41:25 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/24 14:41:29 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 14:41:29 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:41:29] "[33mGET /register HTTP/1.1[0m" 404 -
+2024/08/24 14:41:29 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:41:29] "GET /favicon.ico HTTP/1.1" 200 -
+2024/08/24 14:41:35 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:41:35] "GET /static/css/app.b7cb370e.css HTTP/1.1" 200 -
+2024/08/24 14:41:35 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:41:35] "GET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1" 200 -
+2024/08/24 14:41:35 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:41:35] "GET /static/css/chunk-07f19003.bf15a9d0.css HTTP/1.1" 200 -
+2024/08/24 14:41:35 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:41:35] "GET /static/css/chunk-libs.3dfb7769.css HTTP/1.1" 200 -
+2024/08/24 14:41:41 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:41:41] "GET / HTTP/1.1" 200 -
+2024/08/24 14:41:41 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:41:41] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/24 14:41:41 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:41:41] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/24 14:41:41 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:41:41] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/24 14:41:41 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:41:41] "GET /static/js/app.eddd796f.js HTTP/1.1" 200 -
+2024/08/24 14:41:41 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:41:41] "GET /static/js/chunk-elementUI.67930132.js HTTP/1.1" 200 -
+2024/08/24 14:41:41 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:41:41] "GET /static/js/chunk-libs.654bdb34.js HTTP/1.1" 200 -
+2024/08/24 14:41:41 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:41:41] "[36mGET /static/css/chunk-07f19003.bf15a9d0.css HTTP/1.1[0m" 304 -
+2024/08/24 14:41:41 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:41:41] "GET /static/js/chunk-07f19003.bc4a8ea5.js HTTP/1.1" 200 -
+2024/08/24 14:41:41 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:41:41] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2024/08/24 14:41:44 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 14:41:44 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:41:44] "[33mGET /register HTTP/1.1[0m" 404 -
+2024/08/24 14:42:01 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 14:42:01 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:42:01] "[33mGET /api/users/register HTTP/1.1[0m" 404 -
+2024/08/24 14:43:48 flask_api __init__.py[45] create_app() INFO: Flask Rest Api startup
+2024/08/24 14:43:48 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/24 14:43:48 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/24 14:43:51 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 14:43:51 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:43:51] "[33mGET /api/users/register HTTP/1.1[0m" 404 -
+2024/08/24 14:43:51 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:43:51] "GET /favicon.ico HTTP/1.1" 200 -
+2024/08/24 14:43:54 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 14:43:54 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:43:54] "[33mGET /api/users/register HTTP/1.1[0m" 404 -
+2024/08/24 14:43:54 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:43:54] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2024/08/24 14:43:57 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 14:43:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:43:57] "[33mGET /api/users/register HTTP/1.1[0m" 404 -
+2024/08/24 14:43:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:43:57] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2024/08/24 14:44:00 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:44:00] "GET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1" 200 -
+2024/08/24 14:44:00 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:44:00] "GET /static/css/chunk-libs.3dfb7769.css HTTP/1.1" 200 -
+2024/08/24 14:44:00 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 14:44:00 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:44:00] "GET /static/css/app.b7cb370e.css HTTP/1.1" 200 -
+2024/08/24 14:44:00 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:44:00] "[33mGET /static/css/chunk-07f19003.bf15a9d0.css HTTP/1.1[0m" 404 -
+2024/08/24 14:44:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:44:18] "GET / HTTP/1.1" 200 -
+2024/08/24 14:44:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:44:18] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/24 14:44:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:44:18] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/24 14:44:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:44:18] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/24 14:44:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:44:18] "GET /static/js/app.93c3456a.js HTTP/1.1" 200 -
+2024/08/24 14:44:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:44:18] "GET /static/js/chunk-elementUI.67930132.js HTTP/1.1" 200 -
+2024/08/24 14:44:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:44:18] "GET /static/js/chunk-libs.654bdb34.js HTTP/1.1" 200 -
+2024/08/24 14:44:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:44:18] "GET /static/css/chunk-7bf9a781.dac85264.css HTTP/1.1" 200 -
+2024/08/24 14:44:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:44:18] "GET /static/js/chunk-7bf9a781.bc85b949.js HTTP/1.1" 200 -
+2024/08/24 14:44:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:44:27] "GET /static/fonts/element-icons.535877f5.woff HTTP/1.1" 200 -
+2024/08/24 14:44:29 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:44:29] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/24 14:44:29 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:44:29] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/24 14:44:29 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:44:29] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/24 14:44:29 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:44:29] "[36mGET /static/css/chunk-7bf9a781.dac85264.css HTTP/1.1[0m" 304 -
+2024/08/24 14:44:31 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 14:44:31 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:44:31] "[33mGET /Register HTTP/1.1[0m" 404 -
+2024/08/24 14:48:01 flask_api __init__.py[45] create_app() INFO: Flask Rest Api startup
+2024/08/24 14:48:01 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/24 14:48:01 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/24 14:48:04 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:48:04] "GET / HTTP/1.1" 200 -
+2024/08/24 14:48:04 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:48:04] "GET /static/js/app.8b237cd5.js HTTP/1.1" 200 -
+2024/08/24 14:48:04 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:48:04] "GET /static/css/app.b7cb370e.css HTTP/1.1" 200 -
+2024/08/24 14:48:04 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:48:04] "GET /static/css/chunk-libs.3dfb7769.css HTTP/1.1" 200 -
+2024/08/24 14:48:04 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:48:04] "GET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1" 200 -
+2024/08/24 14:48:04 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:48:04] "GET /static/js/chunk-elementUI.67930132.js HTTP/1.1" 200 -
+2024/08/24 14:48:04 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:48:04] "GET /static/js/chunk-libs.654bdb34.js HTTP/1.1" 200 -
+2024/08/24 14:48:05 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:48:05] "GET /static/css/chunk-07f19003.bf15a9d0.css HTTP/1.1" 200 -
+2024/08/24 14:48:05 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:48:05] "GET /static/js/chunk-07f19003.bc4a8ea5.js HTTP/1.1" 200 -
+2024/08/24 14:48:07 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 14:48:07 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:48:07] "[33mGET /register HTTP/1.1[0m" 404 -
+2024/08/24 14:48:28 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 14:48:28 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:48:28] "[33mGET /api/users/register HTTP/1.1[0m" 404 -
+2024/08/24 14:48:30 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 14:48:30 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:48:30] "[33mGET /api/users/register HTTP/1.1[0m" 404 -
+2024/08/24 14:48:30 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:48:30] "GET /favicon.ico HTTP/1.1" 200 -
+2024/08/24 14:48:31 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 14:48:31 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:48:31] "[33mGET /api/users/register HTTP/1.1[0m" 404 -
+2024/08/24 14:48:31 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:48:31] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2024/08/24 14:48:40 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 14:48:40 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:48:40] "[33mGET /Register HTTP/1.1[0m" 404 -
+2024/08/24 14:48:40 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:48:40] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2024/08/24 14:48:41 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 14:48:41 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:48:41] "[33mGET /Register HTTP/1.1[0m" 404 -
+2024/08/24 14:48:41 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:48:41] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2024/08/24 14:51:21 flask_api __init__.py[45] create_app() INFO: Flask Rest Api startup
+2024/08/24 14:51:21 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/24 14:51:21 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/24 14:51:25 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:51:25] "GET / HTTP/1.1" 200 -
+2024/08/24 14:51:25 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:51:25] "GET /static/css/app.b7cb370e.css HTTP/1.1" 200 -
+2024/08/24 14:51:25 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:51:25] "GET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1" 200 -
+2024/08/24 14:51:25 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:51:25] "GET /static/css/chunk-libs.3dfb7769.css HTTP/1.1" 200 -
+2024/08/24 14:51:25 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:51:25] "GET /static/js/app.2c4c1049.js HTTP/1.1" 200 -
+2024/08/24 14:51:25 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:51:25] "GET /static/js/chunk-elementUI.67930132.js HTTP/1.1" 200 -
+2024/08/24 14:51:25 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:51:25] "GET /static/js/chunk-libs.654bdb34.js HTTP/1.1" 200 -
+2024/08/24 14:51:25 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:51:25] "GET /static/css/chunk-6463e7ad.f8fa500a.css HTTP/1.1" 200 -
+2024/08/24 14:51:25 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:51:25] "GET /static/js/chunk-6463e7ad.c8d1c369.js HTTP/1.1" 200 -
+2024/08/24 14:51:26 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:51:26] "GET /static/fonts/element-icons.535877f5.woff HTTP/1.1" 200 -
+2024/08/24 14:51:26 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:51:26] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/24 14:51:26 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:51:26] "GET /static/css/chunk-69338b82.d0e964c9.css HTTP/1.1" 200 -
+2024/08/24 14:51:26 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:51:26] "GET /static/js/chunk-69338b82.2144b8bf.js HTTP/1.1" 200 -
+2024/08/24 14:51:26 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 14:51:26 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:51:26] "[33mGET /undefined?imageView2/1/w/80/h/80 HTTP/1.1[0m" 404 -
+2024/08/24 14:51:31 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:51:31] "GET /?imageView2/1/w/80/h/80 HTTP/1.1" 200 -
+2024/08/24 14:59:25 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:59:25] "GET / HTTP/1.1" 200 -
+2024/08/24 14:59:25 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:59:25] "GET /static/css/app.b7cb370e.css HTTP/1.1" 200 -
+2024/08/24 14:59:25 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:59:25] "GET /static/js/app.640f7cca.js HTTP/1.1" 200 -
+2024/08/24 14:59:25 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:59:25] "GET /static/css/chunk-libs.3dfb7769.css HTTP/1.1" 200 -
+2024/08/24 14:59:25 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:59:25] "GET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1" 200 -
+2024/08/24 14:59:25 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:59:25] "GET /static/js/chunk-elementUI.67930132.js HTTP/1.1" 200 -
+2024/08/24 14:59:25 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:59:25] "GET /static/js/chunk-libs.654bdb34.js HTTP/1.1" 200 -
+2024/08/24 14:59:26 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:59:26] "GET /static/js/chunk-a0aa37b4.e1c4fe33.js HTTP/1.1" 200 -
+2024/08/24 14:59:26 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:59:26] "GET /static/css/chunk-a0aa37b4.f14d3456.css HTTP/1.1" 200 -
+2024/08/24 14:59:26 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:59:26] "GET /favicon.ico HTTP/1.1" 200 -
+2024/08/24 14:59:29 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:59:29] "GET /static/fonts/element-icons.535877f5.woff HTTP/1.1" 200 -
+2024/08/24 14:59:29 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:59:29] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/24 14:59:29 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:59:29] "GET /static/css/chunk-69338b82.d0e964c9.css HTTP/1.1" 200 -
+2024/08/24 14:59:29 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:59:29] "GET /static/js/chunk-69338b82.2144b8bf.js HTTP/1.1" 200 -
+2024/08/24 14:59:29 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 14:59:29 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:59:29] "[33mGET /undefined?imageView2/1/w/80/h/80 HTTP/1.1[0m" 404 -
+2024/08/24 14:59:35 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:59:35] "GET /?imageView2/1/w/80/h/80 HTTP/1.1" 200 -
+2024/08/24 14:59:36 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 14:59:36 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:59:36] "[33mGET /register HTTP/1.1[0m" 404 -
+2024/08/24 14:59:41 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 14:59:41 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:59:41] "[33mGET /register HTTP/1.1[0m" 404 -
+2024/08/24 14:59:45 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:59:45] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/24 14:59:45 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 14:59:45 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:59:45] "[33mGET /undefined?imageView2/1/w/80/h/80 HTTP/1.1[0m" 404 -
+2024/08/24 14:59:55 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 14:59:55] "[36mGET /?imageView2/1/w/80/h/80 HTTP/1.1[0m" 304 -
+2024/08/24 15:00:10 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 15:00:10] "GET /api/docs/ HTTP/1.1" 200 -
+2024/08/24 15:00:10 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 15:00:10] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2024/08/24 15:00:10 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 15:00:10] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2024/08/24 15:00:10 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 15:00:10] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024/08/24 15:00:10 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 15:00:10] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024/08/24 15:00:10 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 15:00:10] "GET /api/spec HTTP/1.1" 200 -
+2024/08/24 15:00:54 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 15:00:54] "[35m[1mPOST /api/users/register HTTP/1.1[0m" 201 -
+2024/08/24 15:01:07 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 15:01:07] "[31m[1mPOST /api/users/register HTTP/1.1[0m" 422 -
+2024/08/24 15:01:53 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 15:01:53] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/24 15:02:11 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 15:02:11] "[31m[1mPOST /api/users/register HTTP/1.1[0m" 422 -
+2024/08/24 15:02:51 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 15:02:51] "[31m[1mPOST /api/users/register HTTP/1.1[0m" 422 -
+2024/08/24 15:07:58 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 15:07:58] "[35m[1mPOST /api/users/register HTTP/1.1[0m" 201 -
+2024/08/24 15:08:42 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 15:08:42] "[31m[1mPOST /api/users/register HTTP/1.1[0m" 422 -
+2024/08/24 15:09:45 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 15:09:45] "[35m[1mPOST /api/users/register HTTP/1.1[0m" 201 -
+2024/08/24 15:10:13 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 15:10:13] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/24 15:10:13 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 15:10:13 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 15:10:13] "[33mGET /undefined?imageView2/1/w/80/h/80 HTTP/1.1[0m" 404 -
+2024/08/24 15:10:22 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 15:10:22] "[36mGET /?imageView2/1/w/80/h/80 HTTP/1.1[0m" 304 -
+2024/08/24 15:10:24 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 15:10:24 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 15:10:24] "[33mGET /register HTTP/1.1[0m" 404 -
+2024/08/24 15:10:33 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 15:10:33 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 15:10:33] "[33mGET /register HTTP/1.1[0m" 404 -
+2024/08/24 15:10:33 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 15:10:33] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2024/08/24 15:46:55 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 15:46:55 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 15:46:55] "[33mGET /register HTTP/1.1[0m" 404 -
+2024/08/24 16:04:12 flask_api __init__.py[45] create_app() INFO: Flask Rest Api startup
+2024/08/24 16:04:12 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/24 16:04:12 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/24 16:04:24 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:04:24] "GET / HTTP/1.1" 200 -
+2024/08/24 16:04:24 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:04:24] "GET /static/js/app.6d41ddec.js HTTP/1.1" 200 -
+2024/08/24 16:04:24 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:04:24] "GET /static/css/app.b7cb370e.css HTTP/1.1" 200 -
+2024/08/24 16:04:24 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:04:24] "GET /static/css/chunk-libs.3dfb7769.css HTTP/1.1" 200 -
+2024/08/24 16:04:24 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:04:24] "GET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1" 200 -
+2024/08/24 16:04:24 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:04:24] "GET /static/js/chunk-libs.654bdb34.js HTTP/1.1" 200 -
+2024/08/24 16:04:24 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:04:24] "GET /static/js/chunk-elementUI.67930132.js HTTP/1.1" 200 -
+2024/08/24 16:04:25 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:04:25] "GET /static/js/chunk-a0aa37b4.e1c4fe33.js HTTP/1.1" 200 -
+2024/08/24 16:04:25 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:04:25] "GET /static/css/chunk-a0aa37b4.f14d3456.css HTTP/1.1" 200 -
+2024/08/24 16:04:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:04:27] "GET /static/fonts/element-icons.535877f5.woff HTTP/1.1" 200 -
+2024/08/24 16:04:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:04:27] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/24 16:04:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:04:27] "GET /static/css/chunk-69338b82.d0e964c9.css HTTP/1.1" 200 -
+2024/08/24 16:04:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:04:27] "GET /static/js/chunk-69338b82.2144b8bf.js HTTP/1.1" 200 -
+2024/08/24 16:04:28 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 16:04:28 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:04:28] "[33mGET /undefined?imageView2/1/w/80/h/80 HTTP/1.1[0m" 404 -
+2024/08/24 16:04:32 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:04:32] "GET /?imageView2/1/w/80/h/80 HTTP/1.1" 200 -
+2024/08/24 16:04:36 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 16:04:36 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:04:36] "[33mGET /register HTTP/1.1[0m" 404 -
+2024/08/24 16:04:45 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:04:45] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/24 16:04:45 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:04:45] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/24 16:04:45 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:04:45] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/24 16:04:45 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:04:45] "[36mGET /static/css/chunk-a0aa37b4.f14d3456.css HTTP/1.1[0m" 304 -
+2024/08/24 16:04:45 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:04:45] "[36mGET /static/css/chunk-69338b82.d0e964c9.css HTTP/1.1[0m" 304 -
+2024/08/24 16:04:51 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:04:51] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/24 16:04:51 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 16:04:51 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:04:51] "[33mGET /undefined?imageView2/1/w/80/h/80 HTTP/1.1[0m" 404 -
+2024/08/24 16:05:02 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:05:02] "[36mGET /?imageView2/1/w/80/h/80 HTTP/1.1[0m" 304 -
+2024/08/24 16:05:05 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 16:05:05 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:05:05] "[33mGET /register HTTP/1.1[0m" 404 -
+2024/08/24 16:07:26 flask_api __init__.py[45] create_app() INFO: Flask Rest Api startup
+2024/08/24 16:07:26 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/24 16:07:26 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/24 16:07:32 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:07:32] "GET / HTTP/1.1" 200 -
+2024/08/24 16:07:32 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:07:32] "GET /static/js/app.f080a8af.js HTTP/1.1" 200 -
+2024/08/24 16:07:32 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:07:32] "GET /static/css/app.b7cb370e.css HTTP/1.1" 200 -
+2024/08/24 16:07:32 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:07:32] "GET /static/css/chunk-libs.3dfb7769.css HTTP/1.1" 200 -
+2024/08/24 16:07:32 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:07:32] "GET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1" 200 -
+2024/08/24 16:07:32 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:07:32] "GET /static/js/chunk-elementUI.67930132.js HTTP/1.1" 200 -
+2024/08/24 16:07:32 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:07:32] "GET /static/js/chunk-libs.654bdb34.js HTTP/1.1" 200 -
+2024/08/24 16:07:32 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:07:32] "GET /static/css/chunk-a0aa37b4.f14d3456.css HTTP/1.1" 200 -
+2024/08/24 16:07:32 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:07:32] "GET /static/js/chunk-a0aa37b4.e1c4fe33.js HTTP/1.1" 200 -
+2024/08/24 16:07:33 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:07:33] "GET /static/fonts/element-icons.535877f5.woff HTTP/1.1" 200 -
+2024/08/24 16:07:33 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:07:33] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/24 16:07:33 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:07:33] "GET /static/css/chunk-69338b82.d0e964c9.css HTTP/1.1" 200 -
+2024/08/24 16:07:33 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:07:33] "GET /static/js/chunk-69338b82.2144b8bf.js HTTP/1.1" 200 -
+2024/08/24 16:07:33 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 16:07:33 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:07:33] "[33mGET /undefined?imageView2/1/w/80/h/80 HTTP/1.1[0m" 404 -
+2024/08/24 16:07:39 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:07:39] "GET /?imageView2/1/w/80/h/80 HTTP/1.1" 200 -
+2024/08/24 16:07:41 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 16:07:41 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:07:41] "[33mGET /register HTTP/1.1[0m" 404 -
+2024/08/24 16:07:52 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 16:07:52 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:07:52] "[33mGET /register HTTP/1.1[0m" 404 -
+2024/08/24 16:07:52 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:07:52] "GET /favicon.ico HTTP/1.1" 200 -
+2024/08/24 16:24:56 flask_api __init__.py[45] create_app() INFO: Flask Rest Api startup
+2024/08/24 16:24:56 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/24 16:24:56 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/24 16:25:01 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:25:01] "OPTIONS /api/users/login HTTP/1.1" 200 -
+2024/08/24 16:25:01 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:25:01] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/24 16:30:51 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:30:51] "OPTIONS /api/users/login HTTP/1.1" 200 -
+2024/08/24 16:30:51 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:30:51] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/24 16:31:01 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:31:01] "OPTIONS /api/users/login HTTP/1.1" 200 -
+2024/08/24 16:31:01 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:31:01] "[31m[1mPOST /api/users/login HTTP/1.1[0m" 401 -
+2024/08/24 16:31:04 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:31:04] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/24 16:35:56 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:35:56] "OPTIONS /api/users/login HTTP/1.1" 200 -
+2024/08/24 16:35:56 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:35:56] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/24 16:40:01 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:40:01] "OPTIONS /api/users/login HTTP/1.1" 200 -
+2024/08/24 16:40:01 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:40:01] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/24 16:40:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:40:18] "OPTIONS /api/users/register HTTP/1.1" 200 -
+2024/08/24 16:40:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:40:18] "[35m[1mPOST /api/users/register HTTP/1.1[0m" 201 -
+2024/08/24 16:41:01 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:41:01] "OPTIONS /api/users/login HTTP/1.1" 200 -
+2024/08/24 16:41:01 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:41:01] "[31m[1mPOST /api/users/login HTTP/1.1[0m" 401 -
+2024/08/24 16:41:21 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:41:21] "OPTIONS /api/users/register HTTP/1.1" 200 -
+2024/08/24 16:41:21 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:41:21] "[31m[1mPOST /api/users/register HTTP/1.1[0m" 422 -
+2024/08/24 16:41:31 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:41:31] "OPTIONS /api/users/login HTTP/1.1" 200 -
+2024/08/24 16:41:31 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:41:31] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/24 16:43:25 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:43:25] "[31m[1mPOST /api/users/login HTTP/1.1[0m" 401 -
+2024/08/24 16:44:01 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:44:01] "[31m[1mPOST /api/users/login HTTP/1.1[0m" 401 -
+2024/08/24 16:46:06 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:46:06] "OPTIONS /api/users/login HTTP/1.1" 200 -
+2024/08/24 16:46:06 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:46:06] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/24 16:46:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:46:18] "[31m[1mPOST /api/users/login HTTP/1.1[0m" 401 -
+2024/08/24 16:47:56 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:47:56] "OPTIONS /api/users/register HTTP/1.1" 200 -
+2024/08/24 16:47:56 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:47:56] "[31m[1mPOST /api/users/register HTTP/1.1[0m" 422 -
+2024/08/24 16:48:11 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:48:11] "OPTIONS /api/users/register HTTP/1.1" 200 -
+2024/08/24 16:48:12 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:48:12] "[35m[1mPOST /api/users/register HTTP/1.1[0m" 201 -
+2024/08/24 16:48:46 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:48:46] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/24 16:53:29 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:53:29] "OPTIONS /api/users/login HTTP/1.1" 200 -
+2024/08/24 16:53:29 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:53:29] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/24 16:53:48 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:53:48] "OPTIONS /api/users/login HTTP/1.1" 200 -
+2024/08/24 16:53:48 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:53:48] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/24 16:54:01 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:54:01] "OPTIONS /api/users/login HTTP/1.1" 200 -
+2024/08/24 16:54:01 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:54:01] "[31m[1mPOST /api/users/login HTTP/1.1[0m" 401 -
+2024/08/24 16:54:09 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:54:09] "OPTIONS /api/users/login HTTP/1.1" 200 -
+2024/08/24 16:54:09 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:54:09] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/24 16:59:47 flask_api __init__.py[45] create_app() INFO: Flask Rest Api startup
+2024/08/24 16:59:47 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/24 16:59:47 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/24 16:59:51 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:59:51] "GET / HTTP/1.1" 200 -
+2024/08/24 16:59:51 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:59:51] "GET /static/js/app.cf202ac1.js HTTP/1.1" 200 -
+2024/08/24 16:59:51 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:59:51] "GET /static/css/app.b7cb370e.css HTTP/1.1" 200 -
+2024/08/24 16:59:51 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:59:51] "GET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1" 200 -
+2024/08/24 16:59:51 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:59:51] "GET /static/css/chunk-libs.3dfb7769.css HTTP/1.1" 200 -
+2024/08/24 16:59:51 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:59:51] "GET /static/js/chunk-elementUI.67930132.js HTTP/1.1" 200 -
+2024/08/24 16:59:51 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:59:51] "GET /static/js/chunk-libs.654bdb34.js HTTP/1.1" 200 -
+2024/08/24 16:59:51 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:59:51] "GET /static/css/chunk-3ca3143a.0d90b3df.css HTTP/1.1" 200 -
+2024/08/24 16:59:51 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 16:59:51] "GET /static/js/chunk-3ca3143a.d97df560.js HTTP/1.1" 200 -
+2024/08/24 17:00:08 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:00:08] "GET /static/fonts/element-icons.535877f5.woff HTTP/1.1" 200 -
+2024/08/24 17:00:08 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:00:08] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/24 17:00:08 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:00:08] "GET /static/css/chunk-69338b82.d0e964c9.css HTTP/1.1" 200 -
+2024/08/24 17:00:08 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:00:08] "GET /static/js/chunk-69338b82.2144b8bf.js HTTP/1.1" 200 -
+2024/08/24 17:00:08 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 17:00:08 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:00:08] "[33mGET /undefined?imageView2/1/w/80/h/80 HTTP/1.1[0m" 404 -
+2024/08/24 17:00:12 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:00:12] "GET /?imageView2/1/w/80/h/80 HTTP/1.1" 200 -
+2024/08/24 17:00:13 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:00:13] "GET /static/css/chunk-dc12fcc6.e3f23c73.css HTTP/1.1" 200 -
+2024/08/24 17:00:13 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:00:13] "GET /static/js/chunk-dc12fcc6.82e94b7f.js HTTP/1.1" 200 -
+2024/08/24 17:00:42 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:00:42] "[35m[1mPOST /api/users/register HTTP/1.1[0m" 201 -
+2024/08/24 17:00:44 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 17:00:44 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:00:44] "[33mGET /login HTTP/1.1[0m" 404 -
+2024/08/24 17:00:53 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 17:00:53 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:00:53] "[33mGET /login HTTP/1.1[0m" 404 -
+2024/08/24 17:01:04 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 17:01:04 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:01:04] "[33mGET /login HTTP/1.1[0m" 404 -
+2024/08/24 17:01:21 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:01:21] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/24 17:01:21 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:01:21] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/24 17:01:21 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:01:21] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/24 17:01:21 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:01:21] "[36mGET /static/css/chunk-3ca3143a.0d90b3df.css HTTP/1.1[0m" 304 -
+2024/08/24 17:01:21 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:01:21] "[36mGET /static/css/chunk-69338b82.d0e964c9.css HTTP/1.1[0m" 304 -
+2024/08/24 17:01:21 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:01:21] "[36mGET /static/css/chunk-dc12fcc6.e3f23c73.css HTTP/1.1[0m" 304 -
+2024/08/24 17:11:50 flask_api __init__.py[45] create_app() INFO: Flask Rest Api startup
+2024/08/24 17:11:50 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/24 17:11:50 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/24 17:11:53 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:11:53] "GET / HTTP/1.1" 200 -
+2024/08/24 17:11:53 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:11:53] "GET /static/js/app.2297d989.js HTTP/1.1" 200 -
+2024/08/24 17:11:53 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:11:53] "GET /static/css/app.b7cb370e.css HTTP/1.1" 200 -
+2024/08/24 17:11:53 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:11:53] "GET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1" 200 -
+2024/08/24 17:11:53 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:11:53] "GET /static/css/chunk-libs.3dfb7769.css HTTP/1.1" 200 -
+2024/08/24 17:11:53 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:11:53] "GET /static/js/chunk-elementUI.67930132.js HTTP/1.1" 200 -
+2024/08/24 17:11:53 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:11:53] "GET /static/js/chunk-libs.654bdb34.js HTTP/1.1" 200 -
+2024/08/24 17:11:53 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:11:53] "GET /static/css/chunk-1efcd122.e0a89d15.css HTTP/1.1" 200 -
+2024/08/24 17:11:53 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:11:53] "GET /static/js/chunk-1efcd122.6c926982.js HTTP/1.1" 200 -
+2024/08/24 17:12:07 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:12:07] "GET /static/fonts/element-icons.535877f5.woff HTTP/1.1" 200 -
+2024/08/24 17:12:07 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:12:07] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/24 17:12:07 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:12:07] "GET /static/css/chunk-69338b82.d0e964c9.css HTTP/1.1" 200 -
+2024/08/24 17:12:07 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:12:07] "GET /static/js/chunk-69338b82.2144b8bf.js HTTP/1.1" 200 -
+2024/08/24 17:12:07 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 17:12:07 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:12:07] "[33mGET /undefined?imageView2/1/w/80/h/80 HTTP/1.1[0m" 404 -
+2024/08/24 17:12:11 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:12:11] "GET /?imageView2/1/w/80/h/80 HTTP/1.1" 200 -
+2024/08/24 17:12:13 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:12:13] "GET /static/css/chunk-3b0c19a0.4894ddbf.css HTTP/1.1" 200 -
+2024/08/24 17:12:13 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:12:13] "GET /static/js/chunk-3b0c19a0.060b8787.js HTTP/1.1" 200 -
+2024/08/24 17:12:16 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 17:12:16 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:12:16] "[33mGET /login HTTP/1.1[0m" 404 -
+2024/08/24 17:13:13 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 17:13:13 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:13:13] "[33mGET /login HTTP/1.1[0m" 404 -
+2024/08/24 17:14:58 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 17:14:58 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:14:58] "[33mGET /login HTTP/1.1[0m" 404 -
+2024/08/24 17:17:12 flask_api __init__.py[45] create_app() INFO: Flask Rest Api startup
+2024/08/24 17:17:12 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/24 17:17:12 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/24 17:17:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:17:18] "GET / HTTP/1.1" 200 -
+2024/08/24 17:17:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:17:19] "GET /static/js/app.45c39121.js HTTP/1.1" 200 -
+2024/08/24 17:17:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:17:19] "GET /static/css/app.b7cb370e.css HTTP/1.1" 200 -
+2024/08/24 17:17:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:17:19] "GET /static/css/chunk-libs.3dfb7769.css HTTP/1.1" 200 -
+2024/08/24 17:17:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:17:19] "GET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1" 200 -
+2024/08/24 17:17:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:17:19] "GET /static/js/chunk-elementUI.67930132.js HTTP/1.1" 200 -
+2024/08/24 17:17:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:17:19] "GET /static/js/chunk-libs.654bdb34.js HTTP/1.1" 200 -
+2024/08/24 17:17:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:17:19] "GET /static/css/chunk-1efcd122.e0a89d15.css HTTP/1.1" 200 -
+2024/08/24 17:17:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:17:19] "GET /static/js/chunk-1efcd122.6c926982.js HTTP/1.1" 200 -
+2024/08/24 17:17:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:17:19] "GET /favicon.ico HTTP/1.1" 200 -
+2024/08/24 17:17:22 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:17:22] "GET /static/css/chunk-54753c86.f4ddf665.css HTTP/1.1" 200 -
+2024/08/24 17:17:22 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:17:22] "GET /static/js/chunk-54753c86.17971eac.js HTTP/1.1" 200 -
+2024/08/24 17:17:38 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:17:38] "GET /static/fonts/element-icons.535877f5.woff HTTP/1.1" 200 -
+2024/08/24 17:17:38 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:17:38] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/24 17:17:38 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:17:38] "GET /static/js/chunk-69338b82.2144b8bf.js HTTP/1.1" 200 -
+2024/08/24 17:17:38 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:17:38] "GET /static/css/chunk-69338b82.d0e964c9.css HTTP/1.1" 200 -
+2024/08/24 17:17:38 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 17:17:38 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:17:38] "[33mGET /undefined?imageView2/1/w/80/h/80 HTTP/1.1[0m" 404 -
+2024/08/24 17:18:01 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:18:01] "[36mGET /static/css/chunk-54753c86.f4ddf665.css HTTP/1.1[0m" 304 -
+2024/08/24 17:18:01 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:18:01] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/24 17:18:01 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:18:01] "[36mGET /static/css/chunk-69338b82.d0e964c9.css HTTP/1.1[0m" 304 -
+2024/08/24 17:18:01 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:18:01] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/24 17:18:01 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:18:01] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/24 17:18:01 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:18:01] "[36mGET /static/css/chunk-1efcd122.e0a89d15.css HTTP/1.1[0m" 304 -
+2024/08/24 17:20:50 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:20:50] "GET /api/docs/ HTTP/1.1" 200 -
+2024/08/24 17:20:50 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:20:50] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024/08/24 17:20:50 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:20:50] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024/08/24 17:20:50 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:20:50] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2024/08/24 17:20:50 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:20:50] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2024/08/24 17:20:50 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:20:50] "GET /api/spec HTTP/1.1" 200 -
+2024/08/24 17:20:53 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:20:53] "GET /api/docs/ HTTP/1.1" 200 -
+2024/08/24 17:20:53 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:20:53] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2024/08/24 17:20:53 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:20:53] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2024/08/24 17:20:53 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:20:53] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024/08/24 17:20:53 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:20:53] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024/08/24 17:20:53 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:20:53] "GET /api/spec HTTP/1.1" 200 -
+2024/08/24 17:20:53 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:20:53] "[36mGET /api/docs/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024/08/24 17:20:54 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:20:54] "GET /api/docs/ HTTP/1.1" 200 -
+2024/08/24 17:20:54 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:20:54] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2024/08/24 17:20:54 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:20:54] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2024/08/24 17:20:54 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:20:54] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024/08/24 17:20:54 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:20:54] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024/08/24 17:20:54 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:20:54] "GET /api/spec HTTP/1.1" 200 -
+2024/08/24 17:20:54 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:20:54] "[36mGET /api/docs/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024/08/24 17:21:09 flask_api __init__.py[45] create_app() INFO: Flask Rest Api startup
+2024/08/24 17:21:09 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/24 17:21:09 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/24 17:21:12 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:21:12] "GET /api/docs/ HTTP/1.1" 200 -
+2024/08/24 17:21:12 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:21:12] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2024/08/24 17:21:12 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:21:12] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2024/08/24 17:21:12 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:21:12] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024/08/24 17:21:12 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:21:12] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024/08/24 17:21:12 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:21:12] "GET /api/spec HTTP/1.1" 200 -
+2024/08/24 17:21:12 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:21:12] "[36mGET /api/docs/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024/08/24 17:21:50 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:21:50] "[36mGET / HTTP/1.1[0m" 304 -
+2024/08/24 17:21:50 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:21:50] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/24 17:21:50 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:21:50] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/24 17:21:50 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:21:50] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/24 17:21:50 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:21:50] "[36mGET /static/js/app.45c39121.js HTTP/1.1[0m" 304 -
+2024/08/24 17:21:50 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:21:50] "[36mGET /static/js/chunk-elementUI.67930132.js HTTP/1.1[0m" 304 -
+2024/08/24 17:21:50 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:21:50] "[36mGET /static/js/chunk-libs.654bdb34.js HTTP/1.1[0m" 304 -
+2024/08/24 17:21:50 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:21:50] "[36mGET /static/css/chunk-69338b82.d0e964c9.css HTTP/1.1[0m" 304 -
+2024/08/24 17:21:50 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:21:50] "[36mGET /static/js/chunk-69338b82.2144b8bf.js HTTP/1.1[0m" 304 -
+2024/08/24 17:21:50 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:21:50] "[36mGET /static/fonts/element-icons.535877f5.woff HTTP/1.1[0m" 304 -
+2024/08/24 17:21:50 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:21:50] "GET /?imageView2/1/w/80/h/80 HTTP/1.1" 200 -
+2024/08/24 17:21:50 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:21:50] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2024/08/24 17:25:23 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:25:23] "GET /static/css/chunk-6c5da9a9.0b280d97.css HTTP/1.1" 200 -
+2024/08/24 17:25:23 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:25:23] "GET /static/js/chunk-6c5da9a9.76a12437.js HTTP/1.1" 200 -
+2024/08/24 17:25:23 root __init__.py[106] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 17:25:23 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 17:25:23] "[33mGET /your-video-url.mp4 HTTP/1.1[0m" 404 -
+2024/08/24 18:12:36 flask_api __init__.py[45] create_app() INFO: Flask Rest Api startup
+2024/08/24 18:12:36 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/24 18:12:36 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/24 18:12:51 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:12:51] "OPTIONS /api/users/login HTTP/1.1" 200 -
+2024/08/24 18:12:51 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:12:51] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/24 18:13:06 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:13:06] "OPTIONS /api/users/login HTTP/1.1" 200 -
+2024/08/24 18:13:06 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:13:06] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/24 18:48:06 flask_api __init__.py[47] create_app() INFO: Flask Rest Api startup
+2024/08/24 18:48:06 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/24 18:48:06 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/24 18:48:13 root __init__.py[108] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 18:48:13 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:48:13] "[33mGET /patients HTTP/1.1[0m" 404 -
+2024/08/24 18:48:38 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:48:38] "GET / HTTP/1.1" 200 -
+2024/08/24 18:48:38 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:48:38] "GET /static/css/app.b7cb370e.css HTTP/1.1" 200 -
+2024/08/24 18:48:38 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:48:38] "GET /static/js/app.cab37d6a.js HTTP/1.1" 200 -
+2024/08/24 18:48:38 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:48:38] "GET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1" 200 -
+2024/08/24 18:48:38 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:48:38] "GET /static/css/chunk-libs.3dfb7769.css HTTP/1.1" 200 -
+2024/08/24 18:48:38 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:48:38] "GET /static/js/chunk-elementUI.67930132.js HTTP/1.1" 200 -
+2024/08/24 18:48:38 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:48:38] "GET /static/js/chunk-libs.654bdb34.js HTTP/1.1" 200 -
+2024/08/24 18:48:38 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:48:38] "GET /static/css/chunk-1efcd122.e0a89d15.css HTTP/1.1" 200 -
+2024/08/24 18:48:38 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:48:38] "GET /static/js/chunk-1efcd122.6c926982.js HTTP/1.1" 200 -
+2024/08/24 18:48:48 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:48:48] "GET /static/fonts/element-icons.535877f5.woff HTTP/1.1" 200 -
+2024/08/24 18:48:48 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:48:48] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/24 18:48:48 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:48:48] "GET /static/css/chunk-e31b9bb8.edf3b977.css HTTP/1.1" 200 -
+2024/08/24 18:48:48 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:48:48] "GET /static/js/chunk-e31b9bb8.f4e703bd.js HTTP/1.1" 200 -
+2024/08/24 18:48:48 root __init__.py[108] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 18:48:48 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:48:48] "[33mGET /patients HTTP/1.1[0m" 404 -
+2024/08/24 18:48:53 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:48:53] "GET /static/css/chunk-6c5da9a9.0b280d97.css HTTP/1.1" 200 -
+2024/08/24 18:48:53 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:48:53] "GET /static/js/chunk-6c5da9a9.76a12437.js HTTP/1.1" 200 -
+2024/08/24 18:48:53 root __init__.py[108] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 18:48:53 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:48:53] "[33mGET /your-video-url.mp4 HTTP/1.1[0m" 404 -
+2024/08/24 18:48:55 root __init__.py[108] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 18:48:55 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:48:55] "[33mGET /patients HTTP/1.1[0m" 404 -
+2024/08/24 18:49:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:49:27] "OPTIONS /patients HTTP/1.1" 200 -
+2024/08/24 18:49:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:49:27] "[31m[1mPOST /patients HTTP/1.1[0m" 405 -
+2024/08/24 18:49:28 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:49:28] "[31m[1mPOST /patients HTTP/1.1[0m" 405 -
+2024/08/24 18:49:34 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:49:34] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/24 18:49:34 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:49:34] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/24 18:49:34 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:49:34] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/24 18:49:34 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:49:34] "[36mGET /static/css/chunk-1efcd122.e0a89d15.css HTTP/1.1[0m" 304 -
+2024/08/24 18:49:34 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:49:34] "[36mGET /static/css/chunk-e31b9bb8.edf3b977.css HTTP/1.1[0m" 304 -
+2024/08/24 18:49:34 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:49:34] "[36mGET /static/css/chunk-6c5da9a9.0b280d97.css HTTP/1.1[0m" 304 -
+2024/08/24 18:50:00 root __init__.py[108] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 18:50:00 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:50:00] "[33mGET /your-video-url.mp4 HTTP/1.1[0m" 404 -
+2024/08/24 18:50:02 root __init__.py[108] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 18:50:02 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:50:02] "[33mGET /patients HTTP/1.1[0m" 404 -
+2024/08/24 18:52:37 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:52:37] "[36mGET / HTTP/1.1[0m" 304 -
+2024/08/24 18:52:37 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:52:37] "[36mGET /static/js/app.cab37d6a.js HTTP/1.1[0m" 304 -
+2024/08/24 18:52:37 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:52:37] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/24 18:52:37 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:52:37] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/24 18:52:37 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:52:37] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/24 18:52:37 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:52:37] "[36mGET /static/js/chunk-elementUI.67930132.js HTTP/1.1[0m" 304 -
+2024/08/24 18:52:37 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:52:37] "[36mGET /static/js/chunk-libs.654bdb34.js HTTP/1.1[0m" 304 -
+2024/08/24 18:52:37 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:52:37] "[36mGET /static/css/chunk-e31b9bb8.edf3b977.css HTTP/1.1[0m" 304 -
+2024/08/24 18:52:37 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:52:37] "[36mGET /static/js/chunk-e31b9bb8.f4e703bd.js HTTP/1.1[0m" 304 -
+2024/08/24 18:52:37 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:52:37] "[36mGET /static/fonts/element-icons.535877f5.woff HTTP/1.1[0m" 304 -
+2024/08/24 18:52:37 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:52:37] "GET /favicon.ico HTTP/1.1" 200 -
+2024/08/24 18:52:37 root __init__.py[108] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 18:52:37 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:52:37] "[33mGET /patients HTTP/1.1[0m" 404 -
+2024/08/24 18:52:52 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:52:52] "[36mGET / HTTP/1.1[0m" 304 -
+2024/08/24 18:52:52 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:52:52] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/24 18:52:52 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:52:52] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/24 18:52:52 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:52:52] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/24 18:52:52 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:52:52] "[36mGET /static/js/app.cab37d6a.js HTTP/1.1[0m" 304 -
+2024/08/24 18:52:52 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:52:52] "[36mGET /static/js/chunk-elementUI.67930132.js HTTP/1.1[0m" 304 -
+2024/08/24 18:52:52 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:52:52] "[36mGET /static/js/chunk-libs.654bdb34.js HTTP/1.1[0m" 304 -
+2024/08/24 18:52:52 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:52:52] "[36mGET /static/css/chunk-e31b9bb8.edf3b977.css HTTP/1.1[0m" 304 -
+2024/08/24 18:52:52 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:52:52] "[36mGET /static/js/chunk-e31b9bb8.f4e703bd.js HTTP/1.1[0m" 304 -
+2024/08/24 18:52:52 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:52:52] "[36mGET /static/fonts/element-icons.535877f5.woff HTTP/1.1[0m" 304 -
+2024/08/24 18:52:52 root __init__.py[108] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 18:52:52 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:52:52] "[33mGET /patients HTTP/1.1[0m" 404 -
+2024/08/24 18:52:52 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:52:52] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2024/08/24 18:54:14 root __init__.py[108] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 18:54:14 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:54:14] "[33mGET /api/patients HTTP/1.1[0m" 404 -
+2024/08/24 18:56:22 root __init__.py[108] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 18:56:22 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:56:22] "[33mGET /api/patients HTTP/1.1[0m" 404 -
+2024/08/24 18:56:28 root __init__.py[108] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 18:56:28 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:56:28] "[33mGET /api/patients HTTP/1.1[0m" 404 -
+2024/08/24 18:56:57 root __init__.py[108] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 18:56:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:56:57] "[33mGET /api/patients/patients HTTP/1.1[0m" 404 -
+2024/08/24 18:57:28 root __init__.py[108] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 18:57:28 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:57:28] "[33mGET /api/patients/ HTTP/1.1[0m" 404 -
+2024/08/24 18:57:52 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 18:57:52] "[31m[1mPOST /api/patients/ HTTP/1.1[0m" 405 -
+2024/08/24 21:30:44 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:30:44] "OPTIONS /patients HTTP/1.1" 200 -
+2024/08/24 21:30:44 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:30:44] "[31m[1mPOST /patients HTTP/1.1[0m" 405 -
+2024/08/24 21:33:52 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:33:52] "[31m[1mPOST /patients/ HTTP/1.1[0m" 405 -
+2024/08/24 21:34:08 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:34:08] "[31m[1mPOST /api/patients/ HTTP/1.1[0m" 405 -
+2024/08/24 21:35:33 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:35:33] "[31m[1mPOST /patients/ HTTP/1.1[0m" 405 -
+2024/08/24 21:39:28 flask_api __init__.py[47] create_app() INFO: Flask Rest Api startup
+2024/08/24 21:39:28 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/24 21:39:28 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/24 21:39:33 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:39:33] "[36mGET / HTTP/1.1[0m" 304 -
+2024/08/24 21:39:33 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:39:33] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/24 21:39:33 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:39:33] "[36mGET /static/js/app.cab37d6a.js HTTP/1.1[0m" 304 -
+2024/08/24 21:39:33 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:39:33] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/24 21:39:33 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:39:33] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/24 21:39:33 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:39:33] "[36mGET /static/js/chunk-elementUI.67930132.js HTTP/1.1[0m" 304 -
+2024/08/24 21:39:33 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:39:33] "[36mGET /static/js/chunk-libs.654bdb34.js HTTP/1.1[0m" 304 -
+2024/08/24 21:39:33 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:39:33] "[36mGET /static/css/chunk-e31b9bb8.edf3b977.css HTTP/1.1[0m" 304 -
+2024/08/24 21:39:33 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:39:33] "[36mGET /static/js/chunk-e31b9bb8.f4e703bd.js HTTP/1.1[0m" 304 -
+2024/08/24 21:39:34 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:39:34] "[36mGET /static/fonts/element-icons.535877f5.woff HTTP/1.1[0m" 304 -
+2024/08/24 21:39:34 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:39:34] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2024/08/24 21:39:34 root __init__.py[108] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 21:39:34 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:39:34] "[33mGET /patients HTTP/1.1[0m" 404 -
+2024/08/24 21:45:46 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:45:46] "[31m[1mPOST /api/patients/ HTTP/1.1[0m" 405 -
+2024/08/24 21:48:58 flask_api __init__.py[47] create_app() INFO: Flask Rest Api startup
+2024/08/24 21:48:58 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/24 21:48:58 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/24 21:49:06 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:49:06] "[36mGET / HTTP/1.1[0m" 304 -
+2024/08/24 21:49:07 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:49:07] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/24 21:49:07 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:49:07] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/24 21:49:07 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:49:07] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/24 21:49:07 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:49:07] "[36mGET /static/js/app.cab37d6a.js HTTP/1.1[0m" 304 -
+2024/08/24 21:49:07 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:49:07] "[36mGET /static/js/chunk-elementUI.67930132.js HTTP/1.1[0m" 304 -
+2024/08/24 21:49:07 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:49:07] "[36mGET /static/js/chunk-libs.654bdb34.js HTTP/1.1[0m" 304 -
+2024/08/24 21:49:07 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:49:07] "[36mGET /static/css/chunk-e31b9bb8.edf3b977.css HTTP/1.1[0m" 304 -
+2024/08/24 21:49:07 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:49:07] "[36mGET /static/js/chunk-e31b9bb8.f4e703bd.js HTTP/1.1[0m" 304 -
+2024/08/24 21:49:07 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:49:07] "[36mGET /static/fonts/element-icons.535877f5.woff HTTP/1.1[0m" 304 -
+2024/08/24 21:49:07 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:49:07] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2024/08/24 21:49:07 root __init__.py[108] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 21:49:07 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:49:07] "[33mGET /patients HTTP/1.1[0m" 404 -
+2024/08/24 21:49:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:49:18] "[31m[1mPOST /api/patients/ HTTP/1.1[0m" 405 -
+2024/08/24 21:52:51 flask_api __init__.py[47] create_app() INFO: Flask Rest Api startup
+2024/08/24 21:52:51 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/24 21:52:51 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/24 21:52:56 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:52:56] "[36mGET / HTTP/1.1[0m" 304 -
+2024/08/24 21:52:56 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:52:56] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/24 21:52:56 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:52:56] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/24 21:52:56 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:52:56] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/24 21:52:56 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:52:56] "[36mGET /static/js/app.cab37d6a.js HTTP/1.1[0m" 304 -
+2024/08/24 21:52:56 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:52:56] "[36mGET /static/js/chunk-elementUI.67930132.js HTTP/1.1[0m" 304 -
+2024/08/24 21:52:56 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:52:56] "[36mGET /static/js/chunk-libs.654bdb34.js HTTP/1.1[0m" 304 -
+2024/08/24 21:52:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:52:57] "[36mGET /static/css/chunk-e31b9bb8.edf3b977.css HTTP/1.1[0m" 304 -
+2024/08/24 21:52:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:52:57] "[36mGET /static/js/chunk-e31b9bb8.f4e703bd.js HTTP/1.1[0m" 304 -
+2024/08/24 21:52:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:52:57] "[36mGET /static/fonts/element-icons.535877f5.woff HTTP/1.1[0m" 304 -
+2024/08/24 21:52:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:52:57] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2024/08/24 21:52:57 root __init__.py[108] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 21:52:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:52:57] "[33mGET /patients HTTP/1.1[0m" 404 -
+2024/08/24 21:53:03 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:53:03] "OPTIONS /patients HTTP/1.1" 200 -
+2024/08/24 21:53:03 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:53:03] "[31m[1mPOST /patients HTTP/1.1[0m" 405 -
+2024/08/24 21:53:22 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:53:22] "[31m[1mPOST /api/patients/ HTTP/1.1[0m" 405 -
+2024/08/24 21:53:32 root __init__.py[108] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 21:53:32 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:53:32] "[33mGET /api/patients/1 HTTP/1.1[0m" 404 -
+2024/08/24 21:53:44 root __init__.py[108] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 21:53:44 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:53:44] "[33mGET /api/patients/ HTTP/1.1[0m" 404 -
+2024/08/24 21:53:50 root __init__.py[108] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 21:53:50 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:53:50] "[33mGET /api/patients/ HTTP/1.1[0m" 404 -
+2024/08/24 21:54:41 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:54:41] "[36mGET /static/css/chunk-1efcd122.e0a89d15.css HTTP/1.1[0m" 304 -
+2024/08/24 21:54:41 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:54:41] "[36mGET /static/js/chunk-1efcd122.6c926982.js HTTP/1.1[0m" 304 -
+2024/08/24 21:54:56 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:54:56] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/24 21:54:56 root __init__.py[108] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 21:54:56 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 21:54:56] "[33mGET /patients HTTP/1.1[0m" 404 -
+2024/08/24 22:01:17 flask_api __init__.py[47] create_app() INFO: Flask Rest Api startup
+2024/08/24 22:01:17 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/24 22:01:17 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/24 22:01:21 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:01:21] "[36mGET / HTTP/1.1[0m" 304 -
+2024/08/24 22:01:21 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:01:21] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/24 22:01:21 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:01:21] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/24 22:01:21 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:01:21] "[36mGET /static/js/app.cab37d6a.js HTTP/1.1[0m" 304 -
+2024/08/24 22:01:21 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:01:21] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/24 22:01:21 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:01:21] "[36mGET /static/js/chunk-elementUI.67930132.js HTTP/1.1[0m" 304 -
+2024/08/24 22:01:21 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:01:21] "[36mGET /static/js/chunk-libs.654bdb34.js HTTP/1.1[0m" 304 -
+2024/08/24 22:01:21 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:01:21] "[36mGET /static/css/chunk-e31b9bb8.edf3b977.css HTTP/1.1[0m" 304 -
+2024/08/24 22:01:21 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:01:21] "[36mGET /static/js/chunk-e31b9bb8.f4e703bd.js HTTP/1.1[0m" 304 -
+2024/08/24 22:01:21 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:01:21] "[36mGET /static/fonts/element-icons.535877f5.woff HTTP/1.1[0m" 304 -
+2024/08/24 22:01:21 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:01:21] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2024/08/24 22:01:22 root __init__.py[108] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 22:01:22 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:01:22] "[33mGET /patients HTTP/1.1[0m" 404 -
+2024/08/24 22:01:33 root __init__.py[108] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 22:01:33 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:01:33] "[33mGET /api/patients/ HTTP/1.1[0m" 404 -
+2024/08/24 22:01:44 root __init__.py[108] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 22:01:44 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:01:44] "[33mGET /api/patients/ HTTP/1.1[0m" 404 -
+2024/08/24 22:02:15 flask_api __init__.py[47] create_app() INFO: Flask Rest Api startup
+2024/08/24 22:02:15 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/24 22:02:15 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/24 22:02:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:02:19] "GET / HTTP/1.1" 200 -
+2024/08/24 22:02:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:02:19] "GET /static/js/app.66732714.js HTTP/1.1" 200 -
+2024/08/24 22:02:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:02:19] "GET /static/css/app.b7cb370e.css HTTP/1.1" 200 -
+2024/08/24 22:02:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:02:19] "GET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1" 200 -
+2024/08/24 22:02:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:02:19] "GET /static/css/chunk-libs.3dfb7769.css HTTP/1.1" 200 -
+2024/08/24 22:02:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:02:19] "GET /static/js/chunk-elementUI.67930132.js HTTP/1.1" 200 -
+2024/08/24 22:02:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:02:19] "GET /static/js/chunk-libs.654bdb34.js HTTP/1.1" 200 -
+2024/08/24 22:02:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:02:19] "GET /static/css/chunk-6787c646.b6c43d7a.css HTTP/1.1" 200 -
+2024/08/24 22:02:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:02:19] "GET /static/js/chunk-6787c646.94501d7f.js HTTP/1.1" 200 -
+2024/08/24 22:02:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:02:19] "GET /static/fonts/element-icons.535877f5.woff HTTP/1.1" 200 -
+2024/08/24 22:02:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:02:19] "GET /favicon.ico HTTP/1.1" 200 -
+2024/08/24 22:02:20 root __init__.py[108] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 22:02:20 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:02:20] "[33mGET /patients HTTP/1.1[0m" 404 -
+2024/08/24 22:04:10 flask_api __init__.py[47] create_app() INFO: Flask Rest Api startup
+2024/08/24 22:04:10 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/24 22:04:10 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/24 22:04:16 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:04:16] "GET / HTTP/1.1" 200 -
+2024/08/24 22:04:16 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:04:16] "GET /static/css/app.b7cb370e.css HTTP/1.1" 200 -
+2024/08/24 22:04:16 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:04:16] "GET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1" 200 -
+2024/08/24 22:04:16 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:04:16] "GET /static/css/chunk-libs.3dfb7769.css HTTP/1.1" 200 -
+2024/08/24 22:04:16 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:04:16] "GET /static/js/app.66732714.js HTTP/1.1" 200 -
+2024/08/24 22:04:16 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:04:16] "GET /static/js/chunk-elementUI.67930132.js HTTP/1.1" 200 -
+2024/08/24 22:04:16 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:04:16] "GET /static/js/chunk-libs.654bdb34.js HTTP/1.1" 200 -
+2024/08/24 22:04:17 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:04:17] "GET /static/css/chunk-6787c646.b6c43d7a.css HTTP/1.1" 200 -
+2024/08/24 22:04:17 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:04:17] "GET /static/js/chunk-6787c646.c7f273f3.js HTTP/1.1" 200 -
+2024/08/24 22:04:17 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:04:17] "GET /static/fonts/element-icons.535877f5.woff HTTP/1.1" 200 -
+2024/08/24 22:04:17 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:04:17] "GET /favicon.ico HTTP/1.1" 200 -
+2024/08/24 22:04:17 root __init__.py[108] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 22:04:17 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:04:17] "[33mGET /patients/patients HTTP/1.1[0m" 404 -
+2024/08/24 22:06:26 flask_api __init__.py[47] create_app() INFO: Flask Rest Api startup
+2024/08/24 22:06:26 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/24 22:06:26 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/24 22:06:32 root __init__.py[108] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 22:06:32 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:06:32] "[33mGET /api/patients/ HTTP/1.1[0m" 404 -
+2024/08/24 22:06:50 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:06:50] "[36mGET / HTTP/1.1[0m" 304 -
+2024/08/24 22:06:50 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:06:50] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/24 22:06:50 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:06:50] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/24 22:06:50 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:06:50] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/24 22:06:50 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:06:50] "[36mGET /static/js/app.66732714.js HTTP/1.1[0m" 304 -
+2024/08/24 22:06:50 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:06:50] "[36mGET /static/js/chunk-elementUI.67930132.js HTTP/1.1[0m" 304 -
+2024/08/24 22:06:50 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:06:50] "[36mGET /static/js/chunk-libs.654bdb34.js HTTP/1.1[0m" 304 -
+2024/08/24 22:06:50 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:06:50] "[36mGET /static/css/chunk-6787c646.b6c43d7a.css HTTP/1.1[0m" 304 -
+2024/08/24 22:06:50 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:06:50] "[36mGET /static/js/chunk-6787c646.c7f273f3.js HTTP/1.1[0m" 304 -
+2024/08/24 22:06:50 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:06:50] "[36mGET /static/fonts/element-icons.535877f5.woff HTTP/1.1[0m" 304 -
+2024/08/24 22:06:50 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:06:50] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2024/08/24 22:06:51 root __init__.py[108] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 22:06:51 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:06:51] "[33mGET /patients/patients HTTP/1.1[0m" 404 -
+2024/08/24 22:11:55 flask_api __init__.py[47] create_app() INFO: Flask Rest Api startup
+2024/08/24 22:11:55 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/24 22:11:55 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/24 22:11:59 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:11:59] "GET / HTTP/1.1" 200 -
+2024/08/24 22:11:59 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:11:59] "GET /static/css/app.b7cb370e.css HTTP/1.1" 200 -
+2024/08/24 22:11:59 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:11:59] "GET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1" 200 -
+2024/08/24 22:11:59 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:11:59] "GET /static/js/app.66732714.js HTTP/1.1" 200 -
+2024/08/24 22:11:59 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:11:59] "GET /static/css/chunk-libs.3dfb7769.css HTTP/1.1" 200 -
+2024/08/24 22:11:59 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:11:59] "GET /static/js/chunk-elementUI.67930132.js HTTP/1.1" 200 -
+2024/08/24 22:11:59 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:11:59] "GET /static/js/chunk-libs.654bdb34.js HTTP/1.1" 200 -
+2024/08/24 22:12:00 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:12:00] "GET /static/css/chunk-6787c646.b6c43d7a.css HTTP/1.1" 200 -
+2024/08/24 22:12:00 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:12:00] "GET /static/js/chunk-6787c646.2114aa9e.js HTTP/1.1" 200 -
+2024/08/24 22:12:00 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:12:00] "GET /static/fonts/element-icons.535877f5.woff HTTP/1.1" 200 -
+2024/08/24 22:12:00 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:12:00] "GET /favicon.ico HTTP/1.1" 200 -
+2024/08/24 22:12:00 root __init__.py[108] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 22:12:00 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:12:00] "[33mGET /patients/list HTTP/1.1[0m" 404 -
+2024/08/24 22:12:14 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:12:14] "GET /static/css/chunk-6c5da9a9.0b280d97.css HTTP/1.1" 200 -
+2024/08/24 22:12:14 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:12:14] "GET /static/js/chunk-6c5da9a9.76a12437.js HTTP/1.1" 200 -
+2024/08/24 22:12:15 root __init__.py[108] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 22:12:15 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:12:15] "[33mGET /your-video-url.mp4 HTTP/1.1[0m" 404 -
+2024/08/24 22:12:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:12:18] "[36mGET / HTTP/1.1[0m" 304 -
+2024/08/24 22:12:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:12:18] "[36mGET /static/css/app.b7cb370e.css HTTP/1.1[0m" 304 -
+2024/08/24 22:12:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:12:18] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2024/08/24 22:12:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:12:18] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2024/08/24 22:12:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:12:18] "[36mGET /static/js/app.66732714.js HTTP/1.1[0m" 304 -
+2024/08/24 22:12:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:12:18] "[36mGET /static/js/chunk-elementUI.67930132.js HTTP/1.1[0m" 304 -
+2024/08/24 22:12:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:12:18] "[36mGET /static/js/chunk-libs.654bdb34.js HTTP/1.1[0m" 304 -
+2024/08/24 22:12:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:12:18] "[36mGET /static/css/chunk-6c5da9a9.0b280d97.css HTTP/1.1[0m" 304 -
+2024/08/24 22:12:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:12:18] "[36mGET /static/js/chunk-6c5da9a9.76a12437.js HTTP/1.1[0m" 304 -
+2024/08/24 22:12:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:12:18] "[36mGET /static/fonts/element-icons.535877f5.woff HTTP/1.1[0m" 304 -
+2024/08/24 22:12:18 root __init__.py[108] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 22:12:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:12:18] "[33mGET /your-video-url.mp4 HTTP/1.1[0m" 404 -
+2024/08/24 22:12:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:12:18] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2024/08/24 22:12:23 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:12:23] "GET /static/js/chunk-1efcd122.6c926982.js HTTP/1.1" 200 -
+2024/08/24 22:12:23 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:12:23] "GET /static/css/chunk-1efcd122.e0a89d15.css HTTP/1.1" 200 -
+2024/08/24 22:12:40 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:12:40] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/24 22:12:40 root __init__.py[108] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 22:12:40 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:12:40] "[33mGET /your-video-url.mp4 HTTP/1.1[0m" 404 -
+2024/08/24 22:13:40 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:13:40] "GET /static/js/chunk-54753c86.17971eac.js HTTP/1.1" 200 -
+2024/08/24 22:13:40 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:13:40] "GET /static/css/chunk-54753c86.f4ddf665.css HTTP/1.1" 200 -
+2024/08/24 22:13:54 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:13:54] "[35m[1mPOST /api/users/register HTTP/1.1[0m" 201 -
+2024/08/24 22:19:36 root __init__.py[108] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 22:19:36 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:19:36] "[33mGET /api/patients/list HTTP/1.1[0m" 404 -
+2024/08/24 22:22:11 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:22:11] "[31m[1mPOST /api/patients/add HTTP/1.1[0m" 405 -
+2024/08/24 22:24:45 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:24:45] "[31m[1mPOST /api/patients/ HTTP/1.1[0m" 405 -
+2024/08/24 22:29:04 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/24 22:29:04 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/24 22:29:04 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/24 22:29:20 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:29:20] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/24 22:29:20 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:29:20] "[36mGET /static/css/chunk-6787c646.b6c43d7a.css HTTP/1.1[0m" 304 -
+2024/08/24 22:29:20 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:29:20] "[36mGET /static/js/chunk-6787c646.2114aa9e.js HTTP/1.1[0m" 304 -
+2024/08/24 22:29:20 root __init__.py[110] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 22:29:20 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:29:20] "[33mGET /patients/list HTTP/1.1[0m" 404 -
+2024/08/24 22:30:29 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:30:29] "OPTIONS /patients/add HTTP/1.1" 200 -
+2024/08/24 22:30:29 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:30:29] "[31m[1mPOST /patients/add HTTP/1.1[0m" 405 -
+2024/08/24 22:34:03 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/24 22:34:03 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/24 22:34:03 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/24 22:34:07 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:34:07] "GET / HTTP/1.1" 200 -
+2024/08/24 22:34:07 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:34:07] "GET /static/css/app.b7cb370e.css HTTP/1.1" 200 -
+2024/08/24 22:34:07 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:34:07] "GET /static/css/chunk-libs.3dfb7769.css HTTP/1.1" 200 -
+2024/08/24 22:34:07 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:34:07] "GET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1" 200 -
+2024/08/24 22:34:07 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:34:07] "GET /static/js/app.66732714.js HTTP/1.1" 200 -
+2024/08/24 22:34:07 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:34:07] "GET /static/js/chunk-elementUI.67930132.js HTTP/1.1" 200 -
+2024/08/24 22:34:07 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:34:07] "GET /static/js/chunk-libs.654bdb34.js HTTP/1.1" 200 -
+2024/08/24 22:34:07 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:34:07] "GET /static/css/chunk-6787c646.b6c43d7a.css HTTP/1.1" 200 -
+2024/08/24 22:34:07 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:34:07] "GET /static/js/chunk-6787c646.c49b83a2.js HTTP/1.1" 200 -
+2024/08/24 22:34:07 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:34:07] "GET /static/fonts/element-icons.535877f5.woff HTTP/1.1" 200 -
+2024/08/24 22:34:07 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:34:07] "GET /favicon.ico HTTP/1.1" 200 -
+2024/08/24 22:34:08 root __init__.py[110] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 22:34:08 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:34:08] "[33mGET /api/patients/list HTTP/1.1[0m" 404 -
+2024/08/24 22:34:23 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:34:23] "OPTIONS /api/patients/add HTTP/1.1" 200 -
+2024/08/24 22:34:23 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 22:34:23] "[31m[1mPOST /api/patients/add HTTP/1.1[0m" 405 -
+2024/08/24 23:11:40 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/24 23:11:40 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/24 23:11:40 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/24 23:11:46 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 23:11:46] "[31m[1mPOST /api/patients/ HTTP/1.1[0m" 405 -
+2024/08/24 23:11:51 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 23:11:51] "[31m[1mPOST /api/patients/ HTTP/1.1[0m" 405 -
+2024/08/24 23:11:52 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 23:11:52] "[31m[1mPOST /api/patients/ HTTP/1.1[0m" 405 -
+2024/08/24 23:12:11 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/24 23:12:11 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/24 23:12:11 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/24 23:12:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 23:12:18] "[31m[1mPOST /api/patients/ HTTP/1.1[0m" 405 -
+2024/08/24 23:25:08 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/24 23:25:10 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/24 23:33:01 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/24 23:33:14 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/24 23:34:39 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/24 23:35:00 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/24 23:36:12 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/24 23:36:31 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/24 23:37:25 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/24 23:37:44 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/24 23:37:44 flask_migrate __init__.py[113] wrapped() ERROR: Error: Directory migrations already exists and is not empty
+2024/08/24 23:40:12 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/24 23:40:12 flask_migrate __init__.py[113] wrapped() ERROR: Error: Directory migrations already exists and is not empty
+2024/08/24 23:40:22 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/24 23:41:10 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/24 23:43:09 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/24 23:46:51 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/24 23:46:51 flask_migrate __init__.py[113] wrapped() ERROR: Error: Directory migrations already exists and is not empty
+2024/08/24 23:47:10 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/24 23:47:27 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/24 23:48:29 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/24 23:48:45 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/24 23:49:18 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/24 23:51:49 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/24 23:52:31 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/24 23:53:04 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/24 23:53:04 flask_migrate __init__.py[113] wrapped() ERROR: Error: Directory migrations already exists and is not empty
+2024/08/24 23:53:24 flask_api __init__.py[46] create_app() INFO: Flask Rest Api startup
+2024/08/24 23:53:24 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/08/24 23:53:24 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/08/24 23:55:42 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 23:55:42] "[31m[1mPOST /api/patient/ HTTP/1.1[0m" 422 -
+2024/08/24 23:56:56 root __init__.py[107] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 23:56:56 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 23:56:56] "[33mGET /api/users/login HTTP/1.1[0m" 404 -
+2024/08/24 23:57:02 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 23:57:02] "[31m[1mPOST /api/users/login HTTP/1.1[0m" 422 -
+2024/08/24 23:57:32 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 23:57:32] "GET / HTTP/1.1" 200 -
+2024/08/24 23:57:32 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 23:57:32] "GET /static/css/app.b7cb370e.css HTTP/1.1" 200 -
+2024/08/24 23:57:32 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 23:57:32] "GET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1" 200 -
+2024/08/24 23:57:32 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 23:57:32] "GET /static/js/app.66732714.js HTTP/1.1" 200 -
+2024/08/24 23:57:32 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 23:57:32] "GET /static/css/chunk-libs.3dfb7769.css HTTP/1.1" 200 -
+2024/08/24 23:57:32 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 23:57:32] "GET /static/js/chunk-elementUI.67930132.js HTTP/1.1" 200 -
+2024/08/24 23:57:32 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 23:57:32] "GET /static/js/chunk-libs.654bdb34.js HTTP/1.1" 200 -
+2024/08/24 23:57:32 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 23:57:32] "GET /static/css/chunk-6787c646.b6c43d7a.css HTTP/1.1" 200 -
+2024/08/24 23:57:32 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 23:57:32] "GET /static/js/chunk-6787c646.2114aa9e.js HTTP/1.1" 200 -
+2024/08/24 23:57:32 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 23:57:32] "GET /static/fonts/element-icons.535877f5.woff HTTP/1.1" 200 -
+2024/08/24 23:57:32 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 23:57:32] "GET /favicon.ico HTTP/1.1" 200 -
+2024/08/24 23:57:33 root __init__.py[107] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 23:57:33 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 23:57:33] "[33mGET /patients/list HTTP/1.1[0m" 404 -
+2024/08/24 23:57:34 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 23:57:34] "GET /static/css/chunk-1efcd122.e0a89d15.css HTTP/1.1" 200 -
+2024/08/24 23:57:34 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 23:57:34] "GET /static/js/chunk-1efcd122.6c926982.js HTTP/1.1" 200 -
+2024/08/24 23:57:41 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 23:57:41] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/24 23:57:41 root __init__.py[107] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 23:57:41 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 23:57:41] "[33mGET /patients/list HTTP/1.1[0m" 404 -
+2024/08/24 23:58:03 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 23:58:03] "GET /static/css/chunk-54753c86.f4ddf665.css HTTP/1.1" 200 -
+2024/08/24 23:58:03 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 23:58:03] "GET /static/js/chunk-54753c86.17971eac.js HTTP/1.1" 200 -
+2024/08/24 23:58:18 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 23:58:18] "[35m[1mPOST /api/users/register HTTP/1.1[0m" 201 -
+2024/08/24 23:58:45 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 23:58:45] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/08/24 23:58:45 root __init__.py[107] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/08/24 23:58:45 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [24/Aug/2024 23:58:45] "[33mGET /patients/list HTTP/1.1[0m" 404 -

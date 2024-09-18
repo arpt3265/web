@@ -1,0 +1,92 @@
+2024/09/12 13:37:47 flask_api __init__.py[50] create_app() INFO: Flask Rest Api startup
+2024/09/12 13:37:47 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/09/12 13:37:47 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/09/12 13:38:11 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 13:38:11] "OPTIONS /api/users/login HTTP/1.1" 200 -
+2024/09/12 13:38:11 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 13:38:11] "[35m[1mPOST /api/users/login HTTP/1.1[0m" 201 -
+2024/09/12 13:38:11 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 13:38:11] "OPTIONS /api/users/4/patients HTTP/1.1" 200 -
+2024/09/12 13:38:11 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 13:38:11] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/12 13:38:19 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 13:38:19] "GET /api/docs/ HTTP/1.1" 200 -
+2024/09/12 13:38:20 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 13:38:20] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024/09/12 13:38:20 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 13:38:20] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024/09/12 13:38:20 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 13:38:20] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2024/09/12 13:38:20 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 13:38:20] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2024/09/12 13:38:20 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 13:38:20] "GET /api/spec HTTP/1.1" 200 -
+2024/09/12 13:39:21 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 13:39:21] "OPTIONS /api/vue-admin-template/table/list HTTP/1.1" 200 -
+2024/09/12 13:39:21 root __init__.py[113] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/09/12 13:39:21 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 13:39:21] "[33mGET /api/vue-admin-template/table/list HTTP/1.1[0m" 404 -
+2024/09/12 13:41:03 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 13:41:03] "[35m[1mPOST /api/diagnosis/ HTTP/1.1[0m" 201 -
+2024/09/12 13:41:04 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 13:41:04] "[35m[1mPOST /api/diagnosis/ HTTP/1.1[0m" 201 -
+2024/09/12 13:41:14 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 13:41:14] "GET /api/diagnosis/patient/5 HTTP/1.1" 200 -
+2024/09/12 13:41:14 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 13:41:14] "GET /api/diagnosis/patient/5 HTTP/1.1" 200 -
+2024/09/12 13:43:42 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 13:43:42] "OPTIONS /api/vue-admin-template/table/list HTTP/1.1" 200 -
+2024/09/12 13:43:42 root __init__.py[113] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024/09/12 13:43:42 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 13:43:42] "[33mGET /api/vue-admin-template/table/list HTTP/1.1[0m" 404 -
+2024/09/12 13:56:44 flask_api __init__.py[50] create_app() INFO: Flask Rest Api startup
+2024/09/12 13:57:02 flask_api __init__.py[50] create_app() INFO: Flask Rest Api startup
+2024/09/12 14:01:01 flask_api __init__.py[50] create_app() INFO: Flask Rest Api startup
+2024/09/12 14:04:28 flask_api __init__.py[50] create_app() INFO: Flask Rest Api startup
+2024/09/12 14:04:58 flask_api __init__.py[50] create_app() INFO: Flask Rest Api startup
+2024/09/12 14:15:28 flask_api __init__.py[50] create_app() INFO: Flask Rest Api startup
+2024/09/12 14:16:24 flask_api __init__.py[50] create_app() INFO: Flask Rest Api startup
+2024/09/12 14:17:42 flask_api __init__.py[50] create_app() INFO: Flask Rest Api startup
+2024/09/12 14:17:52 flask_api __init__.py[50] create_app() INFO: Flask Rest Api startup
+2024/09/12 14:17:52 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/09/12 14:17:52 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/09/12 14:17:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:17:57] "GET /api/docs/ HTTP/1.1" 200 -
+2024/09/12 14:17:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:17:57] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2024/09/12 14:17:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:17:57] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2024/09/12 14:17:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:17:57] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024/09/12 14:17:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:17:57] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024/09/12 14:17:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:17:57] "GET /api/spec HTTP/1.1" 200 -
+2024/09/12 14:17:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:17:57] "[36mGET /api/docs/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024/09/12 14:18:12 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:18:12] "[33mGET /api/diagnosis/patient/5 HTTP/1.1[0m" 404 -
+2024/09/12 14:18:28 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:18:28] "[35m[1mPOST /api/diagnosis/ HTTP/1.1[0m" 201 -
+2024/09/12 14:18:31 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:18:31] "[35m[1mPOST /api/diagnosis/ HTTP/1.1[0m" 201 -
+2024/09/12 14:18:46 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:18:46] "GET /api/diagnosis/patient/5 HTTP/1.1" 200 -
+2024/09/12 14:19:04 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:19:04] "OPTIONS /api/users/4/patients HTTP/1.1" 200 -
+2024/09/12 14:19:04 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:19:04] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/12 14:19:06 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:19:06] "OPTIONS /api/patient/23 HTTP/1.1" 200 -
+2024/09/12 14:19:06 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:19:06] "GET /api/patient/23 HTTP/1.1" 200 -
+2024/09/12 14:19:09 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:19:09] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/12 14:19:10 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:19:10] "OPTIONS /api/users/4/patients HTTP/1.1" 200 -
+2024/09/12 14:19:10 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:19:10] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/12 14:19:21 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:19:21] "OPTIONS /api/patient/25 HTTP/1.1" 200 -
+2024/09/12 14:19:21 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:19:21] "[35m[1mDELETE /api/patient/25 HTTP/1.1[0m" 204 -
+2024/09/12 14:19:21 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:19:21] "OPTIONS /api/users/4/patients HTTP/1.1" 200 -
+2024/09/12 14:19:21 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:19:21] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/12 14:19:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:19:57] "OPTIONS /api/patient/ HTTP/1.1" 200 -
+2024/09/12 14:19:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:19:57] "[35m[1mPOST /api/patient/ HTTP/1.1[0m" 201 -
+2024/09/12 14:19:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:19:57] "OPTIONS /api/users/4/patients HTTP/1.1" 200 -
+2024/09/12 14:19:57 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:19:57] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/12 14:22:26 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:22:26] "GET /api/docs/ HTTP/1.1" 200 -
+2024/09/12 14:22:26 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:22:26] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2024/09/12 14:22:26 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:22:26] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2024/09/12 14:22:26 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:22:26] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024/09/12 14:22:26 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:22:26] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024/09/12 14:22:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:22:27] "GET /api/spec HTTP/1.1" 200 -
+2024/09/12 14:22:27 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:22:27] "[36mGET /api/docs/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024/09/12 14:22:39 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:22:39] "[35m[1mPOST /api/diagnosis/ HTTP/1.1[0m" 201 -
+2024/09/12 14:22:41 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:22:41] "[35m[1mPOST /api/diagnosis/ HTTP/1.1[0m" 201 -
+2024/09/12 14:22:54 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:22:54] "GET /api/diagnosis/patient/5 HTTP/1.1" 200 -
+2024/09/12 14:23:22 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:23:22] "[35m[1mPOST /api/diagnosis/ HTTP/1.1[0m" 201 -
+2024/09/12 14:23:29 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:23:29] "GET /api/diagnosis/patient/5 HTTP/1.1" 200 -
+2024/09/12 14:23:36 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:23:36] "GET /api/diagnosis/patient/13 HTTP/1.1" 200 -
+2024/09/12 14:23:48 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:23:48] "OPTIONS /api/patient/23 HTTP/1.1" 200 -
+2024/09/12 14:23:48 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:23:48] "GET /api/patient/23 HTTP/1.1" 200 -
+2024/09/12 14:23:51 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:23:51] "OPTIONS /api/users/4/patients HTTP/1.1" 200 -
+2024/09/12 14:23:51 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:23:51] "GET /api/users/4/patients HTTP/1.1" 200 -
+2024/09/12 14:24:55 flask_api __init__.py[50] create_app() INFO: Flask Rest Api startup
+2024/09/12 14:24:55 werkzeug _internal.py[97] _log() INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024/09/12 14:24:55 werkzeug _internal.py[97] _log() INFO: [33mPress CTRL+C to quit[0m
+2024/09/12 14:25:01 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:25:01] "GET /api/docs/ HTTP/1.1" 200 -
+2024/09/12 14:25:01 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:25:01] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2024/09/12 14:25:01 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:25:01] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2024/09/12 14:25:01 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:25:01] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024/09/12 14:25:01 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:25:01] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024/09/12 14:25:01 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:25:01] "GET /api/spec HTTP/1.1" 200 -
+2024/09/12 14:25:01 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:25:01] "[36mGET /api/docs/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024/09/12 14:25:11 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:25:11] "[35m[1mPOST /api/diagnosis/ HTTP/1.1[0m" 201 -
+2024/09/12 14:25:35 werkzeug _internal.py[97] _log() INFO: 127.0.0.1 - - [12/Sep/2024 14:25:35] "GET /api/diagnosis/patient/5 HTTP/1.1" 200 -

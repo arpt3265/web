@@ -1,0 +1,1366 @@
+2024-08-23 17:46:45,496 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:37]
+2024-08-23 18:37:34,966 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:42]
+2024-08-23 18:37:48,226 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:42]
+2024-08-23 18:40:16,711 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:42]
+2024-08-23 18:48:05,549 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:42]
+2024-08-23 18:48:06,467 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:42]
+2024-08-23 18:55:14,236 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:42]
+2024-08-23 18:55:15,259 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:42]
+2024-08-23 19:28:14,060 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:45]
+2024-08-23 19:30:48,419 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:45]
+2024-08-23 19:37:55,257 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:45]
+2024-08-23 19:40:22,559 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:45]
+2024-08-23 19:41:26,124 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:45]
+2024-08-23 19:51:00,581 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:45]
+2024-08-23 20:04:37,546 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:45]
+2024-08-24 10:46:12,659 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:45]
+2024-08-24 14:28:16,942 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:45]
+2024-08-24 14:35:26,950 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:45]
+2024-08-24 14:39:00,458 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:45]
+2024-08-24 14:41:25,680 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:45]
+2024-08-24 14:43:48,559 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:45]
+2024-08-24 14:48:01,831 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:45]
+2024-08-24 14:51:21,195 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:45]
+2024-08-24 16:04:12,278 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:45]
+2024-08-24 16:07:26,421 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:45]
+2024-08-24 16:24:56,696 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:45]
+2024-08-24 16:59:47,731 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:45]
+2024-08-24 17:11:50,766 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:45]
+2024-08-24 17:17:12,488 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:45]
+2024-08-24 17:21:09,244 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:45]
+2024-08-24 18:12:36,347 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:45]
+2024-08-24 18:48:06,570 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:47]
+2024-08-24 21:39:28,468 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:47]
+2024-08-24 21:48:58,793 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:47]
+2024-08-24 21:52:51,845 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:47]
+2024-08-24 22:01:17,126 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:47]
+2024-08-24 22:02:15,418 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:47]
+2024-08-24 22:04:10,192 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:47]
+2024-08-24 22:06:26,633 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:47]
+2024-08-24 22:11:55,723 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:47]
+2024-08-24 22:29:04,304 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-24 22:34:03,428 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-24 23:11:40,621 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-24 23:12:11,479 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-24 23:25:08,726 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-24 23:25:10,223 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-24 23:33:01,742 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-24 23:33:14,623 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-24 23:34:39,444 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-24 23:35:00,268 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-24 23:36:12,687 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-24 23:36:31,092 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-24 23:37:25,316 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-24 23:37:44,594 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-24 23:40:12,447 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-24 23:40:22,431 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-24 23:41:10,519 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-24 23:43:09,296 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-24 23:46:51,061 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-24 23:47:10,766 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-24 23:47:27,886 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-24 23:48:29,588 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-24 23:48:45,241 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-24 23:49:18,701 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-24 23:51:49,457 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-24 23:52:31,705 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-24 23:53:04,132 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-24 23:53:24,274 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 00:00:13,611 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 00:11:13,417 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 00:18:14,568 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 00:25:04,956 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 00:25:09,355 flask_api ERROR: Exception on /api/spec [GET] [in C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py:838]
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\main.py", line 10, in spec
+    swag = swagger(app,prefix='/api')
+           ^^^^^^^
+NameError: name 'swagger' is not defined
+2024-08-25 00:25:52,707 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 00:32:22,734 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 00:39:02,877 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 00:41:19,712 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 12:45:47,784 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 12:52:10,877 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 12:52:35,808 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 12:56:21,203 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 12:56:42,425 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 12:57:09,691 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 12:57:20,857 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 12:59:22,835 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 13:09:52,259 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 13:09:57,779 flask_api ERROR: Exception on /api/patient/ [POST] [in C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py:838]
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\patient\routes.py", line 82, in create_patient
+    patient = patient_schema.load(data)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\marshmallow_sqlalchemy\load_instance_mixin.py", line 101, in load
+    return super().load(data, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\marshmallow\schema.py", line 726, in load
+    return self._do_load(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\marshmallow\schema.py", line 913, in _do_load
+    raise exc
+marshmallow.exceptions.ValidationError: {'first_name': ['Missing data for required field.'], 'last_name': ['Missing data for required field.']}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\patient\routes.py", line 85, in create_patient
+    except ValidationError as err:
+           ^^^^^^^^^^^^^^^
+NameError: name 'ValidationError' is not defined
+2024-08-25 13:12:50,388 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 13:13:20,104 flask_api ERROR: Exception on /api/patient/ [POST] [in C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py:838]
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.IntegrityError: UNIQUE constraint failed: patients.email
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\patient\routes.py", line 83, in create_patient
+    result = patient_schema.dump(patient.create())
+                                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\patient\models.py", line 22, in create
+    db.session.commit()
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\orm\scoping.py", line 597, in commit
+    return self._proxied.commit()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2028, in commit
+    trans.commit(_to_root=True)
+  File "<string>", line 2, in commit
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 1313, in commit
+    self._prepare_impl()
+  File "<string>", line 2, in _prepare_impl
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 1288, in _prepare_impl
+    self.session.flush()
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 4352, in flush
+    self._flush(objects)
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 4487, in _flush
+    with util.safe_reraise():
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 4448, in _flush
+    flush_context.execute()
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\orm\unitofwork.py", line 466, in execute
+    rec.execute(self)
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\orm\unitofwork.py", line 642, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\orm\persistence.py", line 93, in save_obj
+    _emit_insert_statements(
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\orm\persistence.py", line 1233, in _emit_insert_statements
+    result = connection.execute(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) UNIQUE constraint failed: patients.email
+[SQL: INSERT INTO patients (name, age, gender, medical_history, email) VALUES (?, ?, ?, ?, ?) RETURNING id, created]
+[parameters: ('John Doe', 5, 'male', 'No significant medical history', '2081899698@qq.com')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\patient\routes.py", line 85, in create_patient
+    except ValidationError as err:
+           ^^^^^^^^^^^^^^^
+NameError: name 'ValidationError' is not defined
+2024-08-25 13:13:40,598 flask_api ERROR: Exception on /api/patient/ [POST] [in C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py:838]
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.IntegrityError: UNIQUE constraint failed: patients.email
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\patient\routes.py", line 83, in create_patient
+    result = patient_schema.dump(patient.create())
+                                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\patient\models.py", line 22, in create
+    db.session.commit()
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\orm\scoping.py", line 597, in commit
+    return self._proxied.commit()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2028, in commit
+    trans.commit(_to_root=True)
+  File "<string>", line 2, in commit
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 1313, in commit
+    self._prepare_impl()
+  File "<string>", line 2, in _prepare_impl
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 1288, in _prepare_impl
+    self.session.flush()
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 4352, in flush
+    self._flush(objects)
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 4487, in _flush
+    with util.safe_reraise():
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 4448, in _flush
+    flush_context.execute()
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\orm\unitofwork.py", line 466, in execute
+    rec.execute(self)
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\orm\unitofwork.py", line 642, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\orm\persistence.py", line 93, in save_obj
+    _emit_insert_statements(
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\orm\persistence.py", line 1233, in _emit_insert_statements
+    result = connection.execute(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) UNIQUE constraint failed: patients.email
+[SQL: INSERT INTO patients (name, age, gender, medical_history, email) VALUES (?, ?, ?, ?, ?) RETURNING id, created]
+[parameters: ('John Doe', 5, 'male', 'No significant medical history', '2081899698@qq.com')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\patient\routes.py", line 85, in create_patient
+    except ValidationError as err:
+           ^^^^^^^^^^^^^^^
+NameError: name 'ValidationError' is not defined
+2024-08-25 13:13:44,036 flask_api ERROR: Exception on /api/patient/ [POST] [in C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py:838]
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.IntegrityError: UNIQUE constraint failed: patients.email
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\patient\routes.py", line 83, in create_patient
+    result = patient_schema.dump(patient.create())
+                                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\patient\models.py", line 22, in create
+    db.session.commit()
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\orm\scoping.py", line 597, in commit
+    return self._proxied.commit()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2028, in commit
+    trans.commit(_to_root=True)
+  File "<string>", line 2, in commit
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 1313, in commit
+    self._prepare_impl()
+  File "<string>", line 2, in _prepare_impl
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 1288, in _prepare_impl
+    self.session.flush()
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 4352, in flush
+    self._flush(objects)
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 4487, in _flush
+    with util.safe_reraise():
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 4448, in _flush
+    flush_context.execute()
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\orm\unitofwork.py", line 466, in execute
+    rec.execute(self)
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\orm\unitofwork.py", line 642, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\orm\persistence.py", line 93, in save_obj
+    _emit_insert_statements(
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\orm\persistence.py", line 1233, in _emit_insert_statements
+    result = connection.execute(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) UNIQUE constraint failed: patients.email
+[SQL: INSERT INTO patients (name, age, gender, medical_history, email) VALUES (?, ?, ?, ?, ?) RETURNING id, created]
+[parameters: ('John Doe', 5, 'male', 'No significant medical history', '2081899698@qq.com')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\patient\routes.py", line 85, in create_patient
+    except ValidationError as err:
+           ^^^^^^^^^^^^^^^
+NameError: name 'ValidationError' is not defined
+2024-08-25 13:27:51,658 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 13:39:04,438 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 13:39:42,825 flask_api ERROR: Exception on /api/patient/ [POST] [in C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py:838]
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\patient\routes.py", line 82, in create_patient
+    patient = patient_schema.load(data)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\marshmallow_sqlalchemy\load_instance_mixin.py", line 101, in load
+    return super().load(data, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\marshmallow\schema.py", line 726, in load
+    return self._do_load(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\marshmallow\schema.py", line 913, in _do_load
+    raise exc
+marshmallow.exceptions.ValidationError: {'medicalHistory': ['Unknown field.']}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\patient\routes.py", line 85, in create_patient
+    except ValidationError as err:
+           ^^^^^^^^^^^^^^^
+NameError: name 'ValidationError' is not defined
+2024-08-25 13:40:39,838 flask_api ERROR: Exception on /api/patient/ [POST] [in C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py:838]
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\patient\routes.py", line 82, in create_patient
+    patient = patient_schema.load(data)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\marshmallow_sqlalchemy\load_instance_mixin.py", line 101, in load
+    return super().load(data, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\marshmallow\schema.py", line 726, in load
+    return self._do_load(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\marshmallow\schema.py", line 913, in _do_load
+    raise exc
+marshmallow.exceptions.ValidationError: {'medicalHistory': ['Unknown field.']}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\patient\routes.py", line 85, in create_patient
+    except ValidationError as err:
+           ^^^^^^^^^^^^^^^
+NameError: name 'ValidationError' is not defined
+2024-08-25 13:46:30,855 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 13:52:09,604 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 15:10:42,882 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 15:18:22,902 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 15:22:55,191 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 15:29:04,117 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 15:29:13,368 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 15:29:43,757 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 15:35:25,578 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 15:41:04,935 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 15:41:29,214 flask_api ERROR: Exception on /api/patient/5 [DELETE] [in C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py:838]
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\patient\routes.py", line 406, in delete_patient
+    return response_with(resp.ERROR_404, value={"error": "Patient not found", "message": "Patient not found"})
+                         ^^^^^^^^^^^^^^
+AttributeError: module 'app.utils.responses' has no attribute 'ERROR_404'
+2024-08-25 15:41:57,239 flask_api ERROR: Exception on /api/patient/5 [DELETE] [in C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py:838]
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\patient\routes.py", line 406, in delete_patient
+    return response_with(resp.ERROR_404, value={"error": "Patient not found", "message": "Patient not found"})
+                         ^^^^^^^^^^^^^^
+AttributeError: module 'app.utils.responses' has no attribute 'ERROR_404'
+2024-08-25 15:47:37,145 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 15:49:17,701 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 15:49:26,846 flask_api ERROR: Exception on /api/patient/6 [DELETE] [in C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py:838]
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\patient\routes.py", line 410, in delete_patient
+    return jsonify({
+           ^^^^^^^
+NameError: name 'jsonify' is not defined
+2024-08-25 15:50:04,132 flask_api ERROR: Exception on /api/patient/7 [DELETE] [in C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py:838]
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\patient\routes.py", line 410, in delete_patient
+    return jsonify({
+           ^^^^^^^
+NameError: name 'jsonify' is not defined
+2024-08-25 15:51:30,958 flask_api ERROR: Exception on /api/patient/1 [DELETE] [in C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py:838]
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\patient\routes.py", line 410, in delete_patient
+    return jsonify({
+           ^^^^^^^
+NameError: name 'jsonify' is not defined
+2024-08-25 15:57:17,227 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 15:57:46,096 flask_api ERROR: Exception on /api/patient/ [POST] [in C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py:838]
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\patient\routes.py", line 83, in create_patient
+    patient = patient_schema.load(data)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\marshmallow_sqlalchemy\load_instance_mixin.py", line 101, in load
+    return super().load(data, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\marshmallow\schema.py", line 726, in load
+    return self._do_load(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\marshmallow\schema.py", line 913, in _do_load
+    raise exc
+marshmallow.exceptions.ValidationError: {'email': ['Not a valid email address.']}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\patient\routes.py", line 87, in create_patient
+    return jsonify({"code": "invalidInput", "message": str(err.messages)}), 422
+           ^^^^^^^
+NameError: name 'jsonify' is not defined
+2024-08-25 15:58:16,607 flask_api ERROR: Exception on /api/patient/ [POST] [in C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py:838]
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\patient\routes.py", line 83, in create_patient
+    patient = patient_schema.load(data)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\marshmallow_sqlalchemy\load_instance_mixin.py", line 101, in load
+    return super().load(data, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\marshmallow\schema.py", line 726, in load
+    return self._do_load(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\marshmallow\schema.py", line 913, in _do_load
+    raise exc
+marshmallow.exceptions.ValidationError: {'email': ['Not a valid email address.']}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\patient\routes.py", line 87, in create_patient
+    return jsonify({"code": "invalidInput", "message": str(err.messages)}), 422
+           ^^^^^^^
+NameError: name 'jsonify' is not defined
+2024-08-25 16:00:32,820 flask_api ERROR: Exception on /api/patient/ [POST] [in C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py:838]
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\patient\routes.py", line 83, in create_patient
+    patient = patient_schema.load(data)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\marshmallow_sqlalchemy\load_instance_mixin.py", line 101, in load
+    return super().load(data, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\marshmallow\schema.py", line 726, in load
+    return self._do_load(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\marshmallow\schema.py", line 913, in _do_load
+    raise exc
+marshmallow.exceptions.ValidationError: {'email': ['Not a valid email address.']}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\patient\routes.py", line 87, in create_patient
+    return jsonify({"code": "invalidInput", "message": str(err.messages)}), 422
+           ^^^^^^^
+NameError: name 'jsonify' is not defined
+2024-08-25 16:02:59,246 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 16:03:30,320 flask_api ERROR: Exception on /api/patient/ [POST] [in C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py:838]
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\patient\routes.py", line 83, in create_patient
+    patient = patient_schema.load(data)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\marshmallow_sqlalchemy\load_instance_mixin.py", line 101, in load
+    return super().load(data, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\marshmallow\schema.py", line 726, in load
+    return self._do_load(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\marshmallow\schema.py", line 913, in _do_load
+    raise exc
+marshmallow.exceptions.ValidationError: {'email': ['Not a valid email address.']}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\patient\routes.py", line 87, in create_patient
+    return jsonify({"code": "invalidInput", "message": str(err.messages)}), 422
+           ^^^^^^^
+NameError: name 'jsonify' is not defined
+2024-08-25 16:11:33,301 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 16:12:10,694 flask_api ERROR: Exception on /api/patient/ [POST] [in C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py:838]
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\patient\routes.py", line 83, in create_patient
+    patient = patient_schema.load(data)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\marshmallow_sqlalchemy\load_instance_mixin.py", line 101, in load
+    return super().load(data, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\marshmallow\schema.py", line 726, in load
+    return self._do_load(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\marshmallow\schema.py", line 913, in _do_load
+    raise exc
+marshmallow.exceptions.ValidationError: {'email': ['Not a valid email address.']}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\patient\routes.py", line 87, in create_patient
+    return jsonify({"code": "invalidInput", "message": str(err.messages)}), 422
+           ^^^^^^^
+NameError: name 'jsonify' is not defined
+2024-08-25 16:13:29,177 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 16:13:49,171 flask_api ERROR: Exception on /api/patient/ [POST] [in C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py:838]
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\patient\routes.py", line 83, in create_patient
+    patient = patient_schema.load(data)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\marshmallow_sqlalchemy\load_instance_mixin.py", line 101, in load
+    return super().load(data, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\marshmallow\schema.py", line 726, in load
+    return self._do_load(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\marshmallow\schema.py", line 913, in _do_load
+    raise exc
+marshmallow.exceptions.ValidationError: {'email': ['Not a valid email address.']}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\patient\routes.py", line 87, in create_patient
+    return jsonify({"code": "invalidInput", "message": str(err.messages)}), 422
+           ^^^^^^^
+NameError: name 'jsonify' is not defined
+2024-08-25 16:16:07,197 flask_api ERROR: Exception on /api/patient/ [POST] [in C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py:838]
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\patient\routes.py", line 83, in create_patient
+    patient = patient_schema.load(data)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\marshmallow_sqlalchemy\load_instance_mixin.py", line 101, in load
+    return super().load(data, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\marshmallow\schema.py", line 726, in load
+    return self._do_load(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\marshmallow\schema.py", line 913, in _do_load
+    raise exc
+marshmallow.exceptions.ValidationError: {'age': ['Not a valid integer.'], 'email': ['Not a valid email address.']}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\patient\routes.py", line 87, in create_patient
+    return jsonify({"code": "invalidInput", "message": str(err.messages)}), 422
+           ^^^^^^^
+NameError: name 'jsonify' is not defined
+2024-08-25 16:17:37,407 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 16:18:01,847 flask_api ERROR: Exception on /api/patient/ [POST] [in C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py:838]
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\patient\routes.py", line 81, in create_patient
+    patient = patient_schema.load(data, session=db.session)
+              ^^^^^^^^^^^^^^
+NameError: name 'patient_schema' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\patient\routes.py", line 91, in create_patient
+    return jsonify({
+           ^^^^^^^
+NameError: name 'jsonify' is not defined
+2024-08-25 16:18:11,782 flask_api ERROR: Exception on /api/patient/ [POST] [in C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py:838]
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\patient\routes.py", line 81, in create_patient
+    patient = patient_schema.load(data, session=db.session)
+              ^^^^^^^^^^^^^^
+NameError: name 'patient_schema' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\patient\routes.py", line 91, in create_patient
+    return jsonify({
+           ^^^^^^^
+NameError: name 'jsonify' is not defined
+2024-08-25 16:18:23,146 flask_api ERROR: Exception on /api/patient/ [POST] [in C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py:838]
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\patient\routes.py", line 81, in create_patient
+    patient = patient_schema.load(data, session=db.session)
+              ^^^^^^^^^^^^^^
+NameError: name 'patient_schema' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\patient\routes.py", line 91, in create_patient
+    return jsonify({
+           ^^^^^^^
+NameError: name 'jsonify' is not defined
+2024-08-25 16:22:03,210 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 16:23:21,689 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 16:47:14,393 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 16:49:39,640 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 16:56:28,424 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 17:56:03,885 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 18:03:13,915 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 18:06:04,054 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 18:11:40,450 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 18:12:44,775 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 18:22:14,576 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 18:23:41,667 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 18:34:34,728 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 18:36:13,404 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 20:37:40,786 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-25 21:35:33,982 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-26 12:26:41,901 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-26 12:28:00,968 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-26 12:48:35,259 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-26 19:38:29,378 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 16:29:01,190 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 16:45:10,402 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 16:46:06,322 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 16:46:58,283 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 16:50:29,659 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 16:54:09,629 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 17:05:13,027 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 17:08:05,164 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 17:08:55,761 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 17:10:54,385 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 17:10:59,664 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 17:12:05,275 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 17:14:29,550 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 17:14:39,994 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 17:14:41,163 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 17:18:11,180 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 17:19:28,680 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 17:21:30,985 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 17:22:07,148 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 17:22:24,097 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 17:22:33,583 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 17:24:32,847 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 17:24:51,705 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 17:25:02,305 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 17:26:17,909 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 17:28:30,575 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 17:29:29,749 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 17:30:34,333 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 17:34:19,164 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 17:35:12,839 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 17:38:39,262 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 17:39:42,741 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 17:40:32,787 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 17:41:38,817 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 17:42:33,796 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 17:45:37,376 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 17:53:09,534 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 17:54:20,055 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 17:55:21,299 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 17:55:48,581 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 17:55:57,840 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-27 18:11:17,903 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-28 10:48:22,732 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-28 11:29:26,967 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-28 11:37:15,778 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-28 11:41:51,217 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-28 11:44:38,134 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-28 13:14:09,506 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-28 13:32:42,439 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-28 13:50:06,280 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-28 14:08:34,512 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-28 17:16:59,976 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:46]
+2024-08-28 17:50:42,088 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:47]
+2024-08-28 18:24:34,027 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:47]
+2024-08-28 18:40:50,632 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:47]
+2024-08-28 18:42:16,193 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:47]
+2024-08-28 19:35:09,693 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:47]
+2024-08-28 19:38:27,312 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:47]
+2024-08-28 19:47:17,841 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:47]
+2024-08-28 19:52:57,416 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:47]
+2024-08-28 19:57:23,939 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:47]
+2024-08-28 20:03:55,880 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-08-28 20:05:34,152 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-08-28 22:32:52,568 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-08-28 22:40:25,079 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-08-28 22:47:08,456 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-08-28 22:52:28,018 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-08-28 23:45:04,408 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-08-29 13:32:16,020 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-08-29 13:45:19,690 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-08-29 13:49:02,981 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-08-29 13:57:06,924 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-08-29 13:58:51,561 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-08-29 14:24:09,632 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-08-29 16:57:09,617 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-08-29 16:58:28,119 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-08-29 16:58:44,346 flask_api ERROR: Exception on /api/users/4/patients [GET] [in C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py:838]
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\users\routes.py", line 85, in get_patients_by_doctor
+    return jsonify({'patients': [patient.to_dict() for patient in patients]})
+           ^^^^^^^
+NameError: name 'jsonify' is not defined
+2024-08-29 17:01:08,024 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-08-29 17:12:07,899 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-08-29 20:00:05,481 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-08-29 20:49:31,517 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-08-30 09:03:22,357 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-08-30 09:37:19,524 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-08-30 09:41:50,984 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-08-30 16:34:43,895 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-08-30 16:36:08,542 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-08-30 16:39:50,362 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-08-30 17:00:41,788 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-08-31 11:05:45,523 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-08-31 16:19:06,697 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-08-31 20:35:58,572 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-08-31 20:36:14,655 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-08-31 20:36:26,849 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-08-31 20:42:45,411 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-08-31 20:44:52,807 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-08-31 20:45:12,818 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-08-31 20:45:24,151 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-08-31 21:32:23,781 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-01 21:28:40,072 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-02 12:35:55,617 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-02 18:43:13,396 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-03 22:09:48,908 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-06 15:28:54,214 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-10 11:00:33,925 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-10 11:37:14,089 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-10 11:37:32,591 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-10 11:39:06,444 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-10 11:46:18,344 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-10 11:57:36,969 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-10 12:01:57,932 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-10 12:10:43,898 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-10 12:21:38,873 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-10 12:24:34,859 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-11 13:58:49,580 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-11 16:33:40,684 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-11 16:54:07,612 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-11 16:55:32,652 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-11 17:07:13,256 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-11 17:18:10,490 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-11 17:18:38,587 flask_api ERROR: Exception on /api/diagnosis/patient/5 [GET] [in C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py:838]
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\diagnosis\routes.py", line 159, in get_diagnoses_by_patient
+    return response_with(resp.NOT_FOUND_404, value={"error": "No diagnoses found for the given patient_id"})
+                         ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'app.utils.responses' has no attribute 'NOT_FOUND_404'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\diagnosis\routes.py", line 165, in get_diagnoses_by_patient
+    return response_with(resp.INTERNAL_SERVER_ERROR_500, value={"error": str(e)})
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'app.utils.responses' has no attribute 'INTERNAL_SERVER_ERROR_500'
+2024-09-11 17:21:27,087 flask_api ERROR: Exception on /api/diagnosis/patient/5 [GET] [in C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py:838]
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\diagnosis\routes.py", line 159, in get_diagnoses_by_patient
+    return response_with(resp.NOT_FOUND_404, value={"error": "No diagnoses found for the given patient_id"})
+                         ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'app.utils.responses' has no attribute 'NOT_FOUND_404'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\diagnosis\routes.py", line 165, in get_diagnoses_by_patient
+    return response_with(resp.INTERNAL_SERVER_ERROR_500, value={"error": str(e)})
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'app.utils.responses' has no attribute 'INTERNAL_SERVER_ERROR_500'
+2024-09-11 17:28:50,972 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-11 17:29:13,853 flask_api ERROR: Exception on /api/diagnosis/ [POST] [in C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py:838]
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 608, in get_json
+    rv = self.json_module.loads(data)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\json\provider.py", line 187, in loads
+    return json.loads(s, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\wrappers.py", line 131, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 642, in on_json_loading_failed
+    raise BadRequest(f"Failed to decode JSON object: {e}")
+werkzeug.exceptions.BadRequest: 400 Bad Request: Failed to decode JSON object: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\diagnosis\routes.py", line 71, in create_diagnosis
+    data = request.json
+           ^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 557, in json
+    return self.get_json()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 617, in get_json
+    rv = self.on_json_loading_failed(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\wrappers.py", line 136, in on_json_loading_failed
+    raise BadRequest() from e
+werkzeug.exceptions.BadRequest: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\diagnosis\routes.py", line 93, in create_diagnosis
+    return response_with(SERVER_ERROR_500, value={"error": str(e)})
+                         ^^^^^^^^^^^^^^^^
+NameError: name 'SERVER_ERROR_500' is not defined
+2024-09-11 17:29:19,225 flask_api ERROR: Exception on /api/diagnosis/ [POST] [in C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py:838]
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 608, in get_json
+    rv = self.json_module.loads(data)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\json\provider.py", line 187, in loads
+    return json.loads(s, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\wrappers.py", line 131, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 642, in on_json_loading_failed
+    raise BadRequest(f"Failed to decode JSON object: {e}")
+werkzeug.exceptions.BadRequest: 400 Bad Request: Failed to decode JSON object: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\diagnosis\routes.py", line 71, in create_diagnosis
+    data = request.json
+           ^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 557, in json
+    return self.get_json()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\werkzeug\wrappers\request.py", line 617, in get_json
+    rv = self.on_json_loading_failed(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\wrappers.py", line 136, in on_json_loading_failed
+    raise BadRequest() from e
+werkzeug.exceptions.BadRequest: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20818\Desktop\vue-admin-template-master\flask\app\diagnosis\routes.py", line 93, in create_diagnosis
+    return response_with(SERVER_ERROR_500, value={"error": str(e)})
+                         ^^^^^^^^^^^^^^^^
+NameError: name 'SERVER_ERROR_500' is not defined
+2024-09-11 17:33:25,182 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-11 17:37:58,977 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-11 17:40:17,976 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-11 22:04:21,635 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-12 13:37:47,363 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-12 13:56:44,973 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-12 13:57:02,428 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-12 14:01:01,179 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-12 14:04:28,970 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-12 14:04:58,456 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-12 14:15:28,483 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-12 14:16:24,484 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-12 14:17:42,996 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-12 14:17:52,639 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-12 14:24:55,741 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-13 15:56:30,366 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-13 22:27:43,360 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-14 10:29:19,712 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-14 10:42:12,901 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
+2024-09-18 22:56:37,119 flask_api INFO: Flask Rest Api startup [in C:\Users\20818\Desktop\vue-admin-template-master\flask\app\__init__.py:50]
